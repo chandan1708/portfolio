@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "Years Experience", value: "8+" },
-  { label: "Systems Built", value: "50+" },
-  { label: "Engineers Mentored", value: "30+" },
-  { label: "Open Source Stars", value: "13K+" },
+  { label: "AI/ML Projects", value: "10+" },
+  { label: "Hackathon Wins", value: "1st" },
+  { label: "Efficiency Gains", value: "40%" },
+  { label: "GPA", value: "8.05" },
 ];
 
 const AboutSection = () => {
@@ -20,22 +20,22 @@ const AboutSection = () => {
         >
           <p className="text-primary font-body text-sm font-medium tracking-wide mb-3">About</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-8">
-            Crafting reliable software for the world's most demanding environments.
+            Building intelligent systems that solve real-world problems.
           </h2>
           <div className="space-y-5 text-muted-foreground font-body text-base md:text-lg leading-relaxed">
             <p>
-              With 8+ years of experience across Google, Meta, and Amazon, I specialize in building
-              distributed systems that handle petabyte-scale data and serve billions of daily requests
-              with sub-millisecond latency.
+              I'm a Generative AI Engineer based in Bengaluru, India, currently working at WordWise Language Labs
+              where I develop agentic AI tools and multi-source data pipelines that have improved knowledge 
+              retrieval accuracy by 35% and eliminated 95% of manual intervention.
             </p>
             <p>
-              I'm passionate about developer experience, system design, and mentoring engineers.
-              I've led cross-functional teams of 10+ engineers, driven technical strategy for
-              critical infrastructure, and contributed to open-source projects used by millions.
+              With a B.E. in Artificial Intelligence and Data Science from VTU, I specialize in LLM fine-tuning
+              (LoRA, QLoRA), RAG techniques (GraphRAG, RAFT, CAG), and building scalable AI solutions using 
+              LangChain, LangGraph, and cloud platforms like AWS.
             </p>
             <p>
-              Outside of work, I write about systems engineering, contribute to the Go and Rust
-              ecosystems, and speak at conferences like KubeCon and Strange Loop.
+              I'm passionate about computer vision, deep learning, and building AI systems that create 
+              tangible impact — from surveillance intelligence to emergency response optimization.
             </p>
           </div>
         </motion.div>

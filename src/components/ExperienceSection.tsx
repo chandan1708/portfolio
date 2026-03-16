@@ -2,36 +2,20 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "Google",
-    role: "Senior Software Engineer, Infrastructure",
-    period: "2021 — Present",
+    company: "WordWise Language Labs",
+    role: "Generative AI Engineer",
+    period: "Sep 2024 — Present",
     description:
-      "Leading the design of next-gen storage orchestration for Google Cloud. Architected a multi-region failover system reducing downtime by 99.7%. Mentoring 6 engineers across L3–L5.",
-    tech: ["Go", "C++", "Spanner", "Borg", "gRPC"],
+      "Developed the core algorithm for the Wordsworth product by integrating multi-source data pipelines with agentic AI tools, achieving 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention. Enhanced multilingual content intelligence through scalable agent-driven frameworks.",
+    tech: ["LangChain", "LangGraph", "RAG", "Python", "Agentic AI"],
   },
   {
-    company: "Meta",
-    role: "Software Engineer, Core Data",
-    period: "2019 — 2021",
+    company: "Exicom Energy-Systems Limited",
+    role: "Research & Development Intern",
+    period: "Nov 2023 — Apr 2024",
     description:
-      "Built real-time data pipeline processing 2TB/hour for content ranking. Reduced p99 latency by 40% through query optimization and caching strategies.",
-    tech: ["Python", "C++", "Thrift", "MySQL", "Presto"],
-  },
-  {
-    company: "Amazon",
-    role: "Software Development Engineer II, AWS",
-    period: "2017 — 2019",
-    description:
-      "Developed core APIs for AWS Lambda's cold-start optimization. Shipped features serving 100K+ enterprise customers. Owned end-to-end delivery of 3 major launches.",
-    tech: ["Java", "TypeScript", "DynamoDB", "CloudFormation"],
-  },
-  {
-    company: "Microsoft",
-    role: "Software Engineer, Azure",
-    period: "2015 — 2017",
-    description:
-      "Contributed to Azure Kubernetes Service (AKS) networking layer. Designed internal tooling adopted by 500+ engineers across the org.",
-    tech: ["C#", ".NET", "Kubernetes", "Azure DevOps"],
+      "Developed automated Python scripts boosting data processing efficiency by 30% and reducing processing time by 25%. Designed an embedded dashboard using PySide6 and PyQt6, improving analysis efficiency over LabView and reducing manual effort by 50%.",
+    tech: ["Python", "PySide6", "PyQt6", "Data Analysis", "Automation"],
   },
 ];
 

@@ -2,20 +2,20 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
   {
-    title: "Languages",
-    skills: ["Go", "C++", "Rust", "Java", "Python", "TypeScript"],
+    title: "Languages & Analysis",
+    skills: ["Python", "Java", "C/C++", "Exploratory Data Analysis (EDA)"],
   },
   {
-    title: "Infrastructure",
-    skills: ["Kubernetes", "Docker", "Terraform", "AWS", "GCP", "Azure"],
+    title: "Deep Learning & LLMs",
+    skills: ["CNN / ANN / RNN", "TensorFlow", "Transformers", "Fine-Tuning (LoRA, QLoRA)", "Prompt Engineering"],
   },
   {
-    title: "Databases",
-    skills: ["PostgreSQL", "Spanner", "DynamoDB", "Redis", "ClickHouse", "Cassandra"],
+    title: "Agentic AI & RAG",
+    skills: ["LangChain", "LangGraph", "GraphRAG", "RAFT", "CAG", "BLEU Evaluation"],
   },
   {
-    title: "Architecture",
-    skills: ["Distributed Systems", "Microservices", "Event-Driven", "CQRS", "System Design"],
+    title: "Databases & Cloud",
+    skills: ["MySQL", "MongoDB", "Chroma DB", "Datastax Astra DB", "AWS (EC2, Bedrock, SageMaker)", "FastAPI", "Django REST"],
   },
 ];
 

@@ -14,16 +14,16 @@ const ContactSection = () => {
         >
           <p className="text-primary font-body text-sm font-medium tracking-wide mb-3">Contact</p>
           <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Let's build something great.
+            Let's build something intelligent.
           </h2>
           <p className="text-muted-foreground font-body text-lg leading-relaxed mb-10">
-            I'm always open to discussing system design challenges, open-source collaboration,
-            or new opportunities. Reach out and let's connect.
+            I'm always open to discussing AI/ML challenges, open-source collaboration,
+            or new opportunities in Generative AI. Reach out and let's connect.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="mailto:alex.kumar@email.com"
+              href="mailto:chandan17.ramesh@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-body font-medium text-sm hover:opacity-90 transition-opacity"
             >
               Get in touch

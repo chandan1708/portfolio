@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
   return (
@@ -14,7 +15,7 @@ const HeroSection = () => {
               transition={{ duration: 0.6 }}
             >
               <p className="font-body text-primary font-medium tracking-wide text-sm mb-4">
-                Senior Software Engineer
+                Generative AI Engineer
               </p>
             </motion.div>
 
@@ -25,7 +26,7 @@ const HeroSection = () => {
               className="font-display text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-[0.95]"
             >
               Hi, I'm{" "}
-              <span className="text-gradient">Alex Kumar</span>.
+              <span className="text-gradient">Chandan R</span>.
             </motion.h1>
 
             <motion.p
@@ -34,9 +35,9 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="mt-6 text-lg md:text-xl text-muted-foreground font-body leading-relaxed max-w-xl"
             >
-              I design and build distributed systems, high-performance APIs, and
-              developer platforms that serve billions of requests. Currently at{" "}
-              <span className="text-foreground font-medium">Google</span>.
+              I build intelligent systems with LLMs, Agentic AI, and RAG pipelines
+              that transform how businesses process and understand data. Currently at{" "}
+              <span className="text-foreground font-medium">WordWise Language Labs</span>.
             </motion.p>
 
             <motion.div
@@ -48,7 +49,7 @@ const HeroSection = () => {
               {[
                 { icon: Github, href: "#", label: "GitHub" },
                 { icon: Linkedin, href: "#", label: "LinkedIn" },
-                { icon: Mail, href: "mailto:alex.kumar@email.com", label: "Email" },
+                { icon: Mail, href: "mailto:chandan17.ramesh@gmail.com", label: "Email" },
                 { icon: FileText, href: "#", label: "Resume" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
@@ -79,7 +80,7 @@ const HeroSection = () => {
             </motion.div>
           </div>
 
-          {/* Avatar / Monogram */}
+          {/* Profile Photo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
             animate={{ opacity: 1, scale: 1, rotate: 0 }}
@@ -90,14 +91,13 @@ const HeroSection = () => {
               {/* Glow effect */}
               <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl group-hover:bg-primary/15 transition-colors duration-500" />
               
-              {/* Main avatar container */}
-              <div className="relative w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl bg-gradient-to-br from-primary/90 to-primary/60 flex items-center justify-center shadow-lg shadow-primary/20">
-                <span className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground select-none">
-                  AK
-                </span>
-                
-                {/* Status dot */}
-                <div className="absolute -bottom-1.5 -right-1.5 w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary border-[3px] border-background" />
+              {/* Main photo container */}
+              <div className="relative w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden shadow-lg shadow-primary/20">
+                <img
+                  src={profilePhoto}
+                  alt="Chandan R - Generative AI Engineer"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               
               {/* Decorative ring */}
