@@ -105,17 +105,18 @@ const HeroSection = () => {
               {/* Glow effect */}
               <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl group-hover:bg-primary/15 transition-colors duration-500" />
               
-              {/* Main photo container */}
-              <div className="relative w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden shadow-lg shadow-primary/20">
+              {/* Main photo container - no border radius for seamless blend */}
+              <div className="relative w-48 h-56 md:w-60 md:h-72 lg:w-72 lg:h-80">
                 <img
-                  src={profilePhoto}
+                  src={isDark ? profileDark : profileLight}
                   alt="Chandan R - Generative AI Engineer"
                   className="w-full h-full object-cover object-top"
+                  style={{
+                    maskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
+                    WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
+                  }}
                 />
               </div>
-              
-              {/* Decorative ring */}
-              <div className="absolute -inset-2 rounded-3xl border border-primary/15 pointer-events-none" />
             </div>
           </motion.div>
         </div>
