@@ -100,22 +100,12 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.2, type: "spring", stiffness: 100 }}
             className="flex-shrink-0"
           >
-            <div className="relative group">
-              {/* Glow effect */}
-              <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl group-hover:bg-primary/15 transition-colors duration-500" />
-              
-              {/* Main photo container */}
-              <div className="relative w-48 h-56 md:w-60 md:h-72 lg:w-72 lg:h-80">
-                <img
-                  src={profilePhoto}
-                  alt="Chandan R - Generative AI Engineer"
-                  className="w-full h-full object-cover object-top transition-all duration-300"
-                  style={{
-                    maskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
-                    WebkitMaskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
-                  }}
-                />
-              </div>
+            <div className="w-48 h-56 md:w-60 md:h-72 lg:w-72 lg:h-80">
+              <img
+                src={profilePhoto}
+                alt="Chandan R - Generative AI Engineer"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </motion.div>
         </div>
