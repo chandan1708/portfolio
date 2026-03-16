@@ -95,16 +95,19 @@ const HeroSection = () => {
 
           {/* Profile Photo */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
-            animate={{ opacity: 1, scale: 1, rotate: 0 }}
-            transition={{ duration: 0.7, delay: 0.2, type: "spring", stiffness: 100 }}
-            className="flex-shrink-0"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
+            className="flex-shrink-0 relative"
           >
-            <div className="w-48 h-56 md:w-60 md:h-72 lg:w-72 lg:h-80">
+            {/* Subtle gradient backdrop */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/10 via-primary/5 to-transparent blur-3xl scale-110" />
+            
+            <div className="relative w-52 h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-2 border-border/50 shadow-lg bg-secondary/50">
               <img
                 src={profilePhoto}
                 alt="Chandan R - Generative AI Engineer"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-top scale-125 translate-y-4"
               />
             </div>
           </motion.div>
