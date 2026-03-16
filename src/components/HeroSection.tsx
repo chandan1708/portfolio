@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
   return (
@@ -80,23 +79,29 @@ const HeroSection = () => {
             </motion.div>
           </div>
 
-          {/* Profile Photo */}
+          {/* Avatar / Monogram */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
+            initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
+            animate={{ opacity: 1, scale: 1, rotate: 0 }}
+            transition={{ duration: 0.7, delay: 0.2, type: "spring", stiffness: 100 }}
             className="flex-shrink-0"
           >
-            <div className="relative">
-              <div className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-2xl overflow-hidden ring-2 ring-border shadow-lg">
-                <img
-                  src={profilePhoto}
-                  alt="Alex Kumar - Senior Software Engineer"
-                  className="w-full h-full object-cover"
-                />
+            <div className="relative group">
+              {/* Glow effect */}
+              <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl group-hover:bg-primary/15 transition-colors duration-500" />
+              
+              {/* Main avatar container */}
+              <div className="relative w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl bg-gradient-to-br from-primary/90 to-primary/60 flex items-center justify-center shadow-lg shadow-primary/20">
+                <span className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground select-none">
+                  AK
+                </span>
+                
+                {/* Status dot */}
+                <div className="absolute -bottom-1.5 -right-1.5 w-5 h-5 md:w-6 md:h-6 rounded-full bg-green-500 border-[3px] border-background" />
               </div>
-              {/* Decorative accent */}
-              <div className="absolute -bottom-3 -right-3 w-full h-full rounded-2xl border-2 border-primary/20 -z-10" />
+              
+              {/* Decorative ring */}
+              <div className="absolute -inset-2 rounded-3xl border border-primary/15 pointer-events-none" />
             </div>
           </motion.div>
         </div>
