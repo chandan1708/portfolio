@@ -97,7 +97,7 @@ const HeroSection = () => {
                 </span>
                 
                 {/* Status dot */}
-                <div className="absolute -bottom-1.5 -right-1.5 w-5 h-5 md:w-6 md:h-6 rounded-full bg-green-500 border-[3px] border-background" />
+                <div className="absolute -bottom-1.5 -right-1.5 w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary border-[3px] border-background" />
               </div>
               
               {/* Decorative ring */}
