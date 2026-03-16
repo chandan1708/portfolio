@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 import { useEffect, useState } from "react";
-import profilePhoto from "@/assets/profile-nobg.png";
+import profilePhoto from "@/assets/profile-dark.jpeg";
 
 const HeroSection = () => {
   const [isDark, setIsDark] = useState(() =>
@@ -98,16 +98,13 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
-            className="flex-shrink-0 relative"
+            className="flex-shrink-0"
           >
-            {/* Subtle gradient backdrop */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/10 via-primary/5 to-transparent blur-3xl scale-110" />
-            
-            <div className="relative w-52 h-52 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-2 border-border/50 shadow-lg bg-secondary/50">
+            <div className="w-56 h-64 md:w-64 md:h-72 lg:w-72 lg:h-80 rounded-2xl overflow-hidden border border-border bg-secondary shadow-md">
               <img
                 src={profilePhoto}
                 alt="Chandan R - Generative AI Engineer"
-                className="w-full h-full object-cover object-top scale-125 translate-y-4"
+                className="w-full h-full object-cover object-top scale-110 translate-y-2"
               />
             </div>
           </motion.div>
