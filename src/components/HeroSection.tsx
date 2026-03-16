@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 import { useEffect, useState } from "react";
-import profileLight from "@/assets/profile-light.jpeg";
-import profileDark from "@/assets/profile-dark.jpeg";
+import profilePhoto from "@/assets/profile-dark.png";
 
 const HeroSection = () => {
   const [isDark, setIsDark] = useState(() =>
