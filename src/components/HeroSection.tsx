@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 import { useEffect, useState } from "react";
-import profileLight from "@/assets/profile-light.jpeg";
-import profileDark from "@/assets/profile-dark.jpeg";
+import profilePhoto from "@/assets/profile-dark.png";
 
 const HeroSection = () => {
   const [isDark, setIsDark] = useState(() =>
@@ -105,15 +104,16 @@ const HeroSection = () => {
               {/* Glow effect */}
               <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl group-hover:bg-primary/15 transition-colors duration-500" />
               
-              {/* Main photo container - no border radius for seamless blend */}
+              {/* Main photo container */}
               <div className="relative w-48 h-56 md:w-60 md:h-72 lg:w-72 lg:h-80">
                 <img
-                  src={isDark ? profileDark : profileLight}
+                  src={profilePhoto}
                   alt="Chandan R - Generative AI Engineer"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-top transition-all duration-300"
                   style={{
-                    maskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
-                    WebkitMaskImage: "linear-gradient(to bottom, black 70%, transparent 100%)",
+                    mixBlendMode: isDark ? "screen" : "multiply",
+                    maskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
+                    WebkitMaskImage: "linear-gradient(to bottom, black 75%, transparent 100%)",
                   }}
                 />
               </div>
