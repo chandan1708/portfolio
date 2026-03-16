@@ -1,29 +1,26 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Star } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Distributed Task Scheduler",
+    title: "ALP Intelligence Surveillance",
     description:
-      "Open-source task scheduler supporting 50K concurrent workers with exactly-once execution guarantees. Built with Go and etcd.",
-    stars: "4.2k",
-    tags: ["Go", "etcd", "gRPC", "Distributed Systems"],
+      "Advanced AI Surveillance System with real-time phone usage detection, plastic/waste litter monitoring, and continuous attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%.",
+    tags: ["Deep Learning", "Computer Vision", "Python", "Real-time Detection"],
     link: "#",
   },
   {
-    title: "Real-Time Analytics Engine",
+    title: "ACCIRESCUE",
     description:
-      "Stream processing engine handling 1M events/sec with sub-second aggregation windows. Powers internal dashboards at scale.",
-    stars: "2.8k",
-    tags: ["Rust", "Apache Kafka", "ClickHouse"],
+      "AI-powered accident detection and emergency routing system leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%.",
+    tags: ["Computer Vision", "AI", "Real-time Analytics", "Emergency Systems"],
     link: "#",
   },
   {
-    title: "API Gateway Framework",
+    title: "KrushiAI — Fusion Techathon Winner",
     description:
-      "Lightweight, extensible API gateway with built-in rate limiting, circuit breaking, and observability. Used in production by 200+ teams.",
-    stars: "6.1k",
-    tags: ["Go", "Prometheus", "OpenTelemetry"],
+      "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams.",
+    tags: ["Machine Learning", "IoT", "Agriculture", "Autonomous Systems"],
     link: "#",
   },
 ];
@@ -40,7 +37,7 @@ const ProjectsSection = () => {
         >
           <p className="text-primary font-body text-sm font-medium tracking-wide mb-3">Projects</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-16">
-            Open source & side projects.
+            Academic & hackathon projects.
           </h2>
         </motion.div>
 
@@ -56,10 +53,6 @@ const ProjectsSection = () => {
               className="group block p-6 rounded-xl bg-card border border-border hover:shadow-lg hover:border-primary/20 transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center gap-1.5 text-muted-foreground">
-                  <Star className="w-4 h-4 fill-current text-primary/60" />
-                  <span className="text-sm font-body">{p.stars}</span>
-                </div>
                 <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
               </div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-2">{p.title}</h3>

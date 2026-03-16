@@ -22,7 +22,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-6 md:px-8">
         <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="font-display font-bold text-lg text-foreground tracking-tight">
-          AK<span className="text-primary">.</span>
+          CR<span className="text-primary">.</span>
         </button>
 
         {/* Desktop nav */}
@@ -40,7 +40,6 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          {/* Mobile menu toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="md:hidden p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
@@ -51,7 +50,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
