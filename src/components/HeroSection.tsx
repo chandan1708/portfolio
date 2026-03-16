@@ -1,8 +1,22 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import { useEffect, useState } from "react";
+import profileLight from "@/assets/profile-light.jpeg";
+import profileDark from "@/assets/profile-dark.jpeg";
 
 const HeroSection = () => {
+  const [isDark, setIsDark] = useState(() =>
+    document.documentElement.classList.contains("dark")
+  );
+
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains("dark"));
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section className="min-h-screen flex items-center section-padding pt-32">
       <div className="container mx-auto">
