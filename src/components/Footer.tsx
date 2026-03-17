@@ -2,24 +2,12 @@ const Footer = () => {
   return (
     <footer className="border-t border-border py-8 px-6 md:px-8">
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
-          <span className="font-display font-bold text-foreground">CR<span className="text-primary">.</span></span>
-          <span className="text-border">|</span>
-          <p className="font-body text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Chandan R. All rights reserved.
-          </p>
-        </div>
-        <div className="flex items-center gap-6">
-          {["GitHub", "LinkedIn"].map((link) => (
-            <a
-              key={link}
-              href="#"
-              className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {link}
-            </a>
-          ))}
-        </div>
+        <p className="font-mono text-xs text-muted-foreground tracking-wide">
+          © {new Date().getFullYear()} Chandan R
+        </p>
+        <p className="font-mono text-xs text-muted-foreground tracking-wide">
+          Bengaluru, India
+        </p>
       </div>
     </footer>
   );
