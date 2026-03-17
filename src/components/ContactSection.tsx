@@ -1,41 +1,48 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
+const links = [
+  { label: "Email", href: "mailto:chandan17.ramesh@gmail.com" },
+  { label: "GitHub", href: "#" },
+  { label: "LinkedIn", href: "#" },
+  { label: "Resume", href: "#" },
+];
+
 const ContactSection = () => {
   return (
     <section id="contact" className="section-padding">
       <div className="container mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="max-w-2xl"
         >
-          <p className="text-primary font-body text-sm font-medium tracking-wide mb-3">Contact</p>
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Let's build something intelligent.
-          </h2>
-          <p className="text-muted-foreground font-body text-lg leading-relaxed mb-10">
-            I'm always open to discussing AI/ML challenges, open-source collaboration,
-            or new opportunities in Generative AI. Reach out and let's connect.
+          <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
+            Contact
           </p>
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground leading-tight max-w-3xl">
+            Let's build something intelligent together.
+          </h2>
+        </motion.div>
 
-          <div className="flex flex-col sm:flex-row gap-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-16 flex flex-wrap gap-4"
+        >
+          {links.map((link) => (
             <a
-              href="mailto:chandan17.ramesh@gmail.com"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-body font-medium text-sm hover:opacity-90 transition-opacity"
+              key={link.label}
+              href={link.href}
+              className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border text-foreground font-body text-sm font-medium hover:bg-foreground hover:text-background hover:border-foreground transition-all duration-300"
             >
-              Get in touch
-              <ArrowUpRight className="w-4 h-4" />
+              {link.label}
+              <ArrowUpRight className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
             </a>
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-secondary text-secondary-foreground font-body font-medium text-sm hover:bg-secondary/80 transition-colors"
-            >
-              Download Resume
-            </a>
-          </div>
+          ))}
         </motion.div>
       </div>
     </section>
