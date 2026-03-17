@@ -2,10 +2,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 
 const stats = [
-  { value: 35, suffix: "%", label: "Retrieval Accuracy Boost" },
-  { value: 95, suffix: "%", label: "Manual Work Eliminated" },
-  { value: 40, suffix: "%", label: "Response Time Improved" },
-  { value: 30, suffix: "%", label: "Processing Efficiency Gain" },
+  { value: 10, suffix: "+", label: "AI/ML Projects" },
+  { value: 35, suffix: "%", label: "Accuracy Improvement" },
+  { value: 1, suffix: "st", label: "Hackathon Finish" },
+  { value: 8.05, suffix: "", label: "GPA", isDecimal: true },
 ];
 
 const AnimatedCounter = ({ value, suffix, isDecimal }: { value: number; suffix: string; isDecimal?: boolean }) => {
@@ -82,25 +82,30 @@ const AboutSection = () => {
           </motion.div>
         </div>
 
-        <div className="mt-20 pt-10 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-20 pt-10 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-8"
+        >
           {stats.map((stat, i) => (
             <motion.div
               key={stat.label}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 * i }}
-              className="rounded-xl border border-border bg-card p-5 text-center card-hover"
             >
-              <p className="font-display text-3xl md:text-4xl text-accent">
-                <AnimatedCounter value={stat.value} suffix={stat.suffix} />
+              <p className="font-display text-4xl md:text-5xl text-foreground">
+                <AnimatedCounter value={stat.value} suffix={stat.suffix} isDecimal={stat.isDecimal} />
               </p>
-              <p className="font-mono text-[10px] tracking-wider uppercase text-muted-foreground mt-2">
+              <p className="font-mono text-xs tracking-wider uppercase text-muted-foreground mt-2">
                 {stat.label}
               </p>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
