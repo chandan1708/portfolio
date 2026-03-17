@@ -1,11 +1,39 @@
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { useRef, useEffect, useState } from "react";
 
 const stats = [
-  { value: "10+", label: "AI/ML Projects" },
-  { value: "35%", label: "Accuracy Improvement" },
-  { value: "1st", label: "Hackathon Finish" },
-  { value: "8.05", label: "GPA" },
+  { value: 10, suffix: "+", label: "AI/ML Projects" },
+  { value: 35, suffix: "%", label: "Accuracy Improvement" },
+  { value: 1, suffix: "st", label: "Hackathon Finish" },
+  { value: 8.05, suffix: "", label: "GPA", isDecimal: true },
 ];
+
+const AnimatedCounter = ({ value, suffix, isDecimal }: { value: number; suffix: string; isDecimal?: boolean }) => {
+  const ref = useRef<HTMLSpanElement>(null);
+  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  const [display, setDisplay] = useState("0");
+
+  useEffect(() => {
+    if (!isInView) return;
+    const duration = 1500;
+    const start = Date.now();
+    const step = () => {
+      const elapsed = Date.now() - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = eased * value;
+      setDisplay(isDecimal ? current.toFixed(2) : Math.floor(current).toString());
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }, [isInView, value, isDecimal]);
+
+  return (
+    <span ref={ref}>
+      {display}{suffix}
+    </span>
+  );
+};
 
 const AboutSection = () => {
   return (
@@ -18,11 +46,15 @@ const AboutSection = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
           >
-            <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
-              About
-            </p>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="accent-dot" />
+              <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground">
+                About
+              </p>
+            </div>
             <h2 className="font-display text-3xl md:text-5xl text-foreground leading-tight">
-              Building AI systems that create tangible impact.
+              Building AI systems that create{" "}
+              <span className="text-accent-gradient">tangible impact</span>.
             </h2>
           </motion.div>
 
@@ -57,13 +89,21 @@ const AboutSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-20 pt-10 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-8"
         >
-          {stats.map((stat) => (
-            <div key={stat.label}>
-              <p className="font-display text-4xl md:text-5xl text-foreground">{stat.value}</p>
+          {stats.map((stat, i) => (
+            <motion.div
+              key={stat.label}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 * i }}
+            >
+              <p className="font-display text-4xl md:text-5xl text-foreground">
+                <AnimatedCounter value={stat.value} suffix={stat.suffix} isDecimal={stat.isDecimal} />
+              </p>
               <p className="font-mono text-xs tracking-wider uppercase text-muted-foreground mt-2">
                 {stat.label}
               </p>
-            </div>
+            </motion.div>
           ))}
         </motion.div>
       </div>
