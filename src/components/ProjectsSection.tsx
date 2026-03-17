@@ -1,84 +1,85 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Trophy } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
+    number: "01",
     title: "ALP Intelligence Surveillance",
     description:
       "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%.",
     tags: ["Deep Learning", "Computer Vision", "Real-time"],
     link: "#",
-    highlight: null,
   },
   {
+    number: "02",
     title: "ACCIRESCUE",
     description:
       "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%.",
     tags: ["Computer Vision", "Real-time Analytics", "Emergency"],
     link: "#",
-    highlight: null,
   },
   {
+    number: "03",
     title: "KrushiAI",
     description:
       "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams.",
     tags: ["Machine Learning", "IoT", "Autonomous Systems"],
     link: "#",
-    highlight: "🏆 1st Place — Fusion Techathon 3.0",
   },
 ];
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="section-padding bg-secondary/50">
+    <section id="projects" className="section-padding">
       <div className="container mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Projects</h2>
-          <p className="mt-3 text-muted-foreground">Selected work that demonstrates impact.</p>
+          <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
+            Projects
+          </p>
+          <h2 className="font-display text-3xl md:text-5xl text-foreground">
+            Selected work.
+          </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="space-y-0">
           {projects.map((p, i) => (
             <motion.a
               key={p.title}
               href={p.link}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group flex flex-col p-6 rounded-xl bg-card border border-border card-hover"
+              className="group grid md:grid-cols-[80px_1fr_auto] gap-4 md:gap-8 items-start py-10 border-t border-border hover:bg-secondary/50 -mx-6 px-6 md:-mx-8 md:px-8 transition-colors duration-300"
             >
-              {p.highlight && (
-                <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary mb-3">
-                  <Trophy className="w-3.5 h-3.5" />
-                  {p.highlight}
-                </div>
-              )}
-              <div className="flex items-start justify-between gap-2 mb-3">
-                <h3 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
+              <span className="font-mono text-xs text-muted-foreground tracking-wide">
+                {p.number}
+              </span>
+              <div>
+                <h3 className="font-display text-xl md:text-2xl text-foreground mb-2 group-hover:text-foreground transition-colors">
                   {p.title}
                 </h3>
-                <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors flex-shrink-0 mt-1" />
+                <p className="text-muted-foreground font-body text-[15px] leading-relaxed mb-4 max-w-xl">
+                  {p.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {p.tags.map((t) => (
+                    <span
+                      key={t}
+                      className="px-3 py-1 text-xs font-mono tracking-wide rounded-full border border-border text-muted-foreground"
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1">
-                {p.description}
-              </p>
-              <div className="flex flex-wrap gap-1.5 pt-3 border-t border-border">
-                {p.tags.map((t) => (
-                  <span
-                    key={t}
-                    className="px-2 py-0.5 text-[11px] font-medium rounded-md bg-primary/10 text-primary"
-                  >
-                    {t}
-                  </span>
-                ))}
-              </div>
+              <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors mt-1 hidden md:block" />
             </motion.a>
           ))}
         </div>

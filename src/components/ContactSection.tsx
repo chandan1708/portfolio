@@ -1,47 +1,46 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, FileText } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const links = [
-  { label: "Email", href: "mailto:chandan17.ramesh@gmail.com", icon: Mail },
-  { label: "GitHub", href: "#", icon: Github },
-  { label: "LinkedIn", href: "#", icon: Linkedin },
-  { label: "Resume", href: "#", icon: FileText },
+  { label: "Email", href: "mailto:chandan17.ramesh@gmail.com" },
+  { label: "GitHub", href: "#" },
+  { label: "LinkedIn", href: "#" },
+  { label: "Resume", href: "#" },
 ];
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="section-padding bg-secondary/50">
-      <div className="container mx-auto text-center">
+    <section id="contact" className="section-padding">
+      <div className="container mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.5 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            Let's Work Together
-          </h2>
-          <p className="mt-3 text-muted-foreground max-w-lg mx-auto">
-            I'm open to new opportunities in Generative AI and Machine Learning. 
-            Feel free to reach out!
+          <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
+            Contact
           </p>
+          <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground leading-tight max-w-3xl">
+            Let's build something intelligent together.
+          </h2>
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
-          transition={{ duration: 0.5, delay: 0.15 }}
-          className="mt-10 flex flex-wrap justify-center gap-4"
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-16 flex flex-wrap gap-4"
         >
           {links.map((link) => (
             <a
               key={link.label}
               href={link.href}
-              className="inline-flex items-center gap-2.5 px-6 py-3 rounded-lg border border-border bg-card text-foreground font-semibold text-sm hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 card-hover"
+              className="group inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border text-foreground font-body text-sm font-medium hover:bg-foreground hover:text-background hover:border-foreground transition-all duration-300"
             >
-              <link.icon className="w-4 h-4" />
               {link.label}
+              <ArrowUpRight className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
             </a>
           ))}
         </motion.div>
