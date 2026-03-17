@@ -82,30 +82,25 @@ const AboutSection = () => {
           </motion.div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-50px" }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-20 pt-10 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-8"
-        >
+        <div className="mt-20 pt-10 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-4">
           {stats.map((stat, i) => (
             <motion.div
               key={stat.label}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 * i }}
+              className="rounded-xl border border-border bg-card p-5 text-center card-hover"
             >
-              <p className="font-display text-4xl md:text-5xl text-foreground">
-                <AnimatedCounter value={stat.value} suffix={stat.suffix} isDecimal={stat.isDecimal} />
+              <p className="font-display text-3xl md:text-4xl text-accent">
+                <AnimatedCounter value={stat.value} suffix={stat.suffix} />
               </p>
-              <p className="font-mono text-xs tracking-wider uppercase text-muted-foreground mt-2">
+              <p className="font-mono text-[10px] tracking-wider uppercase text-muted-foreground mt-2">
                 {stat.label}
               </p>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
