@@ -1,71 +1,59 @@
 import { motion } from "framer-motion";
+import { GraduationCap, Target, Zap } from "lucide-react";
 
-const stats = [
-  { value: "10+", label: "AI/ML Projects" },
-  { value: "35%", label: "Accuracy Improvement" },
-  { value: "1st", label: "Hackathon Finish" },
-  { value: "8.05", label: "GPA" },
+const highlights = [
+  {
+    icon: Target,
+    title: "What I Do",
+    text: "Build agentic AI tools and multi-source data pipelines that improve knowledge retrieval accuracy by 35% and eliminate 95% of manual intervention.",
+  },
+  {
+    icon: GraduationCap,
+    title: "Education",
+    text: "B.E. in AI & Data Science from VTU (GPA: 8.05). Strong foundation in machine learning, deep learning, and software engineering.",
+  },
+  {
+    icon: Zap,
+    title: "Specializations",
+    text: "LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and scalable AI solutions using LangChain, LangGraph & AWS.",
+  },
 ];
 
 const AboutSection = () => {
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="section-padding bg-secondary/50">
       <div className="container mx-auto">
-        <div className="grid lg:grid-cols-[1fr_1.2fr] gap-16 lg:gap-24">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6 }}
-          >
-            <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
-              About
-            </p>
-            <h2 className="font-display text-3xl md:text-5xl text-foreground leading-tight">
-              Building AI systems that create tangible impact.
-            </h2>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, delay: 0.15 }}
-            className="space-y-6 text-muted-foreground font-body text-base md:text-[17px] leading-[1.8]"
-          >
-            <p>
-              I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs
-              where I develop agentic AI tools and multi-source data pipelines — improving knowledge 
-              retrieval accuracy by 35% and eliminating 95% of manual intervention.
-            </p>
-            <p>
-              With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning
-              (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions
-              using LangChain, LangGraph, and AWS.
-            </p>
-            <p>
-              Passionate about computer vision, deep learning, and creating AI systems
-              that solve problems — from surveillance intelligence to emergency response.
-            </p>
-          </motion.div>
-        </div>
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-50px" }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-20 pt-10 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-8"
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-14"
         >
-          {stats.map((stat) => (
-            <div key={stat.label}>
-              <p className="font-display text-4xl md:text-5xl text-foreground">{stat.value}</p>
-              <p className="font-mono text-xs tracking-wider uppercase text-muted-foreground mt-2">
-                {stat.label}
-              </p>
-            </div>
-          ))}
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">About Me</h2>
+          <p className="mt-3 text-muted-foreground max-w-2xl mx-auto text-base leading-relaxed">
+            A Generative AI Engineer passionate about building intelligent systems that create real-world impact — from surveillance intelligence to emergency response.
+          </p>
         </motion.div>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          {highlights.map((item, i) => (
+            <motion.div
+              key={item.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="p-6 rounded-xl bg-card border border-border card-hover"
+            >
+              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                <item.icon className="w-5 h-5 text-primary" />
+              </div>
+              <h3 className="text-lg font-bold text-foreground mb-2">{item.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{item.text}</p>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );
