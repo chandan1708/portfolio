@@ -2,10 +2,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 
 const stats = [
-  { value: 10, suffix: "+", label: "AI/ML Projects" },
-  { value: 35, suffix: "%", label: "Accuracy Improvement" },
-  { value: 1, suffix: "st", label: "Hackathon Finish" },
-  { value: 8.05, suffix: "", label: "GPA", isDecimal: true },
+  { value: 35, suffix: "%", label: "Retrieval Accuracy Boost" },
+  { value: 95, suffix: "%", label: "Manual Work Eliminated" },
+  { value: 40, suffix: "%", label: "Response Time Improved" },
+  { value: 30, suffix: "%", label: "Processing Efficiency Gain" },
 ];
 
 const AnimatedCounter = ({ value, suffix, isDecimal }: { value: number; suffix: string; isDecimal?: boolean }) => {
