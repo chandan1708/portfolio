@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-const navItems = ["About", "Experience", "Projects", "Skills", "Contact"];
+const navItems = ["About", "Experience", "Projects", "Skills", "Education", "Publications", "Contact"];
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -28,12 +28,12 @@ const Navbar = () => {
           Chandan R
         </button>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
             <button
               key={item}
               onClick={() => scrollTo(item)}
-              className="text-[13px] font-body font-medium text-muted-foreground hover:text-foreground transition-colors tracking-wide uppercase"
+              className="text-[13px] font-body font-medium text-muted-foreground hover:text-accent transition-colors tracking-wide uppercase"
             >
               {item}
             </button>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <button
                   key={item}
                   onClick={() => scrollTo(item)}
-                  className="text-left text-sm font-body text-muted-foreground hover:text-foreground py-3 transition-colors uppercase tracking-wide"
+                  className="text-left text-sm font-body text-muted-foreground hover:text-accent py-3 transition-colors uppercase tracking-wide"
                 >
                   {item}
                 </button>

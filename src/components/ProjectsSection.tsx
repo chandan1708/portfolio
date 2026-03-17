@@ -9,6 +9,7 @@ const projects = [
       "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%.",
     tags: ["Deep Learning", "Computer Vision", "Real-time"],
     link: "#",
+    highlight: true,
   },
   {
     number: "02",
@@ -17,6 +18,7 @@ const projects = [
       "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%.",
     tags: ["Computer Vision", "Real-time Analytics", "Emergency"],
     link: "#",
+    highlight: false,
   },
   {
     number: "03",
@@ -25,6 +27,7 @@ const projects = [
       "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams.",
     tags: ["Machine Learning", "IoT", "Autonomous Systems"],
     link: "#",
+    highlight: true,
   },
 ];
 
@@ -39,9 +42,12 @@ const ProjectsSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4">
-            Projects
-          </p>
+          <div className="flex items-center gap-3 mb-4">
+            <span className="accent-dot" />
+            <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground">
+              Projects
+            </p>
+          </div>
           <h2 className="font-display text-3xl md:text-5xl text-foreground">
             Selected work.
           </h2>
@@ -56,15 +62,22 @@ const ProjectsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group grid md:grid-cols-[80px_1fr_auto] gap-4 md:gap-8 items-start py-10 border-t border-border hover:bg-secondary/50 -mx-6 px-6 md:-mx-8 md:px-8 transition-colors duration-300"
+              className="group grid md:grid-cols-[80px_1fr_auto] gap-4 md:gap-8 items-start py-10 border-t border-border hover:bg-accent/5 -mx-6 px-6 md:-mx-8 md:px-8 transition-all duration-300"
             >
               <span className="font-mono text-xs text-muted-foreground tracking-wide">
                 {p.number}
               </span>
               <div>
-                <h3 className="font-display text-xl md:text-2xl text-foreground mb-2 group-hover:text-foreground transition-colors">
-                  {p.title}
-                </h3>
+                <div className="flex items-center gap-3 mb-2">
+                  <h3 className="font-display text-xl md:text-2xl text-foreground group-hover:text-accent transition-colors duration-300">
+                    {p.title}
+                  </h3>
+                  {p.highlight && (
+                    <span className="px-2 py-0.5 text-[9px] font-mono tracking-widest uppercase rounded-full bg-accent/10 text-accent border border-accent/20">
+                      Featured
+                    </span>
+                  )}
+                </div>
                 <p className="text-muted-foreground font-body text-[15px] leading-relaxed mb-4 max-w-xl">
                   {p.description}
                 </p>
@@ -72,14 +85,14 @@ const ProjectsSection = () => {
                   {p.tags.map((t) => (
                     <span
                       key={t}
-                      className="px-3 py-1 text-xs font-mono tracking-wide rounded-full border border-border text-muted-foreground"
+                      className="px-3 py-1 text-xs font-mono tracking-wide rounded-full border border-border text-muted-foreground group-hover:border-accent/20 transition-colors"
                     >
                       {t}
                     </span>
                   ))}
                 </div>
               </div>
-              <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-foreground transition-colors mt-1 hidden md:block" />
+              <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300 mt-1 hidden md:block" />
             </motion.a>
           ))}
         </div>
