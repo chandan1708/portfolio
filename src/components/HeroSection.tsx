@@ -9,9 +9,7 @@ const HeroSection = () => {
       <div className="absolute bottom-1/4 -left-32 w-64 h-64 bg-accent/3 rounded-full blur-3xl pointer-events-none" />
 
       <div className="container mx-auto relative">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12 lg:gap-16">
-          {/* Left: Text content */}
-          <div className="max-w-3xl lg:flex-1">
+        <div className="max-w-4xl">
             <motion.div
               initial={{ opacity: 0, width: 0 }}
               animate={{ opacity: 1, width: "auto" }}
