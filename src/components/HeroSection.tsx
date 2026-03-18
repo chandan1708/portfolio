@@ -103,7 +103,9 @@ const HeroSection = () => {
                 </motion.span>
               </a>
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1HIYJdLuQCS-7Gzy0s9IUwbQUJUX_4FG3/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 rounded-full border border-border text-foreground font-body text-sm font-medium hover:border-accent/40 hover:bg-accent/5 transition-all duration-300"
               >
                 Download Resume
