@@ -44,6 +44,8 @@ const ContactSection = () => {
             <motion.a
               key={link.label}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
