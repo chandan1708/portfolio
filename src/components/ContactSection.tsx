@@ -3,9 +3,9 @@ import { ArrowUpRight } from "lucide-react";
 
 const links = [
   { label: "Email", href: "mailto:chandan17.ramesh@gmail.com" },
-  { label: "GitHub", href: "#" },
-  { label: "LinkedIn", href: "#" },
-  { label: "Resume", href: "#" },
+  { label: "GitHub", href: "https://github.com/chandan1708/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/chandan-ramesh-7a8bb8237/" },
+  { label: "Resume", href: "https://drive.google.com/file/d/1HIYJdLuQCS-7Gzy0s9IUwbQUJUX_4FG3/view?usp=sharing" },
 ];
 
 const ContactSection = () => {
