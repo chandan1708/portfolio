@@ -162,58 +162,35 @@ const HeroSection = () => {
               />
 
             {/* Front decorative ring — in front of the person */}
-            <motion.svg
-              className="absolute pointer-events-none z-20"
-              style={{ width: 380, height: 460, top: 10, left: 10 }}
-              viewBox="0 0 380 460"
-              fill="none"
-              initial={{ opacity: 0, rotate: 5 }}
-              animate={{ opacity: 1, rotate: 0 }}
-              transition={{ duration: 1.4, delay: 0.7 }}
-            >
-              {/* Only draw the top arc portion so it appears to wrap in front */}
-              <path
-                d="M 45 120 A 170 210 0 0 1 335 120"
-                stroke="hsl(var(--accent))"
-                strokeWidth="1.2"
+              {/* Front decorative ring */}
+              <motion.svg
+                className="absolute pointer-events-none z-20"
+                style={{ width: 380, height: 460, top: 10, left: 10, rotateZ: ringRotate }}
+                viewBox="0 0 380 460"
                 fill="none"
-                opacity="0.3"
-              />
-              <path
-                d="M 30 100 A 185 225 0 0 1 350 100"
-                stroke="hsl(var(--border))"
-                strokeWidth="0.8"
-                fill="none"
-                opacity="0.25"
-              />
-            </motion.svg>
+                initial={{ opacity: 0, rotate: 5 }}
+                animate={{ opacity: 1, rotate: 0 }}
+                transition={{ duration: 1.4, delay: 0.7 }}
+              >
+                <path d="M 45 120 A 170 210 0 0 1 335 120" stroke="hsl(var(--accent))" strokeWidth="1.2" fill="none" opacity="0.3" />
+                <path d="M 30 100 A 185 225 0 0 1 350 100" stroke="hsl(var(--border))" strokeWidth="0.8" fill="none" opacity="0.25" />
+              </motion.svg>
 
-            {/* Floating small decorative elements */}
-            <motion.div
-              className="absolute top-6 right-6 w-2.5 h-2.5 rounded-full bg-accent/25 z-20"
-              animate={{ y: [0, -6, 0] }}
-              transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
-            />
-            <motion.div
-              className="absolute bottom-12 left-6 w-2 h-2 rounded-full bg-accent/15 z-20"
-              animate={{ y: [0, 5, 0] }}
-              transition={{ repeat: Infinity, duration: 4, ease: "easeInOut", delay: 1 }}
-            />
-            <motion.div
-              className="absolute top-1/3 right-2 w-1.5 h-1.5 rounded-full bg-muted-foreground/15 z-20"
-              animate={{ scale: [1, 1.4, 1] }}
-              transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut", delay: 0.5 }}
-            />
+              {/* Floating decorative elements */}
+              <motion.div className="absolute top-6 right-6 w-2.5 h-2.5 rounded-full bg-accent/25 z-20" animate={{ y: [0, -6, 0] }} transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }} />
+              <motion.div className="absolute bottom-12 left-6 w-2 h-2 rounded-full bg-accent/15 z-20" animate={{ y: [0, 5, 0] }} transition={{ repeat: Infinity, duration: 4, ease: "easeInOut", delay: 1 }} />
+              <motion.div className="absolute top-1/3 right-2 w-1.5 h-1.5 rounded-full bg-muted-foreground/15 z-20" animate={{ scale: [1, 1.4, 1] }} transition={{ repeat: Infinity, duration: 2.5, ease: "easeInOut", delay: 0.5 }} />
 
-            {/* Small cross/plus marks like the reference */}
-            <svg className="absolute top-12 left-12 w-4 h-4 pointer-events-none z-20" viewBox="0 0 16 16" fill="none">
-              <line x1="8" y1="2" x2="8" y2="14" stroke="hsl(var(--muted-foreground))" strokeWidth="0.8" opacity="0.3" />
-              <line x1="2" y1="8" x2="14" y2="8" stroke="hsl(var(--muted-foreground))" strokeWidth="0.8" opacity="0.3" />
-            </svg>
-            <svg className="absolute bottom-20 right-10 w-3 h-3 pointer-events-none z-20" viewBox="0 0 12 12" fill="none">
-              <line x1="6" y1="1" x2="6" y2="11" stroke="hsl(var(--accent))" strokeWidth="0.6" opacity="0.25" />
-              <line x1="1" y1="6" x2="11" y2="6" stroke="hsl(var(--accent))" strokeWidth="0.6" opacity="0.25" />
-            </svg>
+              {/* Cross marks */}
+              <svg className="absolute top-12 left-12 w-4 h-4 pointer-events-none z-20" viewBox="0 0 16 16" fill="none">
+                <line x1="8" y1="2" x2="8" y2="14" stroke="hsl(var(--muted-foreground))" strokeWidth="0.8" opacity="0.3" />
+                <line x1="2" y1="8" x2="14" y2="8" stroke="hsl(var(--muted-foreground))" strokeWidth="0.8" opacity="0.3" />
+              </svg>
+              <svg className="absolute bottom-20 right-10 w-3 h-3 pointer-events-none z-20" viewBox="0 0 12 12" fill="none">
+                <line x1="6" y1="1" x2="6" y2="11" stroke="hsl(var(--accent))" strokeWidth="0.6" opacity="0.25" />
+                <line x1="1" y1="6" x2="11" y2="6" stroke="hsl(var(--accent))" strokeWidth="0.6" opacity="0.25" />
+              </svg>
+            </motion.div>
           </motion.div>
         </div>
 
