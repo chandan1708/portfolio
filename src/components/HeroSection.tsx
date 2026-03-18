@@ -91,6 +91,8 @@ const HeroSection = () => {
             >
               <a
                 href="mailto:chandan17.ramesh@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center px-6 py-3 rounded-full bg-foreground text-background font-body text-sm font-medium hover:shadow-glow hover:scale-[1.02] transition-all duration-300"
               >
                 Get in touch
