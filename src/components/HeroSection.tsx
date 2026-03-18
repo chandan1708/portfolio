@@ -1,8 +1,35 @@
-import { motion } from "framer-motion";
+import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import { ArrowDown } from "lucide-react";
+import { useRef, useCallback } from "react";
 import profileNoBg from "@/assets/profile-nobg.png";
 
 const HeroSection = () => {
+  const photoRef = useRef<HTMLDivElement>(null);
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+
+  const springConfig = { stiffness: 150, damping: 20, mass: 0.5 };
+  const rotateX = useSpring(useTransform(mouseY, [-0.5, 0.5], [8, -8]), springConfig);
+  const rotateY = useSpring(useTransform(mouseX, [-0.5, 0.5], [-8, 8]), springConfig);
+  const imgX = useSpring(useTransform(mouseX, [-0.5, 0.5], [-6, 6]), springConfig);
+  const imgY = useSpring(useTransform(mouseY, [-0.5, 0.5], [-6, 6]), springConfig);
+  const ringRotate = useSpring(useTransform(mouseX, [-0.5, 0.5], [-3, 3]), springConfig);
+  const shadowX = useTransform(mouseX, [-0.5, 0.5], [8, -8]);
+  const shadowY = useTransform(mouseY, [-0.5, 0.5], [8, -8]);
+
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = photoRef.current?.getBoundingClientRect();
+    if (!rect) return;
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    mouseX.set(x);
+    mouseY.set(y);
+  }, [mouseX, mouseY]);
+
+  const handleMouseLeave = useCallback(() => {
+    mouseX.set(0);
+    mouseY.set(0);
+  }, [mouseX, mouseY]);
   return (
     <section className="min-h-[100svh] flex flex-col justify-center section-padding pt-24 relative overflow-hidden">
       {/* Ambient gradient orbs — soft pastel blobs like the reference */}
