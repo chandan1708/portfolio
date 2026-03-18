@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
 
 const HeroSection = () => {
   return (
@@ -10,9 +9,7 @@ const HeroSection = () => {
       <div className="absolute bottom-1/4 -left-32 w-64 h-64 bg-accent/3 rounded-full blur-3xl pointer-events-none" />
 
       <div className="container mx-auto relative">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12 lg:gap-16">
-          {/* Left: Text content */}
-          <div className="max-w-3xl lg:flex-1">
+        <div className="max-w-4xl">
             <motion.div
               initial={{ opacity: 0, width: 0 }}
               animate={{ opacity: 1, width: "auto" }}
@@ -80,27 +77,6 @@ const HeroSection = () => {
               >
                 Download Resume
               </a>
-            </motion.div>
-          </div>
-
-          {/* Right: Profile photo */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-            className="relative flex-shrink-0 hidden lg:flex items-center justify-center"
-          >
-            {/* Glow ring behind photo */}
-            <div className="absolute inset-0 rounded-full bg-accent/10 blur-2xl scale-110 pointer-events-none" />
-            <div className="relative w-72 h-72 xl:w-80 xl:h-80 rounded-full overflow-hidden ring-2 ring-border/50 shadow-lg">
-              <img
-                src={profilePhoto}
-                alt="Chandan Ramesh — Generative AI Engineer"
-                className="w-full h-full object-cover"
-              />
-              {/* Subtle overlay for polish */}
-              <div className="absolute inset-0 rounded-full ring-1 ring-inset ring-foreground/5" />
-            </div>
           </motion.div>
         </div>
 
