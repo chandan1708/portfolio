@@ -1,6 +1,5 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import profilePhoto from "@/assets/profile-photo.jpg";
 
 const stats = [
   { value: 10, suffix: "+", label: "AI/ML Projects" },
@@ -47,31 +46,12 @@ const AboutSection = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
           >
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-3 mb-4">
               <span className="accent-dot" />
               <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground">
                 About
               </p>
             </div>
-
-            {/* Profile photo — About section placement (MAANG style) */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true, margin: "-80px" }}
-              transition={{ duration: 0.7 }}
-              className="relative mb-8 w-28 h-28 md:w-32 md:h-32"
-            >
-              <div className="absolute -inset-1 rounded-2xl bg-accent/10 blur-lg pointer-events-none" />
-              <div className="relative w-full h-full rounded-2xl overflow-hidden ring-1 ring-border/60 shadow-md">
-                <img
-                  src={profilePhoto}
-                  alt="Chandan Ramesh — Generative AI Engineer"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </motion.div>
-
             <h2 className="font-display text-3xl md:text-5xl text-foreground leading-tight">
               Building AI systems that create{" "}
               <span className="text-accent-gradient">tangible impact</span>.
