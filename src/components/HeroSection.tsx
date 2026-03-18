@@ -111,50 +111,55 @@ const HeroSection = () => {
             </motion.div>
           </div>
 
-          {/* Right: Profile photo cutout with decorative rings — reference style */}
+          {/* Right: Profile photo cutout with 3D tilt on hover */}
           <motion.div
+            ref={photoRef}
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-            className="relative flex-shrink-0 hidden lg:flex items-center justify-center"
-            style={{ width: 400, height: 480 }}
+            className="relative flex-shrink-0 hidden lg:flex items-center justify-center cursor-default"
+            style={{
+              width: 400,
+              height: 480,
+              perspective: 800,
+            }}
           >
-            {/* Back decorative ring — behind the person */}
-            <motion.svg
-              className="absolute pointer-events-none"
-              style={{ width: 380, height: 460, top: 10, left: 10 }}
-              viewBox="0 0 380 460"
-              fill="none"
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1.2, delay: 0.5 }}
+            {/* 3D tilting container */}
+            <motion.div
+              className="relative w-full h-full flex items-center justify-center"
+              style={{
+                rotateX,
+                rotateY,
+                transformStyle: "preserve-3d",
+              }}
             >
-              <ellipse
-                cx="190"
-                cy="230"
-                rx="170"
-                ry="210"
-                stroke="hsl(var(--accent))"
-                strokeWidth="1.2"
-                opacity="0.25"
-              />
-              <ellipse
-                cx="190"
-                cy="230"
-                rx="185"
-                ry="225"
-                stroke="hsl(var(--border))"
-                strokeWidth="0.8"
-                opacity="0.3"
-              />
-            </motion.svg>
+              {/* Back decorative ring — reacts slightly to mouse */}
+              <motion.svg
+                className="absolute pointer-events-none"
+                style={{ width: 380, height: 460, top: 10, left: 10, rotateZ: ringRotate }}
+                viewBox="0 0 380 460"
+                fill="none"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1.2, delay: 0.5 }}
+              >
+                <ellipse cx="190" cy="230" rx="170" ry="210" stroke="hsl(var(--accent))" strokeWidth="1.2" opacity="0.25" />
+                <ellipse cx="190" cy="230" rx="185" ry="225" stroke="hsl(var(--border))" strokeWidth="0.8" opacity="0.3" />
+              </motion.svg>
 
-            {/* Profile cutout image — no background, person floats */}
-            <img
-              src={profileNoBg}
-              alt="Chandan Ramesh — Generative AI Engineer"
-              className="relative z-10 h-[420px] xl:h-[460px] w-auto object-contain drop-shadow-lg"
-            />
+              {/* Profile cutout — shifts slightly opposite to tilt for parallax depth */}
+              <motion.img
+                src={profileNoBg}
+                alt="Chandan Ramesh — Generative AI Engineer"
+                className="relative z-10 h-[420px] xl:h-[460px] w-auto object-contain"
+                style={{
+                  x: imgX,
+                  y: imgY,
+                  filter: "drop-shadow(0 8px 24px hsl(0 0% 0% / 0.15))",
+                }}
+              />
 
             {/* Front decorative ring — in front of the person */}
             <motion.svg
