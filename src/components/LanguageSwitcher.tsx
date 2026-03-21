@@ -1,11 +1,28 @@
 import { useState } from "react";
 import { Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { loadLanguage } from "@/i18n";
 
 const indicLanguages = [
-  "Kannada", "Hindi", "Gujarati", "Marathi", "Konkani", "Bengali",
-  "Oriya", "Merry", "Kashmiri", "Assamese", "Nissi/Daffla", "Ao",
-  "Manipuri", "Khasi & Garo", "Tamil", "Malayalam", "Punjabi", "Telugu", "Mizo",
+  { name: "Kannada", code: "KN" },
+  { name: "Hindi", code: "HI" },
+  { name: "Gujarati", code: "GU" },
+  { name: "Marathi", code: "MR" },
+  { name: "Konkani", code: "KOK" },
+  { name: "Bengali", code: "BN" },
+  { name: "Oriya", code: "OR" },
+  { name: "Merry", code: "MERRY" },
+  { name: "Kashmiri", code: "KS" },
+  { name: "Assamese", code: "AS" },
+  { name: "Nissi/Daffla", code: "NJZ" },
+  { name: "Ao", code: "AO" },
+  { name: "Manipuri", code: "MNI" },
+  { name: "Khasi & Garo", code: "KHA" },
+  { name: "Tamil", code: "TA" },
+  { name: "Malayalam", code: "ML" },
+  { name: "Punjabi", code: "PA" },
+  { name: "Telugu", code: "TE" },
+  { name: "Mizo", code: "LUS" },
 ];
 
 const globalLanguages = [
@@ -41,6 +58,12 @@ const LanguageSwitcher = () => {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState("EN");
 
+  const handleSelect = async (code: string) => {
+    setSelected(code);
+    setOpen(false);
+    await loadLanguage(code);
+  };
+
   return (
     <div className="relative">
       <motion.button
@@ -72,11 +95,15 @@ const LanguageSwitcher = () => {
                 <div className="flex flex-wrap gap-1.5">
                   {indicLanguages.map((lang) => (
                     <button
-                      key={lang}
-                      onClick={() => { setSelected(lang.substring(0, 3).toUpperCase()); setOpen(false); }}
-                      className="px-2.5 py-1 rounded-md text-xs font-body text-foreground bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors"
+                      key={lang.code}
+                      onClick={() => handleSelect(lang.code)}
+                      className={`px-2.5 py-1 rounded-md text-xs font-body transition-colors ${
+                        selected === lang.code
+                          ? "bg-accent text-accent-foreground"
+                          : "text-foreground bg-secondary hover:bg-accent hover:text-accent-foreground"
+                      }`}
                     >
-                      {lang}
+                      {lang.name}
                     </button>
                   ))}
                 </div>
@@ -93,7 +120,7 @@ const LanguageSwitcher = () => {
                   {globalLanguages.map((lang) => (
                     <button
                       key={lang.code}
-                      onClick={() => { setSelected(lang.code); setOpen(false); }}
+                      onClick={() => handleSelect(lang.code)}
                       className={`px-2.5 py-1 rounded-md text-xs font-body transition-colors ${
                         selected === lang.code
                           ? "bg-accent text-accent-foreground"
