@@ -100,7 +100,7 @@ const LanguageSwitcher = () => {
                           : "text-foreground bg-secondary hover:bg-accent hover:text-accent-foreground"
                       }`}
                     >
-                      {lang.code}
+                      {lang.name}
                     </button>
                   ))}
                 </div>
