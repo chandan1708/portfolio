@@ -72,7 +72,7 @@ const ContactFormDialog = ({ open, onClose }: ContactFormDialogProps) => {
               </button>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-3">
               <div>
                 <label className="block text-xs font-mono tracking-wider uppercase text-muted-foreground mb-1.5">
                   Name
