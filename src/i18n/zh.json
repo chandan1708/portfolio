@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "关于",
+    "experience": "经验",
+    "projects": "项目",
+    "skills": "技能",
+    "education": "教育",
+    "contact": "联系"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "可接受新机会",
+    "subtitle": "生成式AI工程师 — 班加罗尔，印度",
+    "heading": "我构建智能系统，<accent>改变</accent>企业理解数据的方式。",
+    "description": "专注于LLMs、代理式AI和RAG管道。目前在<company>WordWise Language Labs</company>开发AI工具。",
+    "cta": "联系我",
+    "resume": "下载简历",
+    "scroll": "滚动"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "关于",
+    "heading": "构建创造<accent>切实影响</accent>的AI系统。",
+    "p1": "我是一名驻班加罗尔的生成式AI工程师，目前在WordWise Language Labs开发代理式AI工具和多源数据管道——知识检索准确率提升35%，消除95%的人工干预。",
+    "p2": "拥有VTU的AI与数据科学工学学士学位，专精LLM微调（LoRA, QLoRA）、RAG架构（GraphRAG, RAFT, CAG），以及使用LangChain、LangGraph和AWS构建可扩展解决方案。",
+    "p3": "热衷于计算机视觉、深度学习，以及创建解决问题的AI系统——从监控智能到应急响应。",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "已建系统",
+      "modelsDeployed": "已部署模型",
+      "dataProcessed": "已处理数据",
+      "efficiencyGain": "效率提升"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "经验",
+    "heading": "我产生影响的地方。",
+    "current": "当前",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "生成式AI工程师",
+        "period": "2024年9月 — 至今",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "开发了Wordsworth产品的核心算法，集成多源数据管道与代理式AI工具",
+          "实现知识检索准确率35%提升和95%人工干预消除",
+          "通过可扩展代理驱动框架增强了多语言内容智能"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "研发实习生",
+        "period": "2023年11月 — 2024年4月",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "开发自动化Python脚本，将数据处理效率提升30%",
+          "通过优化数据管道将处理时间缩短25%",
+          "使用PySide6设计嵌入式仪表板，将人工工作量减少50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "项目",
+    "heading": "精选作品。",
+    "featured": "精选",
+    "liveDemo": "在线演示",
+    "sourceCode": "源代码",
+    "linksSoon": "链接即将推出",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP智能监控",
+        "description": "具有实时手机使用检测、废物监控和89%准确率考勤追踪的高级AI监控系统。减少40%人工监管。"
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "利用实时CCTV和交通数据的AI驱动事故检测和紧急路由，提升40%应急响应效率。"
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "用于实时田间数据和作物推荐的自主ML驱动农业巡检车。在Fusion Techathon 3.0中击败104支队伍获得第一名。"
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "技能",
+    "heading": "技术专长。",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "编程语言",
+      "deepLearning": "深度学习",
+      "agenticAI": "代理式AI与RAG",
+      "infrastructure": "基础设施"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "教育",
+    "heading": "学术基础。",
+    "degree": "AI与数据科学工学学士",
+    "university": "维斯韦什瓦拉亚技术大学 (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "核心课程",
+    "award": "第一名 — Fusion Techathon 3.0",
+    "awardDesc": "以KrushiAI自主农业巡检车击败104支队伍"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "联系",
+    "heading": "让我们一起构建<accent>智能</accent>的东西。",
+    "email": "邮箱",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "简历"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "联系我",
+    "name": "姓名",
+    "namePlaceholder": "您的姓名",
+    "email": "邮箱",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "目的",
+    "purposePlaceholder": "您想讨论什么？",
+    "send": "发送消息",
+    "sending": "正在打开邮件...",
+    "toastTitle": "邮件客户端已打开！",
+    "toastDesc": "感谢您的联系。"
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "班加罗尔，印度"
   }
 }
