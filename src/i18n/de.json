@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "education": "Ausbildung",
+    "contact": "Kontakt"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "Offen für Möglichkeiten",
+    "subtitle": "Generativer KI-Ingenieur — Bengaluru, Indien",
+    "heading": "Ich baue intelligente Systeme, die <accent>transformieren</accent>, wie Unternehmen Daten verstehen.",
+    "description": "Spezialisiert auf LLMs, agentische KI und RAG-Pipelines. Derzeit entwickle ich KI-Tools bei <company>WordWise Language Labs</company>.",
+    "cta": "Kontakt aufnehmen",
+    "resume": "Lebenslauf herunterladen",
+    "scroll": "Scrollen"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Über mich",
+    "heading": "KI-Systeme mit <accent>spürbarer Wirkung</accent> bauen.",
+    "p1": "Ich bin ein generativer KI-Ingenieur in Bengaluru bei WordWise Language Labs, wo ich agentische KI-Tools und Multi-Source-Datenpipelines entwickle — mit 35% besserer Wissensabruf-Genauigkeit und 95% weniger manuellem Eingriff.",
+    "p2": "Mit einem B.E. in KI und Datenwissenschaft von der VTU spezialisiere ich mich auf LLM-Feinabstimmung (LoRA, QLoRA), RAG-Architekturen und skalierbare Lösungen.",
+    "p3": "Leidenschaftlich für Computer Vision, Deep Learning und KI-Systeme, die Probleme lösen.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Gebaute Systeme",
+      "modelsDeployed": "Eingesetzte Modelle",
+      "dataProcessed": "Verarbeitete Daten",
+      "efficiencyGain": "Effizienzgewinn"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Erfahrung",
+    "heading": "Wo ich Wirkung erzielt habe.",
+    "current": "Aktuell",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Generativer KI-Ingenieur",
+        "period": "Sep 2024 — Heute",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Entwicklung des Kernalgorithmus für das Wordsworth-Produkt mit Integration von Multi-Source-Datenpipelines und agentischen KI-Tools",
+          "35% Verbesserung der Wissensabruf-Genauigkeit und 95% Eliminierung manueller Eingriffe",
+          "Verbesserung der mehrsprachigen Inhaltsintelligenz durch skalierbare agentische Frameworks"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
+        "role": "F&E-Praktikant",
         "period": "Nov 2023 — Apr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Entwicklung automatisierter Python-Skripte mit 30% Effizienzsteigerung",
+          "25% Reduzierung der Verarbeitungszeit",
+          "Design eines eingebetteten Dashboards mit PySide6, 50% weniger manuelle Arbeit"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Projekte",
+    "heading": "Ausgewählte Arbeiten.",
+    "featured": "Ausgewählt",
+    "liveDemo": "Live-Demo",
+    "sourceCode": "Quellcode",
+    "linksSoon": "Links folgen",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP Intelligente Überwachung",
+        "description": "Fortschrittliches KI-Überwachungssystem mit Echtzeit-Telefonnutzungserkennung und Anwesenheitsverfolgung mit 89% Genauigkeit."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "KI-gestützte Unfallerkennung und Notfall-Routing mit Live-CCTV und Echtzeit-Verkehrsdaten."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Autonomer ML-Landwirtschaftsrover für Echtzeit-Felddaten. 1. Platz beim Fusion Techathon 3.0."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Fähigkeiten",
+    "heading": "Technische Expertise.",
     "categories": {
-      "languages": "Languages",
+      "languages": "Sprachen",
       "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "agenticAI": "Agentische KI & RAG",
+      "infrastructure": "Infrastruktur"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "Ausbildung",
+    "heading": "Akademische Grundlage.",
+    "degree": "B.E. in KI und Datenwissenschaft",
+    "university": "Visvesvaraya Technologische Universität (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Kernfächer",
+    "award": "1. Platz — Fusion Techathon 3.0",
+    "awardDesc": "104 Teams übertroffen mit dem autonomen KrushiAI-Rover"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "Kontakt",
+    "heading": "Lass uns gemeinsam etwas <accent>Intelligentes</accent> bauen.",
+    "email": "E-Mail",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "Lebenslauf"
   },
   "contactForm": {
-    "title": "Get in Touch",
+    "title": "Kontakt",
     "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "namePlaceholder": "Ihr Name",
+    "email": "E-Mail",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Zweck",
+    "purposePlaceholder": "Worüber möchten Sie sprechen?",
+    "send": "Nachricht senden",
+    "sending": "Mail wird geöffnet...",
+    "toastTitle": "Mail geöffnet!",
+    "toastDesc": "Danke für Ihre Nachricht."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "Bengaluru, Indien"
   }
 }
