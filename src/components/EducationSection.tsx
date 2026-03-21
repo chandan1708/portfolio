@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { GraduationCap, Award, BookOpen } from "lucide-react";
+import { GraduationCap, Award } from "lucide-react";
 
 const EducationSection = () => {
   return (
@@ -88,32 +88,6 @@ const EducationSection = () => {
               </div>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="rounded-xl border border-border bg-card p-6 card-hover"
-            >
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/20 flex items-center justify-center shrink-0">
-                  <BookOpen className="w-5 h-5 text-accent" />
-                </div>
-                <div>
-                  <h3 className="font-display text-lg text-foreground">
-                    Certifications
-                  </h3>
-                  <div className="mt-2 space-y-1.5">
-                    {["AWS Cloud Practitioner", "Deep Learning Specialization", "LangChain for LLM Applications"].map((cert) => (
-                      <p key={cert} className="font-body text-sm text-muted-foreground flex items-center gap-2">
-                        <span className="w-1 h-1 rounded-full bg-accent/50" />
-                        {cert}
-                      </p>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </motion.div>
           </div>
         </div>
       </div>
