@@ -62,7 +62,7 @@ const ContactFormDialog = ({ open, onClose }: ContactFormDialogProps) => {
             transition={{ type: "spring", duration: 0.5 }}
             className="fixed inset-4 z-[60] m-auto w-[90vw] max-w-md h-fit max-h-[85vh] overflow-y-auto rounded-2xl border border-border bg-card p-5 shadow-xl"
           >
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-4">
               <h3 className="font-display text-xl text-foreground">Get in Touch</h3>
               <button
                 onClick={onClose}
