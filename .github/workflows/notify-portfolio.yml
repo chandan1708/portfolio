@@ -1,0 +1,30 @@
+name: Notify Portfolio to Sync
+
+# ──────────────────────────────────────────────────────────────────────────────
+# COPY THIS FILE into .github/workflows/ of any project repo you want
+# to trigger an automatic portfolio sync when you push to main.
+#
+# Required secret in THAT project repo:
+#   GH_PAT — a fine-grained GitHub PAT with `contents: write` on the
+#             senior-portfolio repo.
+# ──────────────────────────────────────────────────────────────────────────────
+
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  notify-portfolio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger portfolio sync
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
+          repository: chandan1708/senior-portfolio
+          event-type: portfolio-sync
+          client-payload: |
+            {
+              "repo": "${{ github.repository }}",
+              "ref": "${{ github.ref }}"
+            }

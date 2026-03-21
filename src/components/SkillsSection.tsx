@@ -1,15 +1,28 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { useGithubData } from "@/hooks/use-github-data";
 
-const skillCategories = [
-  { titleKey: "skills.categories.languages", skills: ["Python", "Java", "C/C++", "EDA"] },
-  { titleKey: "skills.categories.deepLearning", skills: ["CNN / ANN / RNN", "TensorFlow", "Transformers", "Fine-Tuning (LoRA, QLoRA)", "Prompt Engineering"] },
-  { titleKey: "skills.categories.agenticAI", skills: ["LangChain", "LangGraph", "GraphRAG", "RAFT", "CAG", "BLEU Evaluation"] },
-  { titleKey: "skills.categories.infrastructure", skills: ["MySQL", "MongoDB", "Chroma DB", "Astra DB", "AWS", "FastAPI", "Django REST"] },
-];
+// Category order: keeps the display consistent even when new categories are detected
+const CATEGORY_ORDER = ["Languages", "Deep Learning", "Agentic AI & RAG", "Infrastructure"];
 
 const SkillsSection = () => {
   const { t } = useTranslation();
+  const { data } = useGithubData();
+  const rawSkills = data?.skills ?? {};
+
+  // Sort categories: known order first, then any new GitHub-detected categories
+  const categoryKeys = [
+    ...CATEGORY_ORDER.filter((k) => k in rawSkills),
+    ...Object.keys(rawSkills).filter((k) => !CATEGORY_ORDER.includes(k)),
+  ];
+
+  // Map category key → i18n key (fallback to raw key)
+  const categoryI18nMap: Record<string, string> = {
+    Languages: "skills.categories.languages",
+    "Deep Learning": "skills.categories.deepLearning",
+    "Agentic AI & RAG": "skills.categories.agenticAI",
+    Infrastructure: "skills.categories.infrastructure",
+  };
 
   return (
     <section id="skills" className="section-padding bg-secondary/30">
@@ -31,19 +44,19 @@ const SkillsSection = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {skillCategories.map((cat, i) => (
+          {categoryKeys.map((cat, i) => (
             <motion.div
-              key={cat.titleKey}
+              key={cat}
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="rounded-xl border border-border bg-card p-6 card-hover"
             >
               <h3 className="font-mono text-xs tracking-[0.15em] uppercase text-accent mb-6 pb-3 border-b border-border">
-                {t(cat.titleKey)}
+                {categoryI18nMap[cat] ? t(categoryI18nMap[cat]) : cat}
               </h3>
               <div className="space-y-3">
-                {cat.skills.map((skill) => (
+                {(rawSkills[cat] ?? []).map((skill) => (
                   <p key={skill} className="font-body text-[15px] text-foreground flex items-center gap-2">
                     <span className="w-1 h-1 rounded-full bg-accent/50" />
                     {skill}

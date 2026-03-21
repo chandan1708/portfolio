@@ -1,0 +1,56 @@
+name: Sync Portfolio from GitHub
+
+on:
+  # Triggered by other repos via repository_dispatch
+  repository_dispatch:
+    types: [portfolio-sync]
+
+  # Manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+  # Also run on any push to THIS portfolio repo (keeps data fresh)
+  push:
+    branches: [main]
+    paths-ignore:
+      - "public/github-data.json"   # avoid infinite loop
+      - "scripts/**"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout portfolio repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync GitHub repos → public/github-data.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_USERNAME: chandan1708
+        run: node scripts/sync-github.mjs
+
+      - name: Update profile README (What I Build + The Stack)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: node scripts/update-readme.mjs
+
+      - name: Commit & push updated github-data.json (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/github-data.json
+          if git diff --cached --quiet; then
+            echo "No changes to github-data.json — skipping commit."
+          else
+            git commit -m "chore: auto-sync portfolio data [skip ci]"
+            git push
+          fi

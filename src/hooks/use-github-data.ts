@@ -1,0 +1,98 @@
+import { useQuery } from "@tanstack/react-query";
+
+export interface GithubProject {
+    number: string;
+    key: string;
+    title: string;
+    description: string;
+    tags: string[];
+    github: string;
+    demo: string;
+    highlight: boolean;
+}
+
+export interface GithubData {
+    lastUpdated: string;
+    projects: GithubProject[];
+    skills: Record<string, string[]>;
+}
+
+const FALLBACK_DATA: GithubData = {
+    lastUpdated: "",
+    projects: [
+        {
+            number: "01",
+            key: "alp",
+            title: "ALP Intelligence Surveillance",
+            description:
+                "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%.",
+            tags: ["Deep Learning", "Computer Vision", "Real-time"],
+            github: "",
+            demo: "",
+            highlight: true,
+        },
+        {
+            number: "02",
+            key: "accirescue",
+            title: "ACCIRESCUE",
+            description:
+                "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%.",
+            tags: ["Computer Vision", "Real-time Analytics", "Emergency"],
+            github: "",
+            demo: "",
+            highlight: false,
+        },
+        {
+            number: "03",
+            key: "krushi",
+            title: "KrushiAI",
+            description:
+                "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams.",
+            tags: ["Machine Learning", "IoT", "Autonomous Systems"],
+            github: "",
+            demo: "",
+            highlight: true,
+        },
+    ],
+    skills: {
+        Languages: ["Python", "Java", "C/C++", "EDA"],
+        "Deep Learning": [
+            "CNN / ANN / RNN",
+            "TensorFlow",
+            "Transformers",
+            "Fine-Tuning (LoRA, QLoRA)",
+            "Prompt Engineering",
+        ],
+        "Agentic AI & RAG": [
+            "LangChain",
+            "LangGraph",
+            "GraphRAG",
+            "RAFT",
+            "CAG",
+            "BLEU Evaluation",
+        ],
+        Infrastructure: [
+            "MySQL",
+            "MongoDB",
+            "Chroma DB",
+            "Astra DB",
+            "AWS",
+            "FastAPI",
+            "Django REST",
+        ],
+    },
+};
+
+export function useGithubData() {
+    return useQuery<GithubData>({
+        queryKey: ["github-data"],
+        queryFn: async () => {
+            const res = await fetch("/github-data.json");
+            if (!res.ok) throw new Error("Failed to load github-data.json");
+            return res.json();
+        },
+        staleTime: 1000 * 60 * 5, // cache for 5 min
+        placeholderData: FALLBACK_DATA,
+        retry: 1,
+    });
+}

@@ -1,15 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
 import { useTranslation } from "react-i18next";
-
-const projects = [
-  { number: "01", key: "alp", tags: ["Deep Learning", "Computer Vision", "Real-time"], demo: "", github: "", highlight: true },
-  { number: "02", key: "accirescue", tags: ["Computer Vision", "Real-time Analytics", "Emergency"], demo: "", github: "", highlight: false },
-  { number: "03", key: "krushi", tags: ["Machine Learning", "IoT", "Autonomous Systems"], demo: "", github: "", highlight: true },
-];
+import { useGithubData } from "@/hooks/use-github-data";
 
 const ProjectsSection = () => {
   const { t } = useTranslation();
+  const { data } = useGithubData();
+  const projects = data?.projects ?? [];
 
   return (
     <section id="projects" className="section-padding">
@@ -43,7 +40,8 @@ const ProjectsSection = () => {
               <div>
                 <div className="flex items-center gap-3 mb-2">
                   <h3 className="font-display text-xl md:text-2xl text-foreground group-hover:text-accent transition-colors duration-300">
-                    {t(`projects.items.${p.key}.title`)}
+                    {/* Use i18n key if it exists for curated projects, else use title directly */}
+                    {t(`projects.items.${p.key}.title`, { defaultValue: p.title })}
                   </h3>
                   {p.highlight && (
                     <span className="px-2 py-0.5 text-[9px] font-mono tracking-widest uppercase rounded-full bg-accent/10 text-accent border border-accent/20">
@@ -52,7 +50,7 @@ const ProjectsSection = () => {
                   )}
                 </div>
                 <p className="text-muted-foreground font-body text-[15px] leading-relaxed mb-4 max-w-xl">
-                  {t(`projects.items.${p.key}.description`)}
+                  {t(`projects.items.${p.key}.description`, { defaultValue: p.description })}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {p.tags.map((tag) => (
