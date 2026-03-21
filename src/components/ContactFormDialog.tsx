@@ -110,7 +110,7 @@ const ContactFormDialog = ({ open, onClose }: ContactFormDialogProps) => {
                 <textarea
                   required
                   maxLength={1000}
-                  rows={3}
+                  rows={2}
                   value={purpose}
                   onChange={(e) => setPurpose(e.target.value)}
                   placeholder="What would you like to discuss?"
