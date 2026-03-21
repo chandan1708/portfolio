@@ -1,124 +1,124 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "contact": "Contacto"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "Disponible para oportunidades",
+    "subtitle": "Ingeniero de IA Generativa — Bengaluru, India",
+    "heading": "Construyo sistemas inteligentes que <accent>transforman</accent> cómo las empresas entienden los datos.",
+    "description": "Especializado en LLMs, IA Agéntica y pipelines RAG. Actualmente desarrollando herramientas de IA en <company>WordWise Language Labs</company>.",
+    "cta": "Contactar",
+    "resume": "Descargar CV",
+    "scroll": "Desplazar"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Acerca de",
+    "heading": "Construyendo sistemas de IA que crean <accent>impacto real</accent>.",
+    "p1": "Soy un ingeniero de IA generativa en Bengaluru, actualmente en WordWise Language Labs donde desarrollo herramientas de IA agéntica y pipelines de datos multi-fuente — mejora del 35% en precisión de recuperación de conocimiento y eliminación del 95% de intervención manual.",
+    "p2": "Con un B.E. en IA y Ciencia de Datos de VTU, me especializo en fine-tuning de LLM (LoRA, QLoRA), arquitecturas RAG (GraphRAG, RAFT, CAG) y soluciones escalables con LangChain, LangGraph y AWS.",
+    "p3": "Apasionado por la visión por computadora, el aprendizaje profundo y la creación de sistemas de IA que resuelven problemas — desde inteligencia de vigilancia hasta respuesta de emergencia.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Sistemas construidos",
+      "modelsDeployed": "Modelos desplegados",
+      "dataProcessed": "Datos procesados",
+      "efficiencyGain": "Ganancia de eficiencia"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Experiencia",
+    "heading": "Donde he generado impacto.",
+    "current": "Actual",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Ingeniero de IA Generativa",
+        "period": "Sep 2024 — Presente",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Desarrollé el algoritmo central del producto Wordsworth integrando pipelines de datos multi-fuente con herramientas de IA agéntica",
+          "Logré 35% de mejora en precisión y 95% de eliminación de intervención manual",
+          "Mejoré la inteligencia de contenido multilingüe mediante frameworks agénticos escalables"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "Pasante de I+D",
+        "period": "Nov 2023 — Abr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Desarrollé scripts Python automatizados que aumentaron la eficiencia de procesamiento en un 30%",
+          "Reduje el tiempo de procesamiento un 25% mediante pipelines optimizados",
+          "Diseñé un dashboard embebido con PySide6, reduciendo el esfuerzo manual un 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Proyectos",
+    "heading": "Trabajo seleccionado.",
+    "featured": "Destacado",
+    "liveDemo": "Demo en vivo",
+    "sourceCode": "Código fuente",
+    "linksSoon": "Enlaces próximamente",
     "items": {
       "alp": {
         "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "description": "Sistema avanzado de vigilancia IA con detección de uso de teléfono en tiempo real, monitoreo de residuos y seguimiento de asistencia con 89% de precisión. Reducción del 40% en supervisión manual."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "Detección de accidentes y enrutamiento de emergencia con IA usando feeds CCTV en vivo y datos de tráfico en tiempo real, mejora del 40% en eficiencia de respuesta de emergencia."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Rover agrícola autónomo impulsado por ML para datos de campo y recomendaciones de cultivos en tiempo real. 1er lugar en Fusion Techathon 3.0, superando a 104 equipos."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Habilidades",
+    "heading": "Experiencia técnica.",
     "categories": {
-      "languages": "Languages",
+      "languages": "Lenguajes",
       "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "agenticAI": "IA Agéntica y RAG",
+      "infrastructure": "Infraestructura"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Educación",
+    "heading": "Base académica.",
+    "degree": "B.E. en IA y Ciencia de Datos",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Cursos principales",
+    "award": "1er lugar — Fusion Techathon 3.0",
+    "awardDesc": "Superó a 104 equipos con el rover agrícola KrushiAI"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
+    "label": "Contacto",
+    "heading": "Construyamos algo <accent>inteligente</accent> juntos.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "CV"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
+    "title": "Contactar",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Propósito",
+    "purposePlaceholder": "¿Qué te gustaría discutir?",
+    "send": "Enviar mensaje",
+    "sending": "Abriendo correo...",
+    "toastTitle": "¡Cliente de correo abierto!",
+    "toastDesc": "Gracias por contactar."
   },
   "footer": {
     "location": "Bengaluru, India"

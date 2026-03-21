@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "ಪರಿಚಯ",
+    "experience": "ಅನುಭವ",
+    "projects": "ಯೋಜನೆಗಳು",
+    "skills": "ಕೌಶಲ್ಯಗಳು",
+    "education": "ಶಿಕ್ಷಣ",
+    "contact": "ಸಂಪರ್ಕ"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "ಅವಕಾಶಗಳಿಗೆ ಲಭ್ಯ",
+    "subtitle": "ಜನರೇಟಿವ್ AI ಇಂಜಿನಿಯರ್ — ಬೆಂಗಳೂರು, ಭಾರತ",
+    "heading": "ವ್ಯಾಪಾರಗಳು ಡೇಟಾವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ ರೀತಿಯನ್ನು <accent>ಬದಲಾಯಿಸುವ</accent> ಬುದ್ಧಿವಂತ ವ್ಯವಸ್ಥೆಗಳನ್ನು ನಾನು ನಿರ್ಮಿಸುತ್ತೇನೆ.",
+    "description": "LLMs, ಏಜೆಂಟಿಕ್ AI, ಮತ್ತು RAG ಪೈಪ್‌ಲೈನ್‌ಗಳಲ್ಲಿ ವಿಶೇಷಜ್ಞತೆ. ಪ್ರಸ್ತುತ <company>WordWise Language Labs</company> ನಲ್ಲಿ AI ಸಾಧನಗಳನ್ನು ನಿರ್ಮಿಸುತ್ತಿದ್ದೇನೆ.",
+    "cta": "ಸಂಪರ್ಕಿಸಿ",
+    "resume": "ರೆಸ್ಯೂಮೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "scroll": "ಸ್ಕ್ರಾಲ್ ಮಾಡಿ"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "ಪರಿಚಯ",
+    "heading": "<accent>ನಿಜವಾದ ಪರಿಣಾಮ</accent> ಬೀರುವ AI ವ್ಯವಸ್ಥೆಗಳನ್ನು ನಿರ್ಮಿಸುವುದು.",
+    "p1": "ನಾನು ಬೆಂಗಳೂರಿನಲ್ಲಿರುವ ಜನರೇಟಿವ್ AI ಇಂಜಿನಿಯರ್, ಪ್ರಸ್ತುತ WordWise Language Labs ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ, ಅಲ್ಲಿ ಏಜೆಂಟಿಕ್ AI ಸಾಧನಗಳು ಮತ್ತು ಮಲ್ಟಿ-ಸೋರ್ಸ್ ಡೇಟಾ ಪೈಪ್‌ಲೈನ್‌ಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸುತ್ತಿದ್ದೇನೆ — ಜ್ಞಾನ ಹಿಂಪಡೆಯುವಿಕೆ ನಿಖರತೆಯಲ್ಲಿ 35% ಸುಧಾರಣೆ ಮತ್ತು 95% ಹಸ್ತಚಾಲಿತ ಹಸ್ತಕ್ಷೇಪ ನಿವಾರಣೆ.",
+    "p2": "VTU ಯಿಂದ AI ಮತ್ತು ಡೇಟಾ ಸೈನ್ಸ್‌ನಲ್ಲಿ B.E. ಯೊಂದಿಗೆ, ನಾನು LLM ಫೈನ್-ಟ್ಯೂನಿಂಗ್ (LoRA, QLoRA), RAG ಆರ್ಕಿಟೆಕ್ಚರ್‌ಗಳು (GraphRAG, RAFT, CAG), ಮತ್ತು LangChain, LangGraph, ಮತ್ತು AWS ಬಳಸಿ ಸ್ಕೇಲೆಬಲ್ ಪರಿಹಾರಗಳನ್ನು ನಿರ್ಮಿಸುವುದರಲ್ಲಿ ವಿಶೇಷಜ್ಞ.",
+    "p3": "ಕಂಪ್ಯೂಟರ್ ವಿಷನ್, ಡೀಪ್ ಲರ್ನಿಂಗ್, ಮತ್ತು ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸುವ AI ವ್ಯವಸ್ಥೆಗಳನ್ನು ರಚಿಸುವ ಬಗ್ಗೆ ಉತ್ಸಾಹ — ಕಣ್ಗಾವಲು ಬುದ್ಧಿಮತ್ತೆಯಿಂದ ತುರ್ತು ಪ್ರತಿಕ್ರಿಯೆಯವರೆಗೆ.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "ನಿರ್ಮಿತ ವ್ಯವಸ್ಥೆಗಳು",
+      "modelsDeployed": "ನಿಯೋಜಿತ ಮಾದರಿಗಳು",
+      "dataProcessed": "ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿದ ಡೇಟಾ",
+      "efficiencyGain": "ದಕ್ಷತೆ ಲಾಭ"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "ಅನುಭವ",
+    "heading": "ನಾನು ಪರಿಣಾಮ ಬೀರಿದಲ್ಲಿ.",
+    "current": "ಪ್ರಸ್ತುತ",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "ಜನರೇಟಿವ್ AI ಇಂಜಿನಿಯರ್",
+        "period": "ಸೆಪ್ಟೆಂ 2024 — ಪ್ರಸ್ತುತ",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "ಮಲ್ಟಿ-ಸೋರ್ಸ್ ಡೇಟಾ ಪೈಪ್‌ಲೈನ್‌ಗಳನ್ನು ಏಜೆಂಟಿಕ್ AI ಸಾಧನಗಳೊಂದಿಗೆ ಸಂಯೋಜಿಸುವ Wordsworth ಉತ್ಪನ್ನಕ್ಕೆ ಕೋರ್ ಅಲ್ಗಾರಿದಂ ಅಭಿವೃದ್ಧಿಪಡಿಸಿದರು",
+          "ಜ್ಞಾನ ಹಿಂಪಡೆಯುವಿಕೆ ನಿಖರತೆಯಲ್ಲಿ 35% ಸುಧಾರಣೆ ಮತ್ತು 95% ಹಸ್ತಚಾಲಿತ ಹಸ್ತಕ್ಷೇಪ ನಿವಾರಣೆ ಸಾಧಿಸಿದರು",
+          "ಸ್ಕೇಲೆಬಲ್ ಏಜೆಂಟ್-ಚಾಲಿತ ಚೌಕಟ್ಟುಗಳ ಮೂಲಕ ಬಹುಭಾಷಾ ವಿಷಯ ಬುದ್ಧಿಮತ್ತೆಯನ್ನು ವರ್ಧಿಸಿದರು"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "R&D ಇಂಟರ್ನ್",
+        "period": "ನವೆಂ 2023 — ಏಪ್ರಿ 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "ಡೇಟಾ ಪ್ರಕ್ರಿಯಾ ದಕ್ಷತೆಯನ್ನು 30% ಹೆಚ್ಚಿಸುವ ಸ್ವಯಂಚಾಲಿತ Python ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಿದರು",
+          "ಅನುಕೂಲಿತ ಡೇಟಾ ಪೈಪ್‌ಲೈನ್‌ಗಳ ಮೂಲಕ ಪ್ರಕ್ರಿಯಾ ಸಮಯವನ್ನು 25% ಕಡಿಮೆ ಮಾಡಿದರು",
+          "PySide6 ಬಳಸಿ ಎಂಬೆಡೆಡ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ವಿನ್ಯಾಸಗೊಳಿಸಿದರು, ಹಸ್ತಚಾಲಿತ ಪ್ರಯತ್ನವನ್ನು 50% ಕಡಿಮೆ ಮಾಡಿದರು"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "ಯೋಜನೆಗಳು",
+    "heading": "ಆಯ್ದ ಕೆಲಸ.",
+    "featured": "ವಿಶೇಷ",
+    "liveDemo": "ಲೈವ್ ಡೆಮೊ",
+    "sourceCode": "ಸೋರ್ಸ್ ಕೋಡ್",
+    "linksSoon": "ಲಿಂಕ್‌ಗಳು ಶೀಘ್ರದಲ್ಲಿ",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP ಇಂಟೆಲಿಜೆನ್ಸ್ ಸರ್ವೆಲೆನ್ಸ್",
+        "description": "ರಿಯಲ್-ಟೈಮ್ ಫೋನ್ ಬಳಕೆ ಪತ್ತೆ, ತ್ಯಾಜ್ಯ ಮೇಲ್ವಿಚಾರಣೆ, ಮತ್ತು 89% ನಿಖರತೆ ಹೊಂದಿರುವ ಹಾಜರಾತಿ ಟ್ರ್ಯಾಕಿಂಗ್ ಹೊಂದಿರುವ ಮುಂದುವರಿದ AI ಕಣ್ಗಾವಲು ವ್ಯವಸ್ಥೆ. ಹಸ್ತಚಾಲಿತ ಮೇಲ್ವಿಚಾರಣೆಯಲ್ಲಿ 40% ಕಡಿತ."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "ಲೈವ್ CCTV ಫೀಡ್‌ಗಳು ಮತ್ತು ರಿಯಲ್-ಟೈಮ್ ಟ್ರಾಫಿಕ್ ಡೇಟಾವನ್ನು ಬಳಸಿಕೊಳ್ಳುವ AI-ಚಾಲಿತ ಅಪಘಾತ ಪತ್ತೆ ಮತ್ತು ತುರ್ತು ರೂಟಿಂಗ್, ತುರ್ತು ಪ್ರತಿಕ್ರಿಯೆ ದಕ್ಷತೆಯಲ್ಲಿ 40% ಸುಧಾರಣೆ."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "ರಿಯಲ್-ಟೈಮ್ ಕ್ಷೇತ್ರ ಡೇಟಾ ಮತ್ತು ಬೆಳೆ ಶಿಫಾರಸುಗಳಿಗಾಗಿ ಸ್ವಾಯತ್ತ ML-ಚಾಲಿತ ಕೃಷಿ ರೋವರ್. Fusion Techathon 3.0 ನಲ್ಲಿ 104 ತಂಡಗಳನ್ನು ಮೀರಿ ಪ್ರಥಮ ಸ್ಥಾನ ಗೆದ್ದಿತು."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "ಕೌಶಲ್ಯಗಳು",
+    "heading": "ತಾಂತ್ರಿಕ ಪರಿಣತಿ.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "ಭಾಷೆಗಳು",
+      "deepLearning": "ಡೀಪ್ ಲರ್ನಿಂಗ್",
+      "agenticAI": "ಏಜೆಂಟಿಕ್ AI ಮತ್ತು RAG",
+      "infrastructure": "ಮೂಲಸೌಕರ್ಯ"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "ಶಿಕ್ಷಣ",
+    "heading": "ಶೈಕ್ಷಣಿಕ ಅಡಿಪಾಯ.",
+    "degree": "AI ಮತ್ತು ಡೇಟಾ ಸೈನ್ಸ್‌ನಲ್ಲಿ B.E.",
+    "university": "ವಿಶ್ವೇಶ್ವರಯ್ಯ ತಾಂತ್ರಿಕ ವಿಶ್ವವಿದ್ಯಾಲಯ (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "ಪ್ರಮುಖ ಪಠ್ಯಕ್ರಮ",
+    "award": "ಪ್ರಥಮ ಸ್ಥಾನ — Fusion Techathon 3.0",
+    "awardDesc": "KrushiAI ಸ್ವಾಯತ್ತ ಕೃಷಿ ರೋವರ್‌ನೊಂದಿಗೆ 104 ತಂಡಗಳನ್ನು ಮೀರಿದರು"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "ಸಂಪರ್ಕ",
+    "heading": "ಒಟ್ಟಿಗೆ ಏನಾದರೂ <accent>ಬುದ್ಧಿವಂತ</accent> ನಿರ್ಮಿಸೋಣ.",
+    "email": "ಇಮೇಲ್",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "ರೆಸ್ಯೂಮೆ"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "ಸಂಪರ್ಕಿಸಿ",
+    "name": "ಹೆಸರು",
+    "namePlaceholder": "ನಿಮ್ಮ ಹೆಸರು",
+    "email": "ಇಮೇಲ್",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "ಉದ್ದೇಶ",
+    "purposePlaceholder": "ನೀವು ಏನನ್ನು ಚರ್ಚಿಸಲು ಬಯಸುತ್ತೀರಿ?",
+    "send": "ಸಂದೇಶ ಕಳುಹಿಸಿ",
+    "sending": "ಮೇಲ್ ತೆರೆಯುತ್ತಿದೆ...",
+    "toastTitle": "ಮೇಲ್ ಕ್ಲೈಂಟ್ ತೆರೆಯಿತು!",
+    "toastDesc": "ಸಂಪರ್ಕಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "ಬೆಂಗಳೂರು, ಭಾರತ"
   }
 }

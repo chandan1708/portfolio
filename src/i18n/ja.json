@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "紹介",
+    "experience": "経験",
+    "projects": "プロジェクト",
+    "skills": "スキル",
+    "education": "学歴",
+    "contact": "連絡先"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "機会を探しています",
+    "subtitle": "生成AIエンジニア — バンガロール、インド",
+    "heading": "ビジネスのデータ理解を<accent>変革</accent>するインテリジェントシステムを構築しています。",
+    "description": "LLM、エージェンティックAI、RAGパイプラインを専門としています。現在<company>WordWise Language Labs</company>でAIツールを開発中。",
+    "cta": "お問い合わせ",
+    "resume": "履歴書ダウンロード",
+    "scroll": "スクロール"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "紹介",
+    "heading": "<accent>実質的な影響</accent>を生み出すAIシステムの構築。",
+    "p1": "バンガロール拠点の生成AIエンジニアです。現在WordWise Language Labsでエージェンティック AIツールとマルチソースデータパイプラインを開発 — 知識検索精度35%向上、手動介入95%削減。",
+    "p2": "VTUのAI&データサイエンスB.E.取得。LLMファインチューニング(LoRA, QLoRA)、RAGアーキテクチャ(GraphRAG, RAFT, CAG)、LangChain、LangGraph、AWSを使用したスケーラブルソリューション構築を専門としています。",
+    "p3": "コンピュータビジョン、ディープラーニング、問題解決AIシステムの構築に情熱を注いでいます — 監視インテリジェンスから緊急対応まで。",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "構築システム",
+      "modelsDeployed": "デプロイモデル",
+      "dataProcessed": "処理データ",
+      "efficiencyGain": "効率向上"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "経験",
+    "heading": "インパクトを与えた場所。",
+    "current": "現在",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "生成AIエンジニア",
+        "period": "2024年9月 — 現在",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "マルチソースデータパイプラインとエージェンティックAIツールを統合するWordsworth製品のコアアルゴリズムを開発",
+          "知識検索精度35%向上、手動介入95%削減を達成",
+          "スケーラブルなエージェント駆動フレームワークで多言語コンテンツインテリジェンスを強化"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "R&Dインターン",
+        "period": "2023年11月 — 2024年4月",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "データ処理効率を30%向上させる自動化Pythonスクリプトを開発",
+          "最適化されたパイプラインで処理時間を25%短縮",
+          "PySide6で組込みダッシュボードを設計、手動作業50%削減"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "プロジェクト",
+    "heading": "選りすぐりの作品。",
+    "featured": "注目",
+    "liveDemo": "ライブデモ",
+    "sourceCode": "ソースコード",
+    "linksSoon": "リンク準備中",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALPインテリジェンス監視",
+        "description": "リアルタイム携帯使用検出、廃棄物監視、89%精度の出席追跡を備えた高度なAI監視システム。手動監視40%削減。"
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "ライブCCTVとリアルタイム交通データを活用したAI駆動の事故検出・緊急ルーティング。緊急対応効率40%向上。"
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "リアルタイムフィールドデータと作物推奨のための自律ML駆動農業ローバー。Fusion Techathon 3.0で104チームに勝利し1位。"
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "スキル",
+    "heading": "技術的専門性。",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "言語",
+      "deepLearning": "ディープラーニング",
+      "agenticAI": "エージェンティックAI & RAG",
+      "infrastructure": "インフラ"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "学歴",
+    "heading": "学術的基盤。",
+    "degree": "AI&データサイエンス B.E.",
+    "university": "ヴィスヴェスヴァラヤ工科大学 (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "主要科目",
+    "award": "1位 — Fusion Techathon 3.0",
+    "awardDesc": "KrushiAI自律農業ローバーで104チームに勝利"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "連絡先",
+    "heading": "一緒に<accent>インテリジェント</accent>なものを作りましょう。",
+    "email": "メール",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "履歴書"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "お問い合わせ",
+    "name": "名前",
+    "namePlaceholder": "お名前",
+    "email": "メール",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "目的",
+    "purposePlaceholder": "何について相談されますか？",
+    "send": "メッセージ送信",
+    "sending": "メール起動中...",
+    "toastTitle": "メールクライアント起動！",
+    "toastDesc": "お問い合わせありがとうございます。"
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "バンガロール、インド"
   }
 }

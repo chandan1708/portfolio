@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "education": "Educação",
+    "contact": "Contato"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "Disponível para oportunidades",
+    "subtitle": "Engenheiro de IA Generativa — Bengaluru, Índia",
+    "heading": "Construo sistemas inteligentes que <accent>transformam</accent> como empresas entendem dados.",
+    "description": "Especializado em LLMs, IA Agêntica e pipelines RAG. Atualmente desenvolvendo ferramentas de IA na <company>WordWise Language Labs</company>.",
+    "cta": "Entre em contato",
+    "resume": "Baixar currículo",
+    "scroll": "Rolar"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Sobre",
+    "heading": "Construindo sistemas de IA que criam <accent>impacto real</accent>.",
+    "p1": "Sou um engenheiro de IA generativa em Bengaluru, atualmente na WordWise Language Labs onde desenvolvo ferramentas de IA agêntica e pipelines de dados multi-fonte — melhoria de 35% na precisão de recuperação de conhecimento e eliminação de 95% da intervenção manual.",
+    "p2": "Com B.E. em IA e Ciência de Dados pela VTU, me especializo em fine-tuning de LLM (LoRA, QLoRA), arquiteturas RAG (GraphRAG, RAFT, CAG) e soluções escaláveis com LangChain, LangGraph e AWS.",
+    "p3": "Apaixonado por visão computacional, deep learning e criação de sistemas de IA que resolvem problemas — de inteligência de vigilância a resposta de emergência.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Sistemas construídos",
+      "modelsDeployed": "Modelos implantados",
+      "dataProcessed": "Dados processados",
+      "efficiencyGain": "Ganho de eficiência"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Experiência",
+    "heading": "Onde causei impacto.",
+    "current": "Atual",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Engenheiro de IA Generativa",
+        "period": "Set 2024 — Presente",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Desenvolvi algoritmo central do produto Wordsworth integrando pipelines multi-fonte com ferramentas de IA agêntica",
+          "Alcancei 35% de melhoria na precisão e 95% de eliminação de intervenção manual",
+          "Aprimorei inteligência de conteúdo multilíngue através de frameworks agênticos escaláveis"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "Estagiário de P&D",
+        "period": "Nov 2023 — Abr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Desenvolvi scripts Python automatizados aumentando eficiência de processamento em 30%",
+          "Reduzi tempo de processamento em 25% com pipelines otimizados",
+          "Projetei dashboard embarcado com PySide6, reduzindo esforço manual em 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Projetos",
+    "heading": "Trabalhos selecionados.",
+    "featured": "Destaque",
+    "liveDemo": "Demo ao vivo",
+    "sourceCode": "Código fonte",
+    "linksSoon": "Links em breve",
     "items": {
       "alp": {
         "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "description": "Sistema avançado de vigilância IA com detecção de uso de celular em tempo real, monitoramento de resíduos e rastreamento de presença com 89% de precisão. Redução de 40% na supervisão manual."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "Detecção de acidentes e roteamento de emergência com IA usando CCTV ao vivo e dados de tráfego em tempo real, melhoria de 40% na eficiência de resposta de emergência."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Rover agrícola autônomo com ML para dados de campo e recomendações de cultivo em tempo real. 1º lugar no Fusion Techathon 3.0, superando 104 equipes."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Habilidades",
+    "heading": "Expertise técnica.",
     "categories": {
-      "languages": "Languages",
+      "languages": "Linguagens",
       "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "agenticAI": "IA Agêntica & RAG",
+      "infrastructure": "Infraestrutura"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Educação",
+    "heading": "Base acadêmica.",
+    "degree": "B.E. em IA & Ciência de Dados",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Disciplinas principais",
+    "award": "1º lugar — Fusion Techathon 3.0",
+    "awardDesc": "Superou 104 equipes com o rover agrícola KrushiAI"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
+    "label": "Contato",
+    "heading": "Vamos construir algo <accent>inteligente</accent> juntos.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "Currículo"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
+    "title": "Entre em contato",
+    "name": "Nome",
+    "namePlaceholder": "Seu nome",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Propósito",
+    "purposePlaceholder": "O que gostaria de discutir?",
+    "send": "Enviar mensagem",
+    "sending": "Abrindo email...",
+    "toastTitle": "Cliente de email aberto!",
+    "toastDesc": "Obrigado pelo contato."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "Bengaluru, Índia"
   }
 }
