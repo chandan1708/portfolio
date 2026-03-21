@@ -91,10 +91,8 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="mt-10 flex flex-wrap items-center gap-4"
             >
-              <a
-                href="mailto:chandan17.ramesh@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => setContactOpen(true)}
                 className="group inline-flex items-center px-6 py-3 rounded-full bg-foreground text-background font-body text-sm font-medium hover:shadow-glow hover:scale-[1.02] transition-all duration-300"
               >
                 Get in touch
@@ -105,7 +103,8 @@ const HeroSection = () => {
                 >
                   →
                 </motion.span>
-              </a>
+              </button>
+              <ContactFormDialog open={contactOpen} onClose={() => setContactOpen(false)} />
               <a
                 href="https://drive.google.com/file/d/1HIYJdLuQCS-7Gzy0s9IUwbQUJUX_4FG3/view?usp=sharing"
                 target="_blank"
