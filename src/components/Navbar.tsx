@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
+import LanguageSwitcher from "./LanguageSwitcher";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
