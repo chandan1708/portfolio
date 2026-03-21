@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-const navItems = ["About", "Experience", "Projects", "Skills", "Education", "Publications", "Contact"];
+const navItems = ["About", "Experience", "Projects", "Skills", "Education", /* "Publications", */ "Contact"];
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
