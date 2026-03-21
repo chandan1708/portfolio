@@ -5,6 +5,7 @@ import ContactFormDialog from "./ContactFormDialog";
 import profileNoBg from "@/assets/profile-nobg.png";
 
 const HeroSection = () => {
+  const [contactOpen, setContactOpen] = useState(false);
   const photoRef = useRef<HTMLDivElement>(null);
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
