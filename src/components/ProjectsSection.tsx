@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
@@ -8,7 +8,8 @@ const projects = [
     description:
       "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%.",
     tags: ["Deep Learning", "Computer Vision", "Real-time"],
-    link: "#",
+    demo: "",
+    github: "",
     highlight: true,
   },
   {
@@ -17,7 +18,8 @@ const projects = [
     description:
       "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%.",
     tags: ["Computer Vision", "Real-time Analytics", "Emergency"],
-    link: "#",
+    demo: "",
+    github: "",
     highlight: false,
   },
   {
@@ -26,7 +28,8 @@ const projects = [
     description:
       "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams.",
     tags: ["Machine Learning", "IoT", "Autonomous Systems"],
-    link: "#",
+    demo: "",
+    github: "",
     highlight: true,
   },
 ];
@@ -55,9 +58,8 @@ const ProjectsSection = () => {
 
         <div className="space-y-0">
           {projects.map((p, i) => (
-            <motion.a
+            <motion.div
               key={p.title}
-              href={p.link}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
@@ -81,7 +83,7 @@ const ProjectsSection = () => {
                 <p className="text-muted-foreground font-body text-[15px] leading-relaxed mb-4 max-w-xl">
                   {p.description}
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {p.tags.map((t) => (
                     <span
                       key={t}
@@ -91,9 +93,38 @@ const ProjectsSection = () => {
                     </span>
                   ))}
                 </div>
+                <div className="flex items-center gap-3">
+                  {p.demo && (
+                    <a
+                      href={p.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-mono tracking-wide rounded-full border border-border text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      Live Demo
+                    </a>
+                  )}
+                  {p.github && (
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-mono tracking-wide rounded-full border border-border text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300"
+                    >
+                      <Github className="w-3.5 h-3.5" />
+                      Source Code
+                    </a>
+                  )}
+                  {!p.demo && !p.github && (
+                    <span className="text-xs font-mono tracking-wide text-muted-foreground/50">
+                      Links coming soon
+                    </span>
+                  )}
+                </div>
               </div>
               <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300 mt-1 hidden md:block" />
-            </motion.a>
+            </motion.div>
           ))}
         </div>
       </div>
