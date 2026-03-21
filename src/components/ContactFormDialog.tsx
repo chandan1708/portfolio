@@ -60,7 +60,7 @@ const ContactFormDialog = ({ open, onClose }: ContactFormDialogProps) => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: "spring", duration: 0.5 }}
-            className="fixed left-1/2 top-1/2 z-50 w-[90vw] max-w-md max-h-[90vh] overflow-y-auto -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-border bg-card p-6 shadow-xl"
+            className="fixed inset-4 z-[60] m-auto w-[90vw] max-w-md h-fit max-h-[85vh] overflow-y-auto rounded-2xl border border-border bg-card p-5 shadow-xl"
           >
             <div className="flex items-center justify-between mb-6">
               <h3 className="font-display text-xl text-foreground">Get in Touch</h3>
