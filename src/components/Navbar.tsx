@@ -3,14 +3,16 @@ import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const navItems = ["About", "Experience", "Projects", "Skills", "Education", /* "Publications", */ "Contact"];
+const navKeys = ["about", "experience", "projects", "skills", "education", "contact"];
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const scrollTo = (id: string) => {
-    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setMobileOpen(false);
   };
 
@@ -30,13 +32,13 @@ const Navbar = () => {
         </button>
 
         <div className="hidden md:flex items-center gap-6">
-          {navItems.map((item) => (
+          {navKeys.map((key) => (
             <button
-              key={item}
-              onClick={() => scrollTo(item)}
+              key={key}
+              onClick={() => scrollTo(key)}
               className="text-[13px] font-body font-medium text-muted-foreground hover:text-accent transition-colors tracking-wide uppercase"
             >
-              {item}
+              {t(`nav.${key}`)}
             </button>
           ))}
         </div>
@@ -63,13 +65,13 @@ const Navbar = () => {
             className="md:hidden border-t border-border overflow-hidden bg-background"
           >
             <div className="container mx-auto px-6 py-4 flex flex-col gap-1">
-              {navItems.map((item) => (
+              {navKeys.map((key) => (
                 <button
-                  key={item}
-                  onClick={() => scrollTo(item)}
+                  key={key}
+                  onClick={() => scrollTo(key)}
                   className="text-left text-sm font-body text-muted-foreground hover:text-accent py-3 transition-colors uppercase tracking-wide"
                 >
-                  {item}
+                  {t(`nav.${key}`)}
                 </button>
               ))}
             </div>
