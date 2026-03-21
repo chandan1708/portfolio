@@ -98,7 +98,7 @@ const AboutSection = () => {
               transition={{ duration: 0.5, delay: 0.1 * i }}
             >
               <p className="font-display text-4xl md:text-5xl text-foreground">
-                <AnimatedCounter value={stat.value} suffix={stat.suffix} isDecimal={stat.isDecimal} />
+                <AnimatedCounter value={stat.value} suffix={stat.suffix} />
               </p>
               <p className="font-mono text-xs tracking-wider uppercase text-muted-foreground mt-2">
                 {stat.label}
