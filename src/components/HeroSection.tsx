@@ -1,6 +1,7 @@
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import { useRef, useCallback } from "react";
+import { useRef, useCallback, useState } from "react";
+import ContactFormDialog from "./ContactFormDialog";
 import profileNoBg from "@/assets/profile-nobg.png";
 
 const HeroSection = () => {
