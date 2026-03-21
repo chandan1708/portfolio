@@ -1,124 +1,82 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, Github, ExternalLink } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const projects = [
-  {
-    number: "01",
-    title: "ALP Intelligence Surveillance",
-    description:
-      "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%.",
-    tags: ["Deep Learning", "Computer Vision", "Real-time"],
-    demo: "",
-    github: "",
-    highlight: true,
-  },
-  {
-    number: "02",
-    title: "ACCIRESCUE",
-    description:
-      "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%.",
-    tags: ["Computer Vision", "Real-time Analytics", "Emergency"],
-    demo: "",
-    github: "",
-    highlight: false,
-  },
-  {
-    number: "03",
-    title: "KrushiAI",
-    description:
-      "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams.",
-    tags: ["Machine Learning", "IoT", "Autonomous Systems"],
-    demo: "",
-    github: "",
-    highlight: true,
-  },
+  { number: "01", key: "alp", tags: ["Deep Learning", "Computer Vision", "Real-time"], demo: "", github: "", highlight: true },
+  { number: "02", key: "accirescue", tags: ["Computer Vision", "Real-time Analytics", "Emergency"], demo: "", github: "", highlight: false },
+  { number: "03", key: "krushi", tags: ["Machine Learning", "IoT", "Autonomous Systems"], demo: "", github: "", highlight: true },
 ];
 
 const ProjectsSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="projects" className="section-padding">
       <div className="container mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
+          initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.6 }}
           className="mb-16"
         >
           <div className="flex items-center gap-3 mb-4">
             <span className="accent-dot" />
             <p className="font-mono text-xs tracking-[0.2em] uppercase text-muted-foreground">
-              Projects
+              {t("projects.label")}
             </p>
           </div>
           <h2 className="font-display text-3xl md:text-5xl text-foreground">
-            Selected work.
+            {t("projects.heading")}
           </h2>
         </motion.div>
 
         <div className="space-y-0">
           {projects.map((p, i) => (
             <motion.div
-              key={p.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              key={p.key}
+              initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="group grid md:grid-cols-[80px_1fr_auto] gap-4 md:gap-8 items-start py-10 border-t border-border hover:bg-accent/5 -mx-6 px-6 md:-mx-8 md:px-8 transition-all duration-300"
             >
-              <span className="font-mono text-xs text-muted-foreground tracking-wide">
-                {p.number}
-              </span>
+              <span className="font-mono text-xs text-muted-foreground tracking-wide">{p.number}</span>
               <div>
                 <div className="flex items-center gap-3 mb-2">
                   <h3 className="font-display text-xl md:text-2xl text-foreground group-hover:text-accent transition-colors duration-300">
-                    {p.title}
+                    {t(`projects.items.${p.key}.title`)}
                   </h3>
                   {p.highlight && (
                     <span className="px-2 py-0.5 text-[9px] font-mono tracking-widest uppercase rounded-full bg-accent/10 text-accent border border-accent/20">
-                      Featured
+                      {t("projects.featured")}
                     </span>
                   )}
                 </div>
                 <p className="text-muted-foreground font-body text-[15px] leading-relaxed mb-4 max-w-xl">
-                  {p.description}
+                  {t(`projects.items.${p.key}.description`)}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {p.tags.map((t) => (
-                    <span
-                      key={t}
-                      className="px-3 py-1 text-xs font-mono tracking-wide rounded-full border border-border text-muted-foreground group-hover:border-accent/20 transition-colors"
-                    >
-                      {t}
+                  {p.tags.map((tag) => (
+                    <span key={tag} className="px-3 py-1 text-xs font-mono tracking-wide rounded-full border border-border text-muted-foreground group-hover:border-accent/20 transition-colors">
+                      {tag}
                     </span>
                   ))}
                 </div>
                 <div className="flex items-center gap-3">
                   {p.demo && (
-                    <a
-                      href={p.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-mono tracking-wide rounded-full border border-border text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300"
-                    >
-                      <ExternalLink className="w-3.5 h-3.5" />
-                      Live Demo
+                    <a href={p.demo} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-mono tracking-wide rounded-full border border-border text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300">
+                      <ExternalLink className="w-3.5 h-3.5" /> {t("projects.liveDemo")}
                     </a>
                   )}
                   {p.github && (
-                    <a
-                      href={p.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-mono tracking-wide rounded-full border border-border text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300"
-                    >
-                      <Github className="w-3.5 h-3.5" />
-                      Source Code
+                    <a href={p.github} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-mono tracking-wide rounded-full border border-border text-foreground hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300">
+                      <Github className="w-3.5 h-3.5" /> {t("projects.sourceCode")}
                     </a>
                   )}
                   {!p.demo && !p.github && (
                     <span className="text-xs font-mono tracking-wide text-muted-foreground/50">
-                      Links coming soon
+                      {t("projects.linksSoon")}
                     </span>
                   )}
                 </div>
