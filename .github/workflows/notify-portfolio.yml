@@ -1,12 +1,12 @@
 name: Notify Portfolio to Sync
 
 # ──────────────────────────────────────────────────────────────────────────────
-# COPY THIS FILE into .github/workflows/ of any project repo you want
-# to trigger an automatic portfolio sync when you push to main.
+# COPY THIS FILE into .github/workflows/ of YOUR PROJECT REPOS (not this one).
+# When you push to a project repo, it will trigger the portfolio to auto-sync.
 #
-# Required secret in THAT project repo:
-#   GH_PAT — a fine-grained GitHub PAT with `contents: write` on the
-#             senior-portfolio repo.
+# Required secret in each project repo (Settings → Secrets → Actions):
+#   GH_PAT — a fine-grained GitHub PAT with `contents: write` on:
+#             chandan1708/portfolio  AND  chandan1708/chandan1708
 # ──────────────────────────────────────────────────────────────────────────────
 
 on:
@@ -16,15 +16,13 @@ on:
 jobs:
   notify-portfolio:
     runs-on: ubuntu-latest
+    # Guard: do NOT run this on the portfolio repo itself (would be self-referential)
+    if: github.repository != 'chandan1708/portfolio'
     steps:
       - name: Trigger portfolio sync
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GH_PAT }}
-          repository: chandan1708/senior-portfolio
+          repository: chandan1708/portfolio
           event-type: portfolio-sync
-          client-payload: |
-            {
-              "repo": "${{ github.repository }}",
-              "ref": "${{ github.ref }}"
-            }
+          client-payload: '{"repo":"${{ github.repository }}","ref":"${{ github.ref }}"}'

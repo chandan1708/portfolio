@@ -24,8 +24,7 @@ jobs:
     steps:
       - name: Checkout portfolio repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GH_PAT }}
+        # Uses built-in GITHUB_TOKEN — no secrets needed for this step
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -34,11 +33,15 @@ jobs:
 
       - name: Sync GitHub repos → public/github-data.json
         env:
+          # No token needed for public repos — uses unauthenticated API (60 req/hr)
+          # Add GH_PAT secret for higher rate limits (5000 req/hr)
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           GITHUB_USERNAME: chandan1708
         run: node scripts/sync-github.mjs
 
       - name: Update profile README (What I Build + The Stack)
+        # Only runs if GH_PAT secret is configured (needed for cross-repo write)
+        if: ${{ secrets.GH_PAT != '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: node scripts/update-readme.mjs
