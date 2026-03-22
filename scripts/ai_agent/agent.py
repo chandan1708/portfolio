@@ -113,7 +113,7 @@ def fetch_readme(state: AgentState) -> AgentState:
     if not repo:
         return {**state, "error": "No repo specified. Set TRIGGER_REPO env var."}
 
- print(f" Fetching README for {repo}...")
+    print(f" Fetching README for {repo}...")
     try:
         data = gh_get(f"/repos/{repo}/contents/README.md")
         content = base64.b64decode(data["content"]).decode("utf-8")
@@ -139,7 +139,7 @@ def analyze_readme(state: AgentState) -> AgentState:
     if state.get("error"):
         return state
 
- print(" Analyzing README with Groq LLM...")
+    print(" Analyzing README with Groq LLM...")
     readme = state["readme_content"][:8000]  # truncate to fit context
 
     try:
@@ -166,7 +166,7 @@ def update_portfolio_json(state: AgentState) -> AgentState:
     if state.get("error"):
         return state
 
- print(" Updating public/github-data.json...")
+    print(" Updating public/github-data.json...")
     data = json.loads(DATA_FILE.read_text())
 
     key = repo_to_key(state["repo_name"])
@@ -186,14 +186,14 @@ def update_portfolio_json(state: AgentState) -> AgentState:
             "highlight": state["project_highlight"],
         }
         data["projects"].append(new_project)
- print(f" Added new project: {state['project_title']}")
+        print(f" Added new project: {state['project_title']}")
     else:
         # Update existing project's GitHub/demo links + description
         for p in data["projects"]:
             if p["key"] == key:
                 p["github"] = p.get("github") or state["repo_html_url"]
                 p["demo"] = p.get("demo") or state["repo_homepage"]
- print(f"  Project '{key}' already exists — updated links only")
+                print(f"  Project '{key}' already exists — updated links only")
                 break
 
     # ── Merge skills into categories ──────────────────────────────────────────
@@ -206,14 +206,14 @@ def update_portfolio_json(state: AgentState) -> AgentState:
         existing_lower = [s.lower() for s in data["skills"][category]]
         if skill.lower() not in existing_lower:
             data["skills"][category].append(skill)
- print(f" New skill: {skill} -> {category}")
+            print(f" New skill: {skill} -> {category}")
 
     import datetime
     data["lastUpdated"] = datetime.datetime.utcnow().isoformat() + "Z"
 
     if DRY_RUN:
- print("\n DRY RUN — github-data.json would be:\n")
- print(json.dumps(data, indent=2)[:2000])
+        print("\n DRY RUN — github-data.json would be:\n")
+        print(json.dumps(data, indent=2)[:2000])
     else:
         DATA_FILE.write_text(json.dumps(data, indent=2) + "\n")
 
@@ -228,7 +228,7 @@ def update_github_profile_readme(state: AgentState) -> AgentState:
     if state.get("error"):
         return state
 
- print(" Updating GitHub profile README...")
+    print(" Updating GitHub profile README...")
 
     # Read the freshly updated portfolio data
     data = json.loads(DATA_FILE.read_text())
@@ -238,7 +238,7 @@ def update_github_profile_readme(state: AgentState) -> AgentState:
         current = base64.b64decode(file_data["content"]).decode("utf-8")
         sha = file_data["sha"]
     except Exception as e:
- print(f" Could not fetch profile README: {e}")
+        print(f" Could not fetch profile README: {e}")
         return state
 
     # ── Build "What I Build" table ────────────────────────────────────────────
@@ -313,7 +313,7 @@ def update_github_profile_readme(state: AgentState) -> AgentState:
     def replace_section(content, start_marker, end_marker, new_block):
         start_idx = content.find(start_marker)
         if start_idx == -1:
- print(f" Section '{start_marker}' not found in README — skipping")
+            print(f" Section '{start_marker}' not found in README — skipping")
             return content
         after_start = content.index("\n", start_idx) + 1
         end_idx = content.find(f"\n{end_marker}", after_start)
@@ -327,12 +327,12 @@ def update_github_profile_readme(state: AgentState) -> AgentState:
     updated = replace_section(updated, "## — What I Build",   "## — By the Numbers",  projects_block)
 
     if DRY_RUN:
- print("\n DRY RUN — Profile README (first 1500 chars):\n")
- print(updated[:1500])
+        print("\n DRY RUN — Profile README (first 1500 chars):\n")
+        print(updated[:1500])
         return state
 
     if updated == current:
- print("  No changes to profile README — skipping commit")
+        print("  No changes to profile README — skipping commit")
         return state
 
     encoded = base64.b64encode(updated.encode()).decode()
@@ -342,9 +342,9 @@ def update_github_profile_readme(state: AgentState) -> AgentState:
             "content": encoded,
             "sha": sha,
         })
- print(f" Profile README updated -> github.com/{PROFILE_REPO}")
+        print(f" Profile README updated -> github.com/{PROFILE_REPO}")
     except Exception as e:
- print(f" Could not commit profile README: {e}")
+        print(f" Could not commit profile README: {e}")
 
     return state
 
@@ -356,7 +356,7 @@ def translate_content(state: AgentState) -> AgentState:
     if state.get("error"):
         return state
 
- print(f" Translating '{state['project_title']}' into {len(LANGUAGE_NAMES)} languages...")
+    print(f" Translating '{state['project_title']}' into {len(LANGUAGE_NAMES)} languages...")
 
     key = repo_to_key(state["repo_name"])
 
@@ -364,7 +364,7 @@ def translate_content(state: AgentState) -> AgentState:
     en_file = I18N_DIR / "en.json"
     en_data = json.loads(en_file.read_text())
     if key in (en_data.get("projects", {}).get("items") or {}):
- print(f"  Key '{key}' already in en.json — skipping translation")
+        print(f"  Key '{key}' already in en.json — skipping translation")
         return {**state, "translations": {}}
 
     async def translate_one(lang_code: str, lang_name: str) -> tuple[str, dict]:
@@ -380,7 +380,7 @@ def translate_content(state: AgentState) -> AgentState:
             )
             return lang_code, result
         except Exception as e:
- print(f" {lang_code} translation failed: {e}")
+            print(f" {lang_code} translation failed: {e}")
             # Fallback to English
             return lang_code, {
                 "title": state["project_title"],
@@ -400,10 +400,10 @@ def translate_content(state: AgentState) -> AgentState:
             results = await asyncio.gather(*tasks)
             return dict(results)
         translations = asyncio.run(translate_sample())
- print(f"\n DRY RUN — Sample translations:\n{json.dumps(translations, indent=2, ensure_ascii=False)[:1000]}")
+        print(f"\n DRY RUN — Sample translations:\n{json.dumps(translations, indent=2, ensure_ascii=False)[:1000]}")
     else:
         translations = asyncio.run(translate_all())
- print(f" Translated into {len(translations)} languages")
+        print(f" Translated into {len(translations)} languages")
 
     return {**state, "translations": translations}
 
@@ -420,7 +420,7 @@ def update_i18n_files(state: AgentState) -> AgentState:
         return state
 
     key = repo_to_key(state["repo_name"])
- print(f" Updating i18n files for key '{key}'...")
+    print(f" Updating i18n files for key '{key}'...")
 
     # Update English first
     en_path = I18N_DIR / "en.json"
@@ -449,9 +449,9 @@ def update_i18n_files(state: AgentState) -> AgentState:
                 lang_path.write_text(json.dumps(lang_data, indent=2, ensure_ascii=False) + "\n")
             updated_count += 1
         except Exception as e:
- print(f" Could not update {lang_code}.json: {e}")
+            print(f" Could not update {lang_code}.json: {e}")
 
- print(f" Updated {updated_count + 1} i18n files (en + {updated_count} translations)")
+    print(f" Updated {updated_count + 1} i18n files (en + {updated_count} translations)")
     return state
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -491,20 +491,20 @@ def build_graph():
 # ═══════════════════════════════════════════════════════════════════════════════
 def main():
     if not GROQ_API_KEY:
- print(" GROQ_API_KEY environment variable not set")
+        print(" GROQ_API_KEY environment variable not set")
         sys.exit(1)
 
     repo = TRIGGER_REPO or os.environ.get("GITHUB_REPOSITORY", "")
     if not repo:
- print(" Set TRIGGER_REPO env var (e.g. chandan1708/my-project)")
+        print(" Set TRIGGER_REPO env var (e.g. chandan1708/my-project)")
         sys.exit(1)
 
     if DRY_RUN:
- print(" DRY RUN MODE — no files will be written\n")
+        print(" DRY RUN MODE — no files will be written\n")
 
- print(f" Portfolio AI Agent starting for repo: {repo}")
- print(f" Model: {GROQ_MODEL}")
- print(f" Dry run: {DRY_RUN}\n")
+    print(f" Portfolio AI Agent starting for repo: {repo}")
+    print(f" Model: {GROQ_MODEL}")
+    print(f" Dry run: {DRY_RUN}\n")
 
     app = build_graph()
     initial_state: AgentState = {
@@ -525,10 +525,10 @@ def main():
     final = app.invoke(initial_state)
 
     if final.get("error"):
- print(f"\n Agent failed: {final['error']}")
+        print(f"\n Agent failed: {final['error']}")
         sys.exit(1)
 
- print(f"\n Agent complete — '{final['project_title']}' synced to portfolio + profile README + {len(final.get('translations', {}))} i18n files")
+    print(f"\n Agent complete — '{final['project_title']}' synced to portfolio + profile README + {len(final.get('translations', {}))} i18n files")
 
 if __name__ == "__main__":
     main()
