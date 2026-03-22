@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "என்னைப் பற்றி",
+    "experience": "அனுபவம்",
+    "projects": "திட்டங்கள்",
+    "skills": "திறன்கள்",
+    "education": "கல்வி",
+    "contact": "தொடர்பு"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "வாய்ப்புகளுக்குத் தயார்",
+    "subtitle": "ஜெனரேட்டிவ் AI பொறியாளர் — பெங்களூரு, இந்தியா",
+    "heading": "வணிகங்கள் தரவைப் புரிந்துகொள்ளும் விதத்தை <accent>மாற்றும்</accent> அறிவார்ந்த அமைப்புகளை நான் உருவாக்குகிறேன்.",
+    "description": "LLMs, ஏஜெண்டிக் AI மற்றும் RAG பைப்லைன்களில் நிபுணத்துவம். தற்போது <company>WordWise Language Labs</company>-ல் AI கருவிகளை உருவாக்குகிறேன்.",
+    "cta": "தொடர்புகொள்ளுங்கள்",
+    "resume": "சுயவிவரம் பதிவிறக்கம்",
+    "scroll": "உருட்டு"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "என்னைப் பற்றி",
+    "heading": "<accent>உறுதியான தாக்கம்</accent> உருவாக்கும் AI அமைப்புகளை கட்டமைத்தல்.",
+    "p1": "நான் பெங்களூருவில் உள்ள ஜெனரேட்டிவ் AI பொறியாளர், தற்போது WordWise Language Labs-ல் ஏஜெண்டிக் AI கருவிகள் மற்றும் பல-மூல தரவு பைப்லைன்களை உருவாக்குகிறேன் — அறிவு மீட்பு துல்லியத்தை 35% மேம்படுத்தி 95% கைமுறை தலையீட்டை நீக்குகிறேன்.",
+    "p2": "VTU-வில் AI & Data Science B.E. பட்டத்துடன், LLM நுண் சரிசெய்தல் (LoRA, QLoRA), RAG கட்டமைப்புகள் (GraphRAG, RAFT, CAG) மற்றும் LangChain, LangGraph, AWS கொண்ட அளவிடக்கூடிய தீர்வுகளில் நிபுணத்துவம்.",
+    "p3": "கணினி பார்வை, ஆழ்ந்த கற்றல் மற்றும் சிக்கல்களைத் தீர்க்கும் AI அமைப்புகள் உருவாக்குவதில் ஆர்வம் — கண்காணிப்பு நுண்ணறிவு முதல் அவசர பதில் வரை.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "கட்டப்பட்ட அமைப்புகள்",
+      "modelsDeployed": "பயன்படுத்தப்பட்ட மாதிரிகள்",
+      "dataProcessed": "செயலாக்கப்பட்ட தரவு",
+      "efficiencyGain": "திறன் அதிகரிப்பு"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "அனுபவம்",
+    "heading": "நான் தாக்கம் ஏற்படுத்திய இடம்.",
+    "current": "தற்போதைய",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "ஜெனரேட்டிவ் AI பொறியாளர்",
+        "period": "செப் 2024 — தற்போது",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Wordsworth தயாரிப்புக்கான முக்கிய அல்காரிதத்தை உருவாக்கினேன், பல-மூல தரவு பைப்லைன்களை ஏஜெண்டிக் AI கருவிகளுடன் ஒருங்கிணைத்தேன்",
+          "அறிவு மீட்பு துல்லியத்தில் 35% மேம்பாடு மற்றும் 95% கைமுறை தலையீடு நீக்கம் அடைந்தேன்",
+          "அளவிடக்கூடிய ஏஜெண்ட்-இயக்கப்படும் கட்டமைப்புகள் மூலம் பலமொழி உள்ளடக்க நுண்ணறிவை மேம்படுத்தினேன்"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "R&D பயிற்சியாளர்",
+        "period": "நவ 2023 — ஏப் 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "தானியங்கி Python ஸ்கிரிப்ட்களை உருவாக்கி தரவு செயலாக்க திறனை 30% அதிகரித்தேன்",
+          "உகந்த பைப்லைன்கள் மூலம் செயலாக்க நேரத்தை 25% குறைத்தேன்",
+          "PySide6 கொண்டு உள்ளமைக்கப்பட்ட டாஷ்போர்டை வடிவமைத்தேன், கைமுறை முயற்சியை 50% குறைத்தேன்"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "திட்டங்கள்",
+    "heading": "தேர்ந்தெடுக்கப்பட்ட படைப்புகள்.",
+    "featured": "சிறப்பு",
+    "liveDemo": "நேரடி டெமோ",
+    "sourceCode": "மூல குறியீடு",
+    "linksSoon": "இணைப்புகள் விரைவில்",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP நுண்ணறிவு கண்காணிப்பு",
+        "description": "நிகழ்நேர தொலைபேசி பயன்பாடு கண்டறிதல், கழிவு கண்காணிப்பு மற்றும் 89% துல்லியத்துடன் வருகை கண்காணிப்பு கொண்ட மேம்பட்ட AI கண்காணிப்பு அமைப்பு. கைமுறை மேற்பார்வை 40% குறைப்பு."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "நேரடி CCTV மற்றும் நிகழ்நேர போக்குவரத்து தரவுடன் AI-இயக்கப்படும் விபத்து கண்டறிதல் மற்றும் அவசர வழித்தடம், அவசர பதில் திறனை 40% மேம்படுத்துகிறது."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "நிகழ்நேர வயல் தரவு மற்றும் பயிர் பரிந்துரைகளுக்கான தன்னியக்க ML-இயக்கப்படும் விவசாய ரோவர். Fusion Techathon 3.0-ல் 1வது இடம், 104 அணிகளை வென்றது."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "திறன்கள்",
+    "heading": "தொழில்நுட்ப நிபுணத்துவம்.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "மொழிகள்",
+      "deepLearning": "ஆழ்ந்த கற்றல்",
+      "agenticAI": "ஏஜெண்டிக் AI & RAG",
+      "infrastructure": "உள்கட்டமைப்பு"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "கல்வி",
+    "heading": "கல்வி அடித்தளம்.",
+    "degree": "AI & Data Science-ல் B.E.",
+    "university": "விஸ்வேஸ்வரையா தொழில்நுட்ப பல்கலைக்கழகம் (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "முக்கிய பாடத்திட்டம்",
+    "award": "1வது இடம் — Fusion Techathon 3.0",
+    "awardDesc": "KrushiAI-யுடன் 104 அணிகளை வென்றோம்"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "தொடர்பு",
+    "heading": "சேர்ந்து <accent>அறிவார்ந்த</accent> ஒன்றை உருவாக்குவோம்.",
+    "email": "மின்னஞ்சல்",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "சுயவிவரம்"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "தொடர்புகொள்ளுங்கள்",
+    "name": "பெயர்",
+    "namePlaceholder": "உங்கள் பெயர்",
+    "email": "மின்னஞ்சல்",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "நோக்கம்",
+    "purposePlaceholder": "என்ன விவாதிக்க விரும்புகிறீர்கள்?",
+    "send": "செய்தி அனுப்பு",
+    "sending": "அஞ்சல் திறக்கிறது...",
+    "toastTitle": "அஞ்சல் திறக்கப்பட்டது!",
+    "toastDesc": "தொடர்புகொண்டதற்கு நன்றி."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "பெங்களூரு, இந்தியா"
   }
 }
