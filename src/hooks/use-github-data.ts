@@ -87,7 +87,7 @@ export function useGithubData() {
     return useQuery<GithubData>({
         queryKey: ["github-data"],
         queryFn: async () => {
-            const res = await fetch("/github-data.json");
+            const res = await fetch(`${import.meta.env.BASE_URL}github-data.json`);
             if (!res.ok) throw new Error("Failed to load github-data.json");
             return res.json();
         },
