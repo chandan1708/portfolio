@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Sobre mi",
+    "experience": "Experiència",
+    "projects": "Projectes",
+    "skills": "Habilitats",
+    "education": "Educació",
+    "contact": "Contacte"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "Disponible per a oportunitats",
+    "subtitle": "Enginyer d'IA Generativa — Bengaluru, Índia",
+    "heading": "Construeixo sistemes intel·ligents que <accent>transformen</accent> com les empreses entenen les dades.",
+    "description": "Especialitzat en LLMs, IA Agèntica i pipelines RAG. Actualment desenvolupant eines d'IA a <company>WordWise Language Labs</company>.",
+    "cta": "Contacta'm",
+    "resume": "Descarregar CV",
+    "scroll": "Desplaçar"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Sobre mi",
+    "heading": "Construint sistemes d'IA que creen un <accent>impacte tangible</accent>.",
+    "p1": "Sóc un enginyer d'IA generativa a Bengaluru, actualment a WordWise Language Labs on desenvolupo eines d'IA agèntica i pipelines de dades multi-font — millorant la precisió de recuperació de coneixement en un 35% i eliminant el 95% de la intervenció manual.",
+    "p2": "Amb un B.E. en IA i Data Science de VTU, m'especialitzo en ajust fi de LLM (LoRA, QLoRA), arquitectures RAG (GraphRAG, RAFT, CAG) i solucions escalables amb LangChain, LangGraph i AWS.",
+    "p3": "Apassionat per la visió per computador, l'aprenentatge profund i la creació de sistemes d'IA que resolen problemes — des de vigilància intel·ligent fins a resposta d'emergència.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Sistemes construïts",
+      "modelsDeployed": "Models desplegats",
+      "dataProcessed": "Dades processades",
+      "efficiencyGain": "Guany d'eficiència"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Experiència",
+    "heading": "On he tingut impacte.",
+    "current": "Actual",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Enginyer d'IA Generativa",
+        "period": "Set 2024 — Present",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Desenvolupat l'algoritme central del producte Wordsworth integrant pipelines multi-font amb eines d'IA agèntica",
+          "Aconseguit un 35% de millora en la recuperació de coneixement i 95% d'eliminació d'intervenció manual",
+          "Millorada la intel·ligència de contingut multilingüe mitjançant frameworks d'agents escalables"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "Becari d'R+D",
+        "period": "Nov 2023 — Abr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Desenvolupat scripts Python automatitzats millorant l'eficiència de processament de dades en un 30%",
+          "Reduït el temps de processament en un 25% mitjançant pipelines optimitzades",
+          "Dissenyat tauler incrustat amb PySide6, reduint l'esforç manual en un 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Projectes",
+    "heading": "Treball seleccionat.",
+    "featured": "Destacat",
+    "liveDemo": "Demo en viu",
+    "sourceCode": "Codi font",
+    "linksSoon": "Enllaços properament",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP Vigilància Intel·ligent",
+        "description": "Sistema avançat de vigilància IA amb detecció d'ús de telèfon en temps real, monitoratge de residus i seguiment d'assistència amb 89% de precisió. Reducció del 40% en supervisió manual."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "Detecció d'accidents i rutes d'emergència amb IA utilitzant CCTV en viu i dades de trànsit en temps real, millorant l'eficiència de resposta d'emergència en un 40%."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Rover agrícola autònom amb ML per a dades de camp i recomanacions de cultius. 1r lloc al Fusion Techathon 3.0, superant 104 equips."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Habilitats",
+    "heading": "Expertesa tècnica.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "Llenguatges",
+      "deepLearning": "Aprenentatge profund",
+      "agenticAI": "IA Agèntica i RAG",
+      "infrastructure": "Infraestructura"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Educació",
+    "heading": "Base acadèmica.",
+    "degree": "B.E. en IA i Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Assignatures clau",
+    "award": "1r lloc — Fusion Techathon 3.0",
+    "awardDesc": "Superat 104 equips amb KrushiAI"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "Contacte",
+    "heading": "Construïm alguna cosa <accent>intel·ligent</accent> junts.",
+    "email": "Correu",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "CV"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "Contacta'm",
+    "name": "Nom",
+    "namePlaceholder": "El teu nom",
+    "email": "Correu",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Propòsit",
+    "purposePlaceholder": "De què t'agradaria parlar?",
+    "send": "Enviar missatge",
+    "sending": "Obrint correu...",
+    "toastTitle": "Client de correu obert!",
+    "toastDesc": "Gràcies per contactar."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "Bengaluru, Índia"
   }
 }

@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "O mně",
+    "experience": "Zkušenosti",
+    "projects": "Projekty",
+    "skills": "Dovednosti",
+    "education": "Vzdělání",
+    "contact": "Kontakt"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "K dispozici pro příležitosti",
+    "subtitle": "Generativní AI inženýr — Bengalúru, Indie",
+    "heading": "Stavím inteligentní systémy, které <accent>mění</accent> způsob, jakým firmy chápou data.",
+    "description": "Specializace na LLMs, Agentní AI a RAG pipeline. Aktuálně vyvíjím AI nástroje v <company>WordWise Language Labs</company>.",
+    "cta": "Kontaktujte mě",
+    "resume": "Stáhnout životopis",
+    "scroll": "Posuňte"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "O mně",
+    "heading": "Stavím AI systémy s <accent>hmatatelným dopadem</accent>.",
+    "p1": "Jsem inženýr generativního AI v Bengalúru, aktuálně ve WordWise Language Labs, kde vyvíjím agentní AI nástroje a víceúrovňové datové pipeline — zlepšuji přesnost vyhledávání znalostí o 35% a eliminuji 95% manuálních zásahů.",
+    "p2": "S titulem B.E. v AI & Data Science z VTU se specializuji na fine-tuning LLM (LoRA, QLoRA), RAG architektury (GraphRAG, RAFT, CAG) a škálovatelná řešení s LangChain, LangGraph a AWS.",
+    "p3": "Vášnivý pro počítačové vidění, hluboké učení a tvorbu AI systémů řešících problémy — od sledovací inteligence po nouzovou reakci.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Postavené systémy",
+      "modelsDeployed": "Nasazené modely",
+      "dataProcessed": "Zpracovaná data",
+      "efficiencyGain": "Zvýšení efektivity"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Zkušenosti",
+    "heading": "Kde jsem měl dopad.",
+    "current": "Současný",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Generativní AI inženýr",
+        "period": "Září 2024 — Současnost",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Vyvinul jsem klíčový algoritmus produktu Wordsworth integrující víceúrovňové pipeline s agentními AI nástroji",
+          "Dosáhl jsem 35% zlepšení přesnosti vyhledávání znalostí a 95% eliminace manuálních zásahů",
+          "Vylepšil jsem vícejazyčnou inteligenci obsahu prostřednictvím škálovatelných agentních frameworků"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "Stážista R&D",
+        "period": "Lis 2023 — Dub 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Vyvinul jsem automatizované Python skripty zvyšující efektivitu zpracování dat o 30%",
+          "Snížil jsem dobu zpracování o 25% optimalizací pipeline",
+          "Navrhl jsem embedded dashboard s PySide6, snížení manuální práce o 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Projekty",
+    "heading": "Vybrané práce.",
+    "featured": "Doporučené",
+    "liveDemo": "Živé demo",
+    "sourceCode": "Zdrojový kód",
+    "linksSoon": "Odkazy brzy",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP Inteligentní sledování",
+        "description": "Pokročilý AI sledovací systém s detekcí použití telefonu v reálném čase, monitoringem odpadu a sledováním docházky s 89% přesností. Snížení manuálního dohledu o 40%."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "AI detekce nehod a nouzové směrování využívající CCTV a dopravní data v reálném čase, zlepšení efektivity nouzové reakce o 40%."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Autonomní ML zemědělský rover pro data z pole a doporučení plodin. 1. místo na Fusion Techathon 3.0, porazil 104 týmů."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Dovednosti",
+    "heading": "Technická odbornost.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "Jazyky",
+      "deepLearning": "Hluboké učení",
+      "agenticAI": "Agentní AI a RAG",
+      "infrastructure": "Infrastruktura"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Vzdělání",
+    "heading": "Akademický základ.",
+    "degree": "B.E. v AI & Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Klíčové předměty",
+    "award": "1. místo — Fusion Techathon 3.0",
+    "awardDesc": "Porazili jsme 104 týmů s KrushiAI"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
+    "label": "Kontakt",
+    "heading": "Pojďme společně vytvořit něco <accent>inteligentního</accent>.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "Životopis"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
+    "title": "Kontaktujte mě",
+    "name": "Jméno",
+    "namePlaceholder": "Vaše jméno",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Účel",
+    "purposePlaceholder": "Co byste chtěli probrat?",
+    "send": "Odeslat zprávu",
+    "sending": "Otevírání pošty...",
+    "toastTitle": "Poštovní klient otevřen!",
+    "toastDesc": "Děkuji za kontakt."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "Bengalúru, Indie"
   }
 }
