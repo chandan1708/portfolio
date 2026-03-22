@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GH_PAT: ${{ secrets.GH_PAT }}
 
     steps:
       - name: Checkout portfolio repo
@@ -41,7 +43,7 @@ jobs:
 
       - name: Update profile README (What I Build + The Stack)
         # Only runs if GH_PAT secret is configured (needed for cross-repo write)
-        if: ${{ secrets.GH_PAT != '' }}
+        if: env.GH_PAT != ''
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: node scripts/update-readme.mjs
