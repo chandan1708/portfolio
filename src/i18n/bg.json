@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "За мен",
+    "experience": "Опит",
+    "projects": "Проекти",
+    "skills": "Умения",
+    "education": "Образование",
+    "contact": "Контакт"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "На разположение за възможности",
+    "subtitle": "Инженер по генеративен AI — Бангалор, Индия",
+    "heading": "Изграждам интелигентни системи, които <accent>трансформират</accent> начина, по който бизнесът разбира данните.",
+    "description": "Специализиран в LLMs, Агентен AI и RAG конвейери. В момента разработвам AI инструменти в <company>WordWise Language Labs</company>.",
+    "cta": "Свържете се",
+    "resume": "Изтегли автобиография",
+    "scroll": "Превърти"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "За мен",
+    "heading": "Изграждане на AI системи, които създават <accent>осезаемо въздействие</accent>.",
+    "p1": "Аз съм инженер по генеративен AI в Бангалор, в момента в WordWise Language Labs, където разработвам агентни AI инструменти и многоизточникови конвейери за данни — подобрявайки точността на извличане на знания с 35% и елиминирайки 95% от ръчната намеса.",
+    "p2": "С бакалавърска степен по AI и Data Science от VTU, специализирам в LLM финна настройка (LoRA, QLoRA), RAG архитектури (GraphRAG, RAFT, CAG) и изграждане на мащабируеми решения с LangChain, LangGraph и AWS.",
+    "p3": "Страстен към компютърно зрение, дълбоко обучение и създаване на AI системи, които решават проблеми — от интелигентно наблюдение до реагиране при извънредни ситуации.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Изградени системи",
+      "modelsDeployed": "Внедрени модели",
+      "dataProcessed": "Обработени данни",
+      "efficiencyGain": "Повишена ефективност"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Опит",
+    "heading": "Където направих въздействие.",
+    "current": "Настоящ",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Инженер по генеративен AI",
+        "period": "Сеп 2024 — Настояще",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Разработих основен алгоритъм за продукта Wordsworth, интегриращ многоизточникови конвейери с агентни AI инструменти",
+          "Постигнах 35% подобрение в точността на извличане на знания и 95% елиминиране на ръчна намеса",
+          "Подобрих многоезичното съдържание чрез мащабируеми агентни рамки"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "Стажант в R&D",
+        "period": "Ное 2023 — Апр 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Разработих автоматизирани Python скриптове, повишаващи ефективността на обработка на данни с 30%",
+          "Намалих времето за обработка с 25% чрез оптимизирани конвейери",
+          "Проектирах вградено табло с PySide6, намалявайки ръчните усилия с 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Проекти",
+    "heading": "Избрани работи.",
+    "featured": "Избрано",
+    "liveDemo": "Демо на живо",
+    "sourceCode": "Изходен код",
+    "linksSoon": "Връзки скоро",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP Интелигентно наблюдение",
+        "description": "Напреднала AI система за наблюдение с реално време откриване на телефон, мониторинг на отпадъци и проследяване на присъствие с 89% точност. Намаляване на ръчния надзор с 40%."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "AI задвижвано откриване на инциденти и маршрутизиране при спешност с CCTV и данни за трафик в реално време, подобряващо ефективността при спешни случаи с 40%."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Автономен ML земеделски робот за данни от полето и препоръки за реколта. 1-во място на Fusion Techathon 3.0, надминавайки 104 отбора."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Умения",
+    "heading": "Техническа експертиза.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "Езици",
+      "deepLearning": "Дълбоко обучение",
+      "agenticAI": "Агентен AI и RAG",
+      "infrastructure": "Инфраструктура"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Образование",
+    "heading": "Академична основа.",
+    "degree": "Бакалавър по AI и Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Основни курсове",
+    "award": "1-во място — Fusion Techathon 3.0",
+    "awardDesc": "Надминахме 104 отбора с KrushiAI"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "Контакт",
+    "heading": "Нека изградим нещо <accent>интелигентно</accent> заедно.",
+    "email": "Имейл",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "Автобиография"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "Свържете се",
+    "name": "Име",
+    "namePlaceholder": "Вашето име",
+    "email": "Имейл",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Цел",
+    "purposePlaceholder": "Какво бихте искали да обсъдите?",
+    "send": "Изпрати съобщение",
+    "sending": "Отваряне на поща...",
+    "toastTitle": "Пощенският клиент е отворен!",
+    "toastDesc": "Благодаря, че се свързахте."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "Бангалор, Индия"
   }
 }

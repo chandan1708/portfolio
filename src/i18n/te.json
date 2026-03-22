@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "నా గురించి",
+    "experience": "అనుభవం",
+    "projects": "ప్రాజెక్టులు",
+    "skills": "నైపుణ్యాలు",
+    "education": "విద్య",
+    "contact": "సంప్రదించండి"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "అవకాశాలకు అందుబాటులో",
+    "subtitle": "జెనరేటివ్ AI ఇంజనీర్ — బెంగళూరు, భారతదేశం",
+    "heading": "వ్యాపారాలు డేటాను అర్థం చేసుకునే విధానాన్ని <accent>మార్చే</accent> తెలివైన వ్యవస్థలను నేను నిర్మిస్తాను.",
+    "description": "LLMs, ఏజెంటిక్ AI మరియు RAG పైప్‌లైన్‌లలో ప్రత్యేకత. ప్రస్తుతం <company>WordWise Language Labs</company> లో AI సాధనాలను అభివృద్ధి చేస్తున్నాను.",
+    "cta": "సంప్రదించండి",
+    "resume": "రెజ్యూమ్ డౌన్‌లోడ్",
+    "scroll": "స్క్రోల్"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "నా గురించి",
+    "heading": "<accent>ఆచరణాత్మక ప్రభావం</accent> సృష్టించే AI వ్యవస్థలను నిర్మించడం.",
+    "p1": "నేను బెంగళూరులో జెనరేటివ్ AI ఇంజనీర్, ప్రస్తుతం WordWise Language Labs లో ఏజెంటిక్ AI సాధనాలు మరియు బహుళ-మూల డేటా పైప్‌లైన్‌లను అభివృద్ధి చేస్తున్నాను — జ్ఞాన పునరుద్ధరణ ఖచ్చితత్వాన్ని 35% మెరుగుపరచి 95% మాన్యువల్ జోక్యాన్ని తొలగిస్తున్నాను.",
+    "p2": "VTU నుండి AI & Data Science లో B.E. తో, LLM ఫైన్-ట్యూనింగ్ (LoRA, QLoRA), RAG ఆర్కిటెక్చర్‌లు (GraphRAG, RAFT, CAG) మరియు LangChain, LangGraph, AWS ఉపయోగించి స్కేలబుల్ సొల్యూషన్‌లలో ప్రత్యేకత.",
+    "p3": "కంప్యూటర్ విజన్, డీప్ లెర్నింగ్ మరియు సమస్యలను పరిష్కరించే AI వ్యవస్థలను సృష్టించడంలో అభిరుచి — నిఘా మేధస్సు నుండి అత్యవసర ప్రతిస్పందన వరకు.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "నిర్మించిన వ్యవస్థలు",
+      "modelsDeployed": "అమలు చేసిన మోడల్‌లు",
+      "dataProcessed": "ప్రాసెస్ చేసిన డేటా",
+      "efficiencyGain": "సామర్థ్య పెరుగుదల"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "అనుభవం",
+    "heading": "నేను ప్రభావం చూపించిన చోటు.",
+    "current": "ప్రస్తుతం",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "జెనరేటివ్ AI ఇంజనీర్",
+        "period": "సెప్ 2024 — ప్రస్తుతం",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Wordsworth ఉత్పత్తి కోసం కోర్ అల్గారిథమ్‌ను అభివృద్ధి చేశాను, బహుళ-మూల డేటా పైప్‌లైన్‌లను ఏజెంటిక్ AI సాధనాలతో అనుసంధానించాను",
+          "జ్ఞాన పునరుద్ధరణ ఖచ్చితత్వంలో 35% మెరుగుదల మరియు 95% మాన్యువల్ జోక్యం తొలగింపు సాధించాను",
+          "స్కేలబుల్ ఏజెంట్-ఆధారిత ఫ్రేమ్‌వర్క్‌ల ద్వారా బహుభాషా కంటెంట్ మేధస్సును మెరుగుపరిచాను"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "R&D ఇంటర్న్",
+        "period": "నవం 2023 — ఏప్రి 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "ఆటోమేటెడ్ Python స్క్రిప్ట్‌లను అభివృద్ధి చేసి డేటా ప్రాసెసింగ్ సామర్థ్యాన్ని 30% పెంచాను",
+          "ఆప్టిమైజ్డ్ పైప్‌లైన్‌ల ద్వారా ప్రాసెసింగ్ సమయాన్ని 25% తగ్గించాను",
+          "PySide6 తో ఎంబెడెడ్ డాష్‌బోర్డ్ రూపొందించి మాన్యువల్ ప్రయత్నాన్ని 50% తగ్గించాను"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "ప్రాజెక్టులు",
+    "heading": "ఎంపిక చేసిన పనులు.",
+    "featured": "ప్రత్యేక",
+    "liveDemo": "లైవ్ డెమో",
+    "sourceCode": "సోర్స్ కోడ్",
+    "linksSoon": "లింక్‌లు త్వరలో",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP ఇంటెలిజెన్స్ సర్వైలెన్స్",
+        "description": "రియల్-టైమ్ ఫోన్ వాడకం గుర్తింపు, వ్యర్థ పర్యవేక్షణ మరియు 89% ఖచ్చితత్వంతో హాజరు ట్రాకింగ్ ఉన్న అధునాతన AI నిఘా వ్యవస్థ. మాన్యువల్ పర్యవేక్షణ 40% తగ్గింపు."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "లైవ్ CCTV మరియు రియల్-టైమ్ ట్రాఫిక్ డేటాతో AI-ఆధారిత ప్రమాద గుర్తింపు మరియు అత్యవసర మార్గదర్శకత్వం, అత్యవసర ప్రతిస్పందన సామర్థ్యాన్ని 40% మెరుగుపరుస్తుంది."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "రియల్-టైమ్ ఫీల్డ్ డేటా మరియు పంట సిఫార్సుల కోసం స్వయంప్రతిపత్తి ML-ఆధారిత వ్యవసాయ రోవర్. Fusion Techathon 3.0 లో 1వ స్థానం, 104 జట్లను అధిగమించింది."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "నైపుణ్యాలు",
+    "heading": "సాంకేతిక నైపుణ్యం.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "భాషలు",
+      "deepLearning": "డీప్ లెర్నింగ్",
+      "agenticAI": "ఏజెంటిక్ AI & RAG",
+      "infrastructure": "మౌలిక సదుపాయాలు"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "విద్య",
+    "heading": "అకాడమిక్ పునాది.",
+    "degree": "AI & Data Science లో B.E.",
+    "university": "విశ్వేశ్వరయ్య టెక్నలాజికల్ యూనివర్సిటీ (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "కీలక కోర్సులు",
+    "award": "1వ స్థానం — Fusion Techathon 3.0",
+    "awardDesc": "KrushiAI తో 104 జట్లను అధిగమించాం"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "సంప్రదించండి",
+    "heading": "కలిసి <accent>తెలివైన</accent>ది నిర్మిద్దాం.",
+    "email": "ఇమెయిల్",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "రెజ్యూమ్"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "సంప్రదించండి",
+    "name": "పేరు",
+    "namePlaceholder": "మీ పేరు",
+    "email": "ఇమెయిల్",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "ఉద్దేశ్యం",
+    "purposePlaceholder": "మీరు ఏమి చర్చించాలనుకుంటున్నారు?",
+    "send": "సందేశం పంపండి",
+    "sending": "మెయిల్ తెరుస్తోంది...",
+    "toastTitle": "మెయిల్ క్లయింట్ తెరవబడింది!",
+    "toastDesc": "సంప్రదించినందుకు ధన్యవాదాలు."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "బెంగళూరు, భారతదేశం"
   }
 }

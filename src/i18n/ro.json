@@ -1,124 +1,124 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
+    "about": "Despre",
+    "experience": "Experiență",
+    "projects": "Proiecte",
+    "skills": "Competențe",
+    "education": "Educație",
     "contact": "Contact"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "Disponibil pentru oportunități",
+    "subtitle": "Inginer AI Generativ — Bengaluru, India",
+    "heading": "Construiesc sisteme inteligente care <accent>transformă</accent> modul în care afacerile înțeleg datele.",
+    "description": "Specializat în LLM-uri, AI Agentic și pipeline-uri RAG. Dezvolt în prezent instrumente AI la <company>WordWise Language Labs</company>.",
+    "cta": "Contactează-mă",
+    "resume": "Descarcă CV",
+    "scroll": "Derulează"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Despre",
+    "heading": "Construind sisteme AI cu <accent>impact tangibil</accent>.",
+    "p1": "Sunt inginer AI generativ în Bengaluru, în prezent la WordWise Language Labs unde dezvolt instrumente AI agentice și pipeline-uri de date multi-sursă — îmbunătățind acuratețea recuperării cunoștințelor cu 35% și eliminând 95% din intervenția manuală.",
+    "p2": "Cu o diplomă B.E. în AI & Data Science de la VTU, mă specializez în ajustarea fină a LLM (LoRA, QLoRA), arhitecturi RAG (GraphRAG, RAFT, CAG) și soluții scalabile cu LangChain, LangGraph și AWS.",
+    "p3": "Pasionat de vedere computerizată, învățare profundă și crearea de sisteme AI care rezolvă probleme — de la inteligența de supraveghere la răspunsul de urgență.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Sisteme construite",
+      "modelsDeployed": "Modele implementate",
+      "dataProcessed": "Date procesate",
+      "efficiencyGain": "Câștig de eficiență"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Experiență",
+    "heading": "Unde am avut impact.",
+    "current": "Actual",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Inginer AI Generativ",
+        "period": "Sep 2024 — Prezent",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Am dezvoltat algoritmul de bază al produsului Wordsworth integrând pipeline-uri multi-sursă cu instrumente AI agentice",
+          "Am obținut o îmbunătățire de 35% în acuratețea recuperării cunoștințelor și eliminarea de 95% a intervenției manuale",
+          "Am îmbunătățit inteligența conținutului multilingv prin framework-uri agentice scalabile"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
+        "role": "Stagiar C&D",
         "period": "Nov 2023 — Apr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Am dezvoltat scripturi Python automatizate crescând eficiența procesării datelor cu 30%",
+          "Am redus timpul de procesare cu 25% prin pipeline-uri optimizate",
+          "Am proiectat tabloul de bord încorporat cu PySide6, reducând efortul manual cu 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Proiecte",
+    "heading": "Lucrări selectate.",
+    "featured": "Recomandat",
+    "liveDemo": "Demo live",
+    "sourceCode": "Cod sursă",
+    "linksSoon": "Link-uri în curând",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP Supraveghere Inteligentă",
+        "description": "Sistem avansat de supraveghere AI cu detectarea utilizării telefonului în timp real, monitorizarea deșeurilor și urmărirea prezenței cu 89% acuratețe. Reducere cu 40% a supravegherii manuale."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "Detectarea accidentelor și rutare de urgență alimentate de AI cu CCTV și date de trafic în timp real, îmbunătățind eficiența răspunsului de urgență cu 40%."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Rover agricol autonom ML pentru date de teren și recomandări de culturi. Locul 1 la Fusion Techathon 3.0, depășind 104 echipe."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Competențe",
+    "heading": "Expertiză tehnică.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "Limbaje",
+      "deepLearning": "Învățare profundă",
+      "agenticAI": "AI Agentic și RAG",
+      "infrastructure": "Infrastructură"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Educație",
+    "heading": "Fundație academică.",
+    "degree": "B.E. în AI & Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Cursuri cheie",
+    "award": "Locul 1 — Fusion Techathon 3.0",
+    "awardDesc": "Am depășit 104 echipe cu KrushiAI"
   },
   "contact": {
     "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
+    "heading": "Să construim împreună ceva <accent>inteligent</accent>.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "CV"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
+    "title": "Contactează-mă",
+    "name": "Nume",
+    "namePlaceholder": "Numele tău",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Scop",
+    "purposePlaceholder": "Ce ai dori să discutăm?",
+    "send": "Trimite mesaj",
+    "sending": "Se deschide emailul...",
+    "toastTitle": "Client email deschis!",
+    "toastDesc": "Mulțumesc că ai luat legătura."
   },
   "footer": {
     "location": "Bengaluru, India"

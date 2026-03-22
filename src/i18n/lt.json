@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Apie",
+    "experience": "Patirtis",
+    "projects": "Projektai",
+    "skills": "Įgūdžiai",
+    "education": "Išsilavinimas",
+    "contact": "Kontaktai"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "Prieinamas galimybėms",
+    "subtitle": "Generatyvinio AI inžinierius — Bengalūras, Indija",
+    "heading": "Kuriu intelektualias sistemas, kurios <accent>keičia</accent> verslo duomenų supratimą.",
+    "description": "Specializuojuosi LLM, Agentiniame AI ir RAG konvejeriuose. Šiuo metu kuriu AI įrankius <company>WordWise Language Labs</company>.",
+    "cta": "Susisiekite",
+    "resume": "Atsisiųsti CV",
+    "scroll": "Slinkti"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Apie",
+    "heading": "Kuriu AI sistemas, kuriančias <accent>apčiuopiamą poveikį</accent>.",
+    "p1": "Esu generatyvinio AI inžinierius Bengalūre, šiuo metu dirbu WordWise Language Labs, kur kuriu agentinius AI įrankius ir kelių šaltinių duomenų konvejerius — gerinant žinių paieškos tikslumą 35% ir eliminuojant 95% rankinio įsikišimo.",
+    "p2": "Su VTU AI & Data Science bakalauro laipsniu specializuojuosi LLM tiksliniame derinime (LoRA, QLoRA), RAG architektūrose (GraphRAG, RAFT, CAG) ir keičiamo dydžio sprendimuose su LangChain, LangGraph ir AWS.",
+    "p3": "Aistringas kompiuterinei regai, giliam mokymuisi ir AI sistemų, sprendžiančių problemas, kūrimui — nuo stebėjimo žvalgybos iki reagavimo į ekstremalias situacijas.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Sukurtos sistemos",
+      "modelsDeployed": "Įdiegti modeliai",
+      "dataProcessed": "Apdoroti duomenys",
+      "efficiencyGain": "Efektyvumo augimas"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Patirtis",
+    "heading": "Kur padariau poveikį.",
+    "current": "Dabartinis",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Generatyvinio AI inžinierius",
+        "period": "2024 rugs. — Dabar",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Sukūriau pagrindinį Wordsworth produkto algoritmą, integruojantį kelių šaltinių konvejerius su agentiniais AI įrankiais",
+          "Pasiekiau 35% žinių paieškos tikslumo pagerėjimą ir 95% rankinio įsikišimo eliminavimą",
+          "Patobulinau daugiakalbį turinio žvalgybą per keičiamo dydžio agentines sistemas"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "MTEP praktikantas",
+        "period": "2023 lapkr. — 2024 bal.",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Sukūriau automatizuotus Python scenarijus, padidinusius duomenų apdorojimo efektyvumą 30%",
+          "Sumažinau apdorojimo laiką 25% optimizuotais konvejeriais",
+          "Suprojektavau įterptąją prietaisų skydelę su PySide6, sumažinant rankinį darbą 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Projektai",
+    "heading": "Atrinkti darbai.",
+    "featured": "Išskirtas",
+    "liveDemo": "Tiesioginė demo",
+    "sourceCode": "Šaltinio kodas",
+    "linksSoon": "Nuorodos netrukus",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP Intelektuali stebėsena",
+        "description": "Pažangi AI stebėjimo sistema su realaus laiko telefono naudojimo aptikimu, atliekų stebėjimu ir lankomumo sekimu 89% tikslumu. Sumažino rankinę priežiūrą 40%."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "AI avarijos aptikimas ir skubus maršrutizavimas naudojant CCTV ir realaus laiko eismo duomenis, pagerinant reagavimo į ekstremalias situacijas efektyvumą 40%."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Autonominis ML žemės ūkio roveris realaus laiko lauko duomenims ir pasėlių rekomendacijoms. Laimėjo 1 vietą Fusion Techathon 3.0, aplenkęs 104 komandas."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Įgūdžiai",
+    "heading": "Techninė kompetencija.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "Kalbos",
+      "deepLearning": "Gilusis mokymasis",
+      "agenticAI": "Agentinis AI ir RAG",
+      "infrastructure": "Infrastruktūra"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Išsilavinimas",
+    "heading": "Akademinis pagrindas.",
+    "degree": "B.E. AI & Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Pagrindiniai kursai",
+    "award": "1 vieta — Fusion Techathon 3.0",
+    "awardDesc": "Aplenkėme 104 komandas su KrushiAI"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "Kontaktai",
+    "heading": "Sukurkime kartu kažką <accent>intelektualaus</accent>.",
+    "email": "El. paštas",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "CV"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "Susisiekite",
+    "name": "Vardas",
+    "namePlaceholder": "Jūsų vardas",
+    "email": "El. paštas",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Tikslas",
+    "purposePlaceholder": "Ką norėtumėte aptarti?",
+    "send": "Siųsti žinutę",
+    "sending": "Atidaromas paštas...",
+    "toastTitle": "Pašto programa atidaryta!",
+    "toastDesc": "Ačiū, kad susisiekėte."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "Bengalūras, Indija"
   }
 }

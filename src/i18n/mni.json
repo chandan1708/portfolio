@@ -1,47 +1,47 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "ঐখোয় মরমদা",
+    "experience": "অভিজ্ঞতা",
+    "projects": "প্রোজেক্ত",
+    "skills": "শৈখোৎপা",
+    "education": "তম্বিবা",
+    "contact": "পাউনবা"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "খুদোংথীনিংদা থীজিনবা ঙমগনি",
+    "subtitle": "Generative AI Engineer — বেঙ্গালুরু, ভারত",
+    "heading": "ঐহাক্না intelligent systems শেমগনি মসি business না data খংবদা <accent>হোংদোক্নবগীদমক্নি</accent>.",
+    "description": "LLMs, Agentic AI অমসুং RAG pipelines দা specialist ওইরি। হৌজিক্তি <company>WordWise Language Labs</company> দা AI tools শেমজরি.",
+    "cta": "পাউনবিয়ু",
+    "resume": "Resume download তৌবিয়ু",
+    "scroll": "Scroll তৌবিয়ু"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "ঐখোয় মরমদা",
+    "heading": "<accent>অরোনবা মীৎয়েং কাংলোন</accent> শেম্বা AI systems শাবা.",
+    "p1": "ঐহাক্না বেঙ্গালুরুদা লৈবা Generative AI Engineer অমনি, হৌজিক্তি WordWise Language Labs দা agentic AI tools অমসুং multi-source data pipelines শেমজরি — knowledge retrieval accuracy 35% হেন্না ফগৎহনদুনা 95% manual intervention মাংহনদুনা.",
+    "p2": "VTU দগী AI & Data Science দা B.E. লৌদুনা, LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG) অমসুং LangChain, LangGraph, AWS শিজিন্নদুনা scalable solutions দা specialist ওইরি.",
+    "p3": "Computer vision, deep learning অমসুং problems solve তৌবা AI systems শেমবদা passionate ওইরি.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "শেমজবা Systems",
+      "modelsDeployed": "Deploy তৌবা Models",
+      "dataProcessed": "Process তৌবা Data",
+      "efficiencyGain": "Efficiency হেনগৎপা"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "অভিজ্ঞতা",
+    "heading": "ঐহাক্না impact তৌখিবা মফম.",
+    "current": "হৌজিক্কী",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
         "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "period": "Sep 2024 — হৌজিক",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Wordsworth product গীদমক core algorithm শেমখি multi-source data pipelines অমসুং agentic AI tools integrate তৌদুনা",
+          "Knowledge retrieval accuracy দা 35% improvement অমসুং 95% manual intervention মাংহনখি",
+          "Scalable agent-driven frameworks শিজিন্নদুনা multilingual content intelligence হেনগৎহনখি"
         ]
       },
       "exicom": {
@@ -49,37 +49,37 @@
         "role": "R&D Intern",
         "period": "Nov 2023 — Apr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Automated Python scripts শেমখি, data processing efficiency 30% হেনগৎহনখি",
+          "Optimized data pipelines শিজিন্নদুনা processing time 25% হন্থহনখি",
+          "PySide6 শিজিন্নদুনা embedded dashboard design তৌখি, manual effort 50% হন্থহনখি"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
+    "label": "প্রোজেক্ত",
+    "heading": "খন্নবা থবক.",
+    "featured": "বিশেষ",
     "liveDemo": "Live Demo",
     "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "linksSoon": "Links থুনা লাক্কনি",
     "items": {
       "alp": {
         "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "description": "Real-time phone usage detection, waste monitoring অমসুং 89% accuracy সেট attendance tracking লৈবা advanced AI surveillance system."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "Live CCTV অমসুং real-time traffic data শিজিন্নদুনা AI-powered accident detection অমসুং emergency routing."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Real-time field data অমসুং crop recommendations গীদমক autonomous ML-driven agricultural rover. Fusion Techathon 3.0 দা 1st Place."
       }
     }
   },
   "skills": {
-    "label": "Skills",
+    "label": "শৈখোৎপা",
     "heading": "Technical expertise.",
     "categories": {
       "languages": "Languages",
@@ -89,7 +89,7 @@
     }
   },
   "education": {
-    "label": "Education",
+    "label": "তম্বিবা",
     "heading": "Academic foundation.",
     "degree": "B.E. in AI & Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
@@ -97,30 +97,30 @@
     "gpa": "GPA",
     "coursework": "Key Coursework",
     "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "awardDesc": "KrushiAI না 104 teams হৈখি"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
+    "label": "পাউনবা",
+    "heading": "পুন্না <accent>intelligent</accent> অমুক শেমসি.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "resumeLink": "Resume"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
+    "title": "পাউনবিয়ু",
+    "name": "মিং",
+    "namePlaceholder": "নহাক্কী মিং",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "পান্দম",
+    "purposePlaceholder": "করি মরমদা ৱারি শানবা পাম্বিগে?",
+    "send": "পাউ থাবিয়ু",
+    "sending": "Mail হাংদোকই...",
+    "toastTitle": "Mail client হাংদোক্লে!",
+    "toastDesc": "পাউনবিরক্কদবনি."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "বেঙ্গালুরু, ভারত"
   }
 }

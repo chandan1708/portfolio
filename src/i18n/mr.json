@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "माझ्याबद्दल",
+    "experience": "अनुभव",
+    "projects": "प्रकल्प",
+    "skills": "कौशल्ये",
+    "education": "शिक्षण",
+    "contact": "संपर्क"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "संधींसाठी उपलब्ध",
+    "subtitle": "जनरेटिव्ह AI अभियंता — बंगळुरू, भारत",
+    "heading": "मी बुद्धिमान प्रणाली तयार करतो ज्या व्यवसायांचा डेटा समजून घेण्याचा मार्ग <accent>बदलतात</accent>.",
+    "description": "LLMs, एजेंटिक AI आणि RAG पाइपलाइनमध्ये विशेषज्ञता. सध्या <company>WordWise Language Labs</company> मध्ये AI साधने विकसित करत आहे.",
+    "cta": "संपर्क साधा",
+    "resume": "रेझ्युमे डाउनलोड करा",
+    "scroll": "स्क्रोल करा"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "माझ्याबद्दल",
+    "heading": "<accent>ठोस प्रभाव</accent> निर्माण करणाऱ्या AI प्रणाली तयार करणे.",
+    "p1": "मी बंगळुरूमधील जनरेटिव्ह AI अभियंता आहे, सध्या WordWise Language Labs मध्ये एजेंटिक AI साधने आणि बहु-स्रोत डेटा पाइपलाइन विकसित करत आहे — ज्ञान पुनर्प्राप्ती अचूकता 35% ने सुधारत आणि 95% मॅन्युअल हस्तक्षेप दूर करत.",
+    "p2": "VTU मधून AI & Data Science मध्ये B.E. सह, मी LLM फाइन-ट्यूनिंग (LoRA, QLoRA), RAG आर्किटेक्चर (GraphRAG, RAFT, CAG) आणि LangChain, LangGraph आणि AWS वापरून स्केलेबल सोल्युशन्समध्ये विशेषज्ञ आहे.",
+    "p3": "संगणक दृष्टी, डीप लर्निंग आणि समस्या सोडवणाऱ्या AI प्रणाली तयार करण्याबद्दल उत्कट — पाळत ठेवण्याच्या बुद्धिमत्तेपासून आपत्कालीन प्रतिसादापर्यंत.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "तयार केलेल्या प्रणाली",
+      "modelsDeployed": "तैनात केलेले मॉडेल",
+      "dataProcessed": "प्रक्रिया केलेला डेटा",
+      "efficiencyGain": "कार्यक्षमता वाढ"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "अनुभव",
+    "heading": "जिथे मी प्रभाव पाडला.",
+    "current": "सध्याचे",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "जनरेटिव्ह AI अभियंता",
+        "period": "सप्टें 2024 — सध्या",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Wordsworth उत्पादनासाठी मुख्य अल्गोरिदम विकसित केले, बहु-स्रोत डेटा पाइपलाइन एजेंटिक AI साधनांसह एकत्रित",
+          "ज्ञान पुनर्प्राप्ती अचूकतेत 35% सुधारणा आणि 95% मॅन्युअल हस्तक्षेप दूर केला",
+          "स्केलेबल एजेंट-चालित फ्रेमवर्कद्वारे बहुभाषिक सामग्री बुद्धिमत्ता वाढवली"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "R&D इंटर्न",
+        "period": "नोव्हें 2023 — एप्रिल 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "स्वयंचलित Python स्क्रिप्ट विकसित केल्या, डेटा प्रक्रिया कार्यक्षमता 30% ने वाढवली",
+          "ऑप्टिमाइझ्ड पाइपलाइनद्वारे प्रक्रिया वेळ 25% कमी केला",
+          "PySide6 सह एम्बेडेड डॅशबोर्ड डिझाइन केले, मॅन्युअल प्रयत्न 50% कमी केले"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "प्रकल्प",
+    "heading": "निवडक कामे.",
+    "featured": "वैशिष्ट्यीकृत",
+    "liveDemo": "लाइव्ह डेमो",
+    "sourceCode": "स्रोत कोड",
+    "linksSoon": "लिंक लवकरच",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP बुद्धिमान निगराणी",
+        "description": "रिअल-टाइम फोन वापर शोध, कचरा निरीक्षण आणि 89% अचूकतेसह उपस्थिती ट्रॅकिंग असलेली प्रगत AI निगराणी प्रणाली. मॅन्युअल देखरेख 40% कमी."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "लाइव्ह CCTV आणि रिअल-टाइम ट्रॅफिक डेटासह AI-चालित अपघात शोध आणि आपत्कालीन मार्गदर्शन, आपत्कालीन प्रतिसाद कार्यक्षमता 40% सुधारली."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "रिअल-टाइम फील्ड डेटा आणि पीक शिफारशींसाठी स्वायत्त ML-चालित कृषी रोव्हर. Fusion Techathon 3.0 मध्ये 1ले स्थान, 104 संघांना मागे टाकले."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "कौशल्ये",
+    "heading": "तांत्रिक कौशल्य.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "भाषा",
+      "deepLearning": "डीप लर्निंग",
+      "agenticAI": "एजेंटिक AI आणि RAG",
+      "infrastructure": "पायाभूत सुविधा"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "शिक्षण",
+    "heading": "शैक्षणिक पाया.",
+    "degree": "AI & Data Science मध्ये B.E.",
+    "university": "विश्वेश्वरैया तंत्रज्ञान विद्यापीठ (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "मुख्य अभ्यासक्रम",
+    "award": "1ले स्थान — Fusion Techathon 3.0",
+    "awardDesc": "KrushiAI सह 104 संघांना मागे टाकले"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "संपर्क",
+    "heading": "चला एकत्र काहीतरी <accent>बुद्धिमान</accent> तयार करूया.",
+    "email": "ईमेल",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "रेझ्युमे"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "संपर्क साधा",
+    "name": "नाव",
+    "namePlaceholder": "तुमचे नाव",
+    "email": "ईमेल",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "उद्देश",
+    "purposePlaceholder": "तुम्हाला काय चर्चा करायची आहे?",
+    "send": "संदेश पाठवा",
+    "sending": "मेल उघडत आहे...",
+    "toastTitle": "मेल क्लायंट उघडले!",
+    "toastDesc": "संपर्क साधल्याबद्दल धन्यवाद."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "बंगळुरू, भारत"
   }
 }

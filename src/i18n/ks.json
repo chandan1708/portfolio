@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "میٖرِ بارَس",
+    "experience": "تجربہ",
+    "projects": "منصوبے",
+    "skills": "مہارتیں",
+    "education": "تعلیم",
+    "contact": "رابطہ"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "مواقعو لئ دستیاب",
+    "subtitle": "جنریٹو اے آئی انجینئر — بنگلورو، ہندوستان",
+    "heading": "بٕہ ذہین نظام بناوان چھُس یِمہِ کاروبار ڈیٹا سمجھنَس <accent>بدلاوان</accent> چھِ.",
+    "description": "LLMs، ایجنٹک AI تہٕ RAG پائپ لائنن مہٕ ماہر۔ فی الحال <company>WordWise Language Labs</company> مہٕ AI ٹول بناوان.",
+    "cta": "رابطہ کران",
+    "resume": "ریزیومے ڈاؤنلوڈ",
+    "scroll": "سکرول"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "میٖرِ بارَس",
+    "heading": "<accent>حقیقی اثر</accent> پیدا کرنَ والے AI نظام بنانا.",
+    "p1": "بٕہ بنگلورو مہٕ جنریٹو AI انجینئر چھُس، فی الحال WordWise Language Labs مہٕ ایجنٹک AI ٹول تہٕ ملٹی سورس ڈیٹا پائپ لائن بناوان — علم واپسی درستگی 35% بہتر تہٕ 95% ہتھِ مداخلت ختم.",
+    "p2": "VTU سنِد AI & Data Science مہٕ B.E. سئ، LLM فائن ٹیونِنگ (LoRA, QLoRA)، RAG فن تعمیر (GraphRAG, RAFT, CAG) تہٕ LangChain, LangGraph, AWS سئ سکیلیبل حل مہٕ ماہر.",
+    "p3": "کمپیوٹر وِژن، ڈیپ لرنِنگ تہٕ مسئلے حل کرنَ والے AI نظام بنانَس مہٕ جوشیلا.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "بنایمت نظام",
+      "modelsDeployed": "تعینات ماڈل",
+      "dataProcessed": "عمل درآمد ڈیٹا",
+      "efficiencyGain": "کارکردگی وادی"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "تجربہ",
+    "heading": "یتھ میَ اثر ڈالمُت.",
+    "current": "موجودہ",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "جنریٹو AI انجینئر",
+        "period": "ستمبر 2024 — اب",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Wordsworth پروڈکٹ لئ کور الگورِدم بنایمُت",
+          "علم واپسی درستگی مہٕ 35% بہتری تہٕ 95% ہتھِ مداخلت ختم",
+          "سکیلیبل ایجنٹ فریم ورکن ذرِعہ بہُ لسانی مواد ذہانت بہتر"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "R&D انٹرن",
+        "period": "نومبر 2023 — اپریل 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "آٹومیٹ Python سکرِپٹ بنایمت، ڈیٹا پراسیسِنگ کارکردگی 30% ودان",
+          "بہتر پائپ لائنن ذرِعہ پراسیسِنگ وقت 25% کم",
+          "PySide6 سئ ایمبیڈ ڈیشبورڈ ڈیزائن کرمُت، ہتھِ محنت 50% کم"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "منصوبے",
+    "heading": "مُنتخب کام.",
+    "featured": "خاص",
+    "liveDemo": "لائیو ڈیمو",
+    "sourceCode": "سورس کوڈ",
+    "linksSoon": "لنک جلد",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP ذہانت نگرانی",
+        "description": "ریئل ٹائم فون استعمال تشخیص، فضلہ نگرانی تہٕ 89% درستگی سئ حاضری ٹریکِنگ والا جدید AI نگرانی نظام."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "لائیو CCTV تہٕ ریئل ٹائم ٹریفک ڈیٹا سئ AI حادثہ تشخیص تہٕ ایمرجنسی راؤٹِنگ."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "ریئل ٹائم فیلڈ ڈیٹا تہٕ فصل سفارشو لئ خودمختار ML کاشتکاری روور۔ Fusion Techathon 3.0 مہٕ پہلِ جاگہ."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "مہارتیں",
+    "heading": "فنی مہارت.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "زبانہِ",
+      "deepLearning": "ڈیپ لرنِنگ",
+      "agenticAI": "ایجنٹک AI & RAG",
+      "infrastructure": "بنیادی ڈھانچہ"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
-    "university": "Visvesvaraya Technological University (VTU)",
+    "label": "تعلیم",
+    "heading": "تعلیمی بنیاد.",
+    "degree": "AI & Data Science مہٕ B.E.",
+    "university": "وشویشورییا ٹیکنولوجیکل یونیورسٹی (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "اہم مضامین",
+    "award": "پہلِ جاگہ — Fusion Techathon 3.0",
+    "awardDesc": "KrushiAI سئ 104 ٹیمن کٕن ہرایمِت"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "رابطہ",
+    "heading": "آؤ سانِ <accent>ذہین</accent> کینچھ بناوِو.",
+    "email": "ای میل",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "ریزیومے"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "رابطہ کران",
+    "name": "ناو",
+    "namePlaceholder": "تُہند ناو",
+    "email": "ای میل",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "مقصد",
+    "purposePlaceholder": "تُہے کیاہ بات کرنی چھُے?",
+    "send": "پیغام بیجان",
+    "sending": "میل کھولان...",
+    "toastTitle": "میل کلائنٹ کھلِ گو!",
+    "toastDesc": "رابطَس شکریہ."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "بنگلورو، ہندوستان"
   }
 }

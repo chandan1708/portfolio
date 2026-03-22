@@ -1,126 +1,126 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Tietoa",
+    "experience": "Kokemus",
+    "projects": "Projektit",
+    "skills": "Taidot",
+    "education": "Koulutus",
+    "contact": "Yhteystiedot"
   },
   "hero": {
-    "available": "Available for opportunities",
-    "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "available": "Avoinna mahdollisuuksille",
+    "subtitle": "Generatiivisen tekoälyn insinööri — Bengaluru, Intia",
+    "heading": "Rakennan älykkäitä järjestelmiä, jotka <accent>muuttavat</accent> yritysten tapaa ymmärtää dataa.",
+    "description": "Erikoistunut LLM:iin, agenttiseen tekoälyyn ja RAG-putkistoihin. Kehitän tällä hetkellä AI-työkaluja yrityksessä <company>WordWise Language Labs</company>.",
+    "cta": "Ota yhteyttä",
+    "resume": "Lataa CV",
+    "scroll": "Vieritä"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Tietoa",
+    "heading": "Rakennan tekoälyjärjestelmiä, jotka luovat <accent>konkreettista vaikutusta</accent>.",
+    "p1": "Olen generatiivisen tekoälyn insinööri Bengalurussa, tällä hetkellä WordWise Language Labsissa, jossa kehitän agenttisia AI-työkaluja ja monilähteisiä dataputkistoja — parantaen tiedonhaun tarkkuutta 35% ja eliminoiden 95% manuaalisesta puuttumisesta.",
+    "p2": "VTU:n AI & Data Science -kandidaatintutkinnolla erikoistun LLM-hienosäätöön (LoRA, QLoRA), RAG-arkkitehtuureihin (GraphRAG, RAFT, CAG) ja skaalautuviin ratkaisuihin LangChain, LangGraph ja AWS:n avulla.",
+    "p3": "Intohimoinen konenäöstä, syväoppimisesta ja ongelmia ratkaisevien AI-järjestelmien luomisesta — valvontaälykkyydestä hätävasteeseen.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Rakennetut järjestelmät",
+      "modelsDeployed": "Käyttöönotetut mallit",
+      "dataProcessed": "Käsitelty data",
+      "efficiencyGain": "Tehokkuuden kasvu"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Kokemus",
+    "heading": "Missä olen vaikuttanut.",
+    "current": "Nykyinen",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
-        "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "role": "Generatiivisen tekoälyn insinööri",
+        "period": "Syys 2024 — Nykyinen",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Kehitin Wordsworth-tuotteen ydinalgoritmin integroiden monilähteisiä putkistoja agenttisiin AI-työkaluihin",
+          "Saavutin 35% parannuksen tiedonhaun tarkkuudessa ja 95% manuaalisen puuttumisen eliminoinnin",
+          "Paransin monikielistä sisältöälyä skaalautuvien agenttipohjisten kehysten avulla"
         ]
       },
       "exicom": {
         "company": "Exicom Energy-Systems",
-        "role": "R&D Intern",
-        "period": "Nov 2023 — Apr 2024",
+        "role": "T&K-harjoittelija",
+        "period": "Marras 2023 — Huhti 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Kehitin automatisoituja Python-skriptejä parantaen datankäsittelyn tehokkuutta 30%",
+          "Vähensin käsittelyaikaa 25% optimoiduilla putkistoilla",
+          "Suunnittelin upotetun kojelaudan PySide6:lla, vähentäen manuaalista työtä 50%"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
-    "liveDemo": "Live Demo",
-    "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "label": "Projektit",
+    "heading": "Valikoituja töitä.",
+    "featured": "Esitelty",
+    "liveDemo": "Live-demo",
+    "sourceCode": "Lähdekoodi",
+    "linksSoon": "Linkit tulossa",
     "items": {
       "alp": {
-        "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "title": "ALP Älykäs valvonta",
+        "description": "Edistynyt AI-valvontajärjestelmä reaaliaikaisella puhelinkäytön tunnistuksella, jäteseurannalla ja läsnäoloseurannalla 89% tarkkuudella. Vähensi manuaalista valvontaa 40%."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "AI-pohjainen onnettomuustunnistus ja hätäreititys CCTV:n ja reaaliaikaisen liikennetiedon avulla, parantaen hätävasteen tehokkuutta 40%."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Autonominen ML-pohjainen maatalousrover reaaliaikaiseen kenttädataan ja satosuosituksiin. Voitti 1. sijan Fusion Techathon 3.0:ssa, päihittäen 104 tiimiä."
       }
     }
   },
   "skills": {
-    "label": "Skills",
-    "heading": "Technical expertise.",
+    "label": "Taidot",
+    "heading": "Tekninen osaaminen.",
     "categories": {
-      "languages": "Languages",
-      "deepLearning": "Deep Learning",
-      "agenticAI": "Agentic AI & RAG",
-      "infrastructure": "Infrastructure"
+      "languages": "Kielet",
+      "deepLearning": "Syväoppiminen",
+      "agenticAI": "Agenttinen AI ja RAG",
+      "infrastructure": "Infrastruktuuri"
     }
   },
   "education": {
-    "label": "Education",
-    "heading": "Academic foundation.",
-    "degree": "B.E. in AI & Data Science",
+    "label": "Koulutus",
+    "heading": "Akateeminen perusta.",
+    "degree": "B.E. AI & Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
     "period": "2020 — 2024",
     "gpa": "GPA",
-    "coursework": "Key Coursework",
-    "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "coursework": "Keskeiset kurssit",
+    "award": "1. sija — Fusion Techathon 3.0",
+    "awardDesc": "Päihitimme 104 tiimiä KrushiAI:lla"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
-    "email": "Email",
+    "label": "Yhteystiedot",
+    "heading": "Rakennetaan yhdessä jotain <accent>älykästä</accent>.",
+    "email": "Sähköposti",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "resumeLink": "Resume"
+    "resumeLink": "CV"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "email": "Email",
+    "title": "Ota yhteyttä",
+    "name": "Nimi",
+    "namePlaceholder": "Nimesi",
+    "email": "Sähköposti",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Tarkoitus",
+    "purposePlaceholder": "Mistä haluaisit keskustella?",
+    "send": "Lähetä viesti",
+    "sending": "Avataan postia...",
+    "toastTitle": "Sähköpostiohjelma avattu!",
+    "toastDesc": "Kiitos yhteydenotosta."
   },
   "footer": {
-    "location": "Bengaluru, India"
+    "location": "Bengaluru, Intia"
   }
 }
