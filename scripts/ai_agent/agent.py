@@ -188,12 +188,16 @@ def update_portfolio_json(state: AgentState) -> AgentState:
         data["projects"].append(new_project)
         print(f" Added new project: {state['project_title']}")
     else:
-        # Update existing project's GitHub/demo links + description
+        # Update existing project with new AI-extracted data
         for p in data["projects"]:
             if p["key"] == key:
+                p["title"] = state["project_title"]
+                p["description"] = state["project_description"]
+                p["tags"] = state["project_tags"]
+                p["highlight"] = state["project_highlight"]
                 p["github"] = p.get("github") or state["repo_html_url"]
                 p["demo"] = p.get("demo") or state["repo_homepage"]
-                print(f"  Project '{key}' already exists — updated links only")
+                print(f"  Project '{key}' updated with new AI extraction")
                 break
 
     # ── Merge skills into categories ──────────────────────────────────────────
@@ -360,12 +364,7 @@ def translate_content(state: AgentState) -> AgentState:
 
     key = repo_to_key(state["repo_name"])
 
-    # Check if this key already exists in English i18n — skip if it does
-    en_file = I18N_DIR / "en.json"
-    en_data = json.loads(en_file.read_text())
-    if key in (en_data.get("projects", {}).get("items") or {}):
-        print(f"  Key '{key}' already in en.json — skipping translation")
-        return {**state, "translations": {}}
+    # Always re-translate to ensure updates to the README description propagate to all languages
 
     async def translate_one(lang_code: str, lang_name: str) -> tuple[str, dict]:
         try:

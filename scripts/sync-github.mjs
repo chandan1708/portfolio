@@ -165,6 +165,13 @@ async function main() {
     readFileSync(join(__dirname, "skill-map.json"), "utf8")
   );
 
+  let existingData = { projects: [] };
+  try {
+    existingData = JSON.parse(readFileSync(join(ROOT, "public", "github-data.json"), "utf8"));
+  } catch (e) {
+    // Ignore if file doesn't exist
+  }
+
   // 1. Fetch repos
   let repos = await fetchAllRepos();
 
@@ -196,8 +203,8 @@ async function main() {
     const curatedKey = matchCuratedKey(repo.name);
     if (curatedKey) continue; // already in curated list
 
-    // Include repos that have a description (skip nameless experiments)
-    if (!repo.description) continue;
+    const key = repo.name.toLowerCase().replace(/[^a-z0-9]/g, "-");
+    const existing = existingData.projects.find(p => p.key === key);
 
     const topics = topicsPerRepo[repo.name] || [];
     const humanTags = topics
@@ -205,15 +212,13 @@ async function main() {
       .map((t) => t.charAt(0).toUpperCase() + t.slice(1).replace(/-/g, " "));
 
     newGhProjects.push({
-      key: repo.name.toLowerCase().replace(/[^a-z0-9]/g, "-"),
-      title: repo.full_name
-        ? repoToTitle(repo.name)
-        : repo.name,
-      description: repo.description,
-      tags: humanTags.length ? humanTags : ["Open Source"],
+      key,
+      title: existing?.title || (repo.full_name ? repoToTitle(repo.name) : repo.name),
+      description: existing?.description || repo.description || "",
+      tags: existing?.tags || (humanTags.length ? humanTags : ["Open Source"]),
       github: repo.html_url,
       demo: repo.homepage || "",
-      highlight: repo.stargazers_count > 0,
+      highlight: existing?.highlight !== undefined ? existing.highlight : (repo.stargazers_count > 0),
     });
   }
 
