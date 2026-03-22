@@ -79,7 +79,7 @@ async function ghFetch(path) {
   const headers = { Accept: "application/vnd.github+json" };
   if (GITHUB_TOKEN) headers["Authorization"] = `Bearer ${GITHUB_TOKEN}`;
   const res = await fetch(`https://api.github.com${path}`, { headers });
-  if (!res.ok) throw new Error(`GitHub API ${path} → ${res.status}: ${await res.text()}`);
+  if (!res.ok) throw new Error(`GitHub API ${path} -> ${res.status}: ${await res.text()}`);
   return res.json();
 }
 
@@ -110,7 +110,7 @@ async function fetchTopics(repoName) {
   }
 }
 
-/** Map a list of topic strings → new skills per category */
+/** Map a list of topic strings -> new skills per category */
 function detectSkillsFromTopics(topics, skillMap) {
   const detected = {};
   for (const [category, topicList] of Object.entries(skillMap)) {
@@ -159,7 +159,7 @@ function matchCuratedKey(repoName) {
 
 /* ─── Main ─────────────────────────────────────────────────────────────── */
 async function main() {
-  console.log(`🔄 Syncing GitHub repos for @${USERNAME}...`);
+  console.log(` Syncing GitHub repos for @${USERNAME}...`);
 
   const skillMap = JSON.parse(
     readFileSync(join(__dirname, "skill-map.json"), "utf8")
@@ -249,19 +249,19 @@ async function main() {
   };
 
   if (DRY_RUN) {
-    console.log("\n📋 DRY RUN — would write public/github-data.json:\n");
+    console.log("\n DRY RUN — would write public/github-data.json:\n");
     console.log(JSON.stringify(output, null, 2));
-    console.log("\n✅ Dry run complete.");
+    console.log("\n Dry run complete.");
     return;
   }
 
   const outputPath = join(ROOT, "public", "github-data.json");
   writeFileSync(outputPath, JSON.stringify(output, null, 2) + "\n");
-  console.log(`✅ Written → ${outputPath}`);
+  console.log(` Written -> ${outputPath}`);
   console.log(`   Projects: ${allProjects.length} | New from GitHub: ${newGhProjects.length}`);
 }
 
 main().catch((err) => {
-  console.error("❌ Sync failed:", err.message);
+  console.error(" Sync failed:", err.message);
   process.exit(1);
 });

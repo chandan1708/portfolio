@@ -2,8 +2,8 @@
 /**
  * update-readme.mjs
  * Reads public/github-data.json, then surgically updates:
- *   - "## — What I Build" section   → project cards table
- *   - "## — The Stack" section       → skill badges
+ *   - "## — What I Build" section   -> project cards table
+ *   - "## — The Stack" section       -> skill badges
  * in your GitHub profile README (chandan1708/chandan1708), leaving everything else untouched.
  *
  * Run locally:  GITHUB_TOKEN=xxx node scripts/update-readme.mjs
@@ -22,7 +22,7 @@ const PROFILE_REPO = "chandan1708/chandan1708";
 const DRY_RUN = process.argv.includes("--dry-run");
 
 /* ─── Shields.io badge map for skills ──────────────────────────────────── */
-// Maps skill display name → shields.io badge markdown
+// Maps skill display name -> shields.io badge markdown
 // Add more entries here if you add new skills
 const BADGE_MAP = {
     // Languages
@@ -76,7 +76,7 @@ async function ghFetch(path, options = {}) {
         ...options,
         headers: { ...headers, ...(options.headers || {}) },
     });
-    if (!res.ok) throw new Error(`GitHub API ${path} → ${res.status}: ${await res.text()}`);
+    if (!res.ok) throw new Error(`GitHub API ${path} -> ${res.status}: ${await res.text()}`);
     return res.json();
 }
 
@@ -168,7 +168,7 @@ function escapeRegex(str) {
 
 /* ─── Main ─────────────────────────────────────────────────────────────── */
 async function main() {
-    console.log("🔄 Updating profile README...");
+    console.log(" Updating profile README...");
 
     // 1. Read generated data
     const data = JSON.parse(
@@ -219,9 +219,9 @@ async function main() {
     updated = replaceSection(updated, buildStart, buildEnd, projectsBlock);
 
     if (DRY_RUN) {
-        console.log("\n📋 DRY RUN — updated README:\n");
+        console.log("\n DRY RUN — updated README:\n");
         console.log(updated.slice(0, 3000) + (updated.length > 3000 ? "\n...(truncated)" : ""));
-        console.log("\n✅ Dry run complete.");
+        console.log("\n Dry run complete.");
         return;
     }
 
@@ -237,11 +237,11 @@ async function main() {
         }),
     });
 
-    console.log(`✅ Profile README updated → github.com/${PROFILE_REPO}`);
+    console.log(` Profile README updated -> github.com/${PROFILE_REPO}`);
     console.log(`   Projects: ${data.projects.length}`);
 }
 
 main().catch((err) => {
-    console.error("❌ README update failed:", err.message);
+    console.error(" README update failed:", err.message);
     process.exit(1);
 });
