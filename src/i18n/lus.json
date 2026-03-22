@@ -1,47 +1,47 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Ka chungchang",
+    "experience": "Tawn hriatna",
+    "projects": "Hna thawh",
+    "skills": "Thil thiam",
+    "education": "Zirna",
+    "contact": "Biak rawh"
   },
   "hero": {
-    "available": "Available for opportunities",
+    "available": "Huntha tur a awm",
     "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
-    "scroll": "Scroll"
+    "heading": "Business-te data an hriatthiam dân <accent>thlâk danglam</accent> tur intelligent systems ka siam.",
+    "description": "LLMs, Agentic AI leh RAG pipelines-ah ka inhuam bik. Tun ah <company>WordWise Language Labs</company> ah AI tools ka siam.",
+    "cta": "Biak rawh",
+    "resume": "Resume download rawh",
+    "scroll": "Scroll rawh"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Ka chungchang",
+    "heading": "<accent>Hmelhriatna tak</accent> neih tur AI systems siam.",
+    "p1": "Bengaluru-a Generative AI Engineer ka ni, tunah WordWise Language Labs-ah agentic AI tools leh multi-source data pipelines ka siam — knowledge retrieval accuracy 35% tihthan leh 95% manual intervention paih hmang.",
+    "p2": "VTU-atangin AI & Data Science-ah B.E. ka nei a, LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG) leh LangChain, LangGraph, AWS hmang hian scalable solutions siam ah ka inhuam bik.",
+    "p3": "Computer vision, deep learning leh harsatna chinfel tur AI systems siam-ah ka thinlung ka pe lutuk.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Systems siam tawh",
+      "modelsDeployed": "Models hmang tawh",
+      "dataProcessed": "Data process tawh",
+      "efficiencyGain": "Efficiency tihthan"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Tawn hriatna",
+    "heading": "Impact ka neih na hmun.",
+    "current": "Tuna",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
         "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "period": "Sep 2024 — Tunah",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Wordsworth product atana core algorithm ka siam, multi-source data pipelines leh agentic AI tools inkawm khawm",
+          "Knowledge retrieval accuracy-ah 35% improvement leh 95% manual intervention paih hmang ka chang",
+          "Scalable agent-driven frameworks hmangin multilingual content intelligence ka tihfai"
         ]
       },
       "exicom": {
@@ -49,47 +49,47 @@
         "role": "R&D Intern",
         "period": "Nov 2023 — Apr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Automated Python scripts ka siam, data processing efficiency 30% tihthan",
+          "Optimized pipelines hmangin processing time 25% tichhe",
+          "PySide6 hmang hian embedded dashboard ka design, manual effort 50% tichhe"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
-    "heading": "Selected work.",
-    "featured": "Featured",
+    "label": "Hna thawh",
+    "heading": "Thlan chhuah.",
+    "featured": "Bik",
     "liveDemo": "Live Demo",
     "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "linksSoon": "Links a rawn awm ang",
     "items": {
       "alp": {
         "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "description": "Real-time phone usage detection, waste monitoring leh attendance tracking 89% accuracy nei advanced AI surveillance system. Manual oversight 40% tichhe."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "Live CCTV leh real-time traffic data hmang AI-powered accident detection leh emergency routing, emergency response efficiency 40% tihthan."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Real-time field data leh crop recommendations atan autonomous ML-driven agricultural rover. Fusion Techathon 3.0-ah 1st Place, 104 teams hneh."
       }
     }
   },
   "skills": {
-    "label": "Skills",
+    "label": "Thil thiam",
     "heading": "Technical expertise.",
     "categories": {
-      "languages": "Languages",
+      "languages": "Tawng",
       "deepLearning": "Deep Learning",
       "agenticAI": "Agentic AI & RAG",
       "infrastructure": "Infrastructure"
     }
   },
   "education": {
-    "label": "Education",
+    "label": "Zirna",
     "heading": "Academic foundation.",
     "degree": "B.E. in AI & Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
@@ -97,28 +97,28 @@
     "gpa": "GPA",
     "coursework": "Key Coursework",
     "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "awardDesc": "KrushiAI hmangin 104 teams ka hneh"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
+    "label": "Biak rawh",
+    "heading": "Kan inkawm khawm hian <accent>intelligent</accent> thil siam teh ang.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "resumeLink": "Resume"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
+    "title": "Biak rawh",
+    "name": "Hming",
+    "namePlaceholder": "I hming",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
-    "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purpose": "Tumna",
+    "purposePlaceholder": "Eng nge i sawi duh?",
+    "send": "Thu thawn rawh",
+    "sending": "Mail hawng mek...",
+    "toastTitle": "Mail client a hawng ta!",
+    "toastDesc": "Ka biak avangin ka lawm e."
   },
   "footer": {
     "location": "Bengaluru, India"

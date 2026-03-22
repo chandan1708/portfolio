@@ -1,47 +1,47 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Khrüsü",
+    "experience": "Tenyüba",
+    "projects": "Khrü",
+    "skills": "Aser",
+    "education": "Tenung",
+    "contact": "Aoktsü"
   },
   "hero": {
-    "available": "Available for opportunities",
+    "available": "Khrüsü nung aok",
     "subtitle": "Generative AI Engineer — Bengaluru, India",
-    "heading": "I build intelligent systems that <accent>transform</accent> how businesses understand data.",
-    "description": "Specializing in LLMs, Agentic AI, and RAG pipelines. Currently engineering AI tools at <company>WordWise Language Labs</company>.",
-    "cta": "Get in touch",
-    "resume": "Download Resume",
+    "heading": "Ka intelligent systems <accent>khrüba</accent> tashi metettsü data nung.",
+    "description": "LLMs, Agentic AI, nung RAG pipelines nung specializing. Metettsü AI tools <company>WordWise Language Labs</company> nung.",
+    "cta": "Aoktsü",
+    "resume": "Resume download",
     "scroll": "Scroll"
   },
   "about": {
-    "label": "About",
-    "heading": "Building AI systems that create <accent>tangible impact</accent>.",
-    "p1": "I'm a Generative AI Engineer based in Bengaluru, currently at WordWise Language Labs where I develop agentic AI tools and multi-source data pipelines — improving knowledge retrieval accuracy by 35% and eliminating 95% of manual intervention.",
-    "p2": "With a B.E. in AI & Data Science from VTU, I specialize in LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), and building scalable solutions using LangChain, LangGraph, and AWS.",
-    "p3": "Passionate about computer vision, deep learning, and creating AI systems that solve problems — from surveillance intelligence to emergency response.",
+    "label": "Khrüsü",
+    "heading": "AI systems khrü <accent>tangible impact</accent> nung.",
+    "p1": "Ka Bengaluru nung Generative AI Engineer, metettsü WordWise Language Labs nung agentic AI tools nung multi-source data pipelines khrü — knowledge retrieval accuracy 35% improve nung 95% manual intervention eliminate.",
+    "p2": "VTU AI & Data Science B.E. nung, LLM fine-tuning (LoRA, QLoRA), RAG architectures (GraphRAG, RAFT, CAG), nung LangChain, LangGraph, AWS nung scalable solutions khrü.",
+    "p3": "Computer vision, deep learning, nung AI systems khrü problems solve — surveillance intelligence tashi emergency response.",
     "stats": {
-      "systemsBuilt": "Systems Built",
-      "modelsDeployed": "Models Deployed",
-      "dataProcessed": "Data Processed",
-      "efficiencyGain": "Efficiency Gain"
+      "systemsBuilt": "Systems khrü",
+      "modelsDeployed": "Models deploy",
+      "dataProcessed": "Data process",
+      "efficiencyGain": "Efficiency gain"
     }
   },
   "experience": {
-    "label": "Experience",
-    "heading": "Where I've made impact.",
-    "current": "Current",
+    "label": "Tenyüba",
+    "heading": "Impact khrü mong.",
+    "current": "Metettsü",
     "jobs": {
       "wordwise": {
         "company": "WordWise Language Labs",
         "role": "Generative AI Engineer",
-        "period": "Sep 2024 — Present",
+        "period": "Sep 2024 — Metettsü",
         "points": [
-          "Developed core algorithm for Wordsworth product integrating multi-source data pipelines with agentic AI tools",
-          "Achieved 35% improvement in knowledge retrieval accuracy and 95% elimination of manual intervention",
-          "Enhanced multilingual content intelligence through scalable agent-driven frameworks"
+          "Wordsworth product nung core algorithm khrü multi-source data pipelines nung agentic AI tools integrate",
+          "Knowledge retrieval accuracy 35% improve nung 95% manual intervention eliminate",
+          "Multilingual content intelligence scalable agent-driven frameworks nung enhance"
         ]
       },
       "exicom": {
@@ -49,37 +49,37 @@
         "role": "R&D Intern",
         "period": "Nov 2023 — Apr 2024",
         "points": [
-          "Developed automated Python scripts boosting data processing efficiency by 30%",
-          "Reduced processing time by 25% through optimized data pipelines",
-          "Designed embedded dashboard using PySide6, reducing manual effort by 50%"
+          "Automated Python scripts khrü data processing efficiency 30% boost",
+          "Processing time 25% reduce optimized data pipelines nung",
+          "PySide6 nung embedded dashboard design, manual effort 50% reduce"
         ]
       }
     }
   },
   "projects": {
-    "label": "Projects",
+    "label": "Khrü",
     "heading": "Selected work.",
     "featured": "Featured",
     "liveDemo": "Live Demo",
     "sourceCode": "Source Code",
-    "linksSoon": "Links coming soon",
+    "linksSoon": "Links aok nung",
     "items": {
       "alp": {
         "title": "ALP Intelligence Surveillance",
-        "description": "Advanced AI Surveillance System with real-time phone usage detection, waste monitoring, and attendance tracking achieving 89% accuracy. Reduced manual oversight by 40%."
+        "description": "Advanced AI Surveillance System real-time phone usage detection, waste monitoring, nung attendance tracking 89% accuracy. Manual oversight 40% reduce."
       },
       "accirescue": {
         "title": "ACCIRESCUE",
-        "description": "AI-powered accident detection and emergency routing leveraging live CCTV feeds and real-time traffic data, improving emergency response efficiency by 40%."
+        "description": "AI-powered accident detection nung emergency routing live CCTV feeds nung real-time traffic data, emergency response efficiency 40% improve."
       },
       "krushi": {
         "title": "KrushiAI",
-        "description": "Autonomous ML-driven agricultural rover for real-time field data and crop recommendations. Won 1st Place at Fusion Techathon 3.0, outperforming 104 teams."
+        "description": "Autonomous ML-driven agricultural rover real-time field data nung crop recommendations. Fusion Techathon 3.0 nung 1st Place, 104 teams outperform."
       }
     }
   },
   "skills": {
-    "label": "Skills",
+    "label": "Aser",
     "heading": "Technical expertise.",
     "categories": {
       "languages": "Languages",
@@ -89,7 +89,7 @@
     }
   },
   "education": {
-    "label": "Education",
+    "label": "Tenung",
     "heading": "Academic foundation.",
     "degree": "B.E. in AI & Data Science",
     "university": "Visvesvaraya Technological University (VTU)",
@@ -97,28 +97,28 @@
     "gpa": "GPA",
     "coursework": "Key Coursework",
     "award": "1st Place — Fusion Techathon 3.0",
-    "awardDesc": "Outperformed 104 teams with KrushiAI autonomous agricultural rover"
+    "awardDesc": "104 teams outperform KrushiAI nung"
   },
   "contact": {
-    "label": "Contact",
-    "heading": "Let's build something <accent>intelligent</accent> together.",
+    "label": "Aoktsü",
+    "heading": "Khrü together something <accent>intelligent</accent>.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "resumeLink": "Resume"
   },
   "contactForm": {
-    "title": "Get in Touch",
-    "name": "Name",
-    "namePlaceholder": "Your name",
+    "title": "Aoktsü",
+    "name": "Lem",
+    "namePlaceholder": "Nüng lem",
     "email": "Email",
     "emailPlaceholder": "your@email.com",
     "purpose": "Purpose",
-    "purposePlaceholder": "What would you like to discuss?",
-    "send": "Send Message",
-    "sending": "Opening mail...",
-    "toastTitle": "Mail client opened!",
-    "toastDesc": "Thanks for reaching out."
+    "purposePlaceholder": "Tetsü discuss?",
+    "send": "Message send",
+    "sending": "Mail open nung...",
+    "toastTitle": "Mail client open!",
+    "toastDesc": "Aoktsü nung khrüsü."
   },
   "footer": {
     "location": "Bengaluru, India"
