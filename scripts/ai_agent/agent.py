@@ -47,7 +47,7 @@ TRIGGER_REPO    = os.environ.get("TRIGGER_REPO", "")   # e.g. "chandan1708/my-pr
 PROFILE_REPO    = f"{GITHUB_USERNAME}/{GITHUB_USERNAME}"
 DRY_RUN         = "--dry-run" in sys.argv
 
-GROQ_MODEL = "llama3-70b-8192"
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # ── Typed agent state ─────────────────────────────────────────────────────────
 class AgentState(TypedDict):
